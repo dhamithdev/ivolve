@@ -1,0 +1,87 @@
+/**
+ * Tailwind CSS imports
+ * View the full documentation at https://tailwindcss.com
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
+ * WHAT IS THIS FILE?
+ *
+ * Globally applied styles. No matter which components are in the page or matching route,
+ * the styles in here will be applied to the Document, without any sort of CSS scoping.
+ *
+ */
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  font-family:
+    ui-sans-serif,
+    GeistMono,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+body {
+  padding: 0;
+  line-height: inherit;
+}
+
+@font-face {
+  font-family: 'GeistMono500';
+  src: url('/assets/fonts/Geist-Medium.woff2') format('woff2');
+  font-weight: Medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeistMono600';
+  src: url('/assets/fonts/Geist-SemiBold.woff2') format('woff2');
+  font-weight: Medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fixel400';
+  src: url('/assets/fonts/FixelText-Regular.woff2') format('woff2');
+  font-weight: Medium;
+  font-style: normal;
+}
+
+.main-text-gradient {
+  background: linear-gradient(90deg, #8000FF 72.08%, #C600FF 78.08%, #FF3B8C 81.61%, #FFC600 85.08%, #FF7800 91.16%);
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+  background-clip: text;
+  color: transparent;
+}
+
+@keyframes colorChange {
+  0% {
+    fill: red; /* Initial color */
+  }
+  50% {
+    fill: blue; /* Midpoint color */
+  }
+  100% {
+    fill: green; /* Final color */
+  }
+}
+
+.mySvg {
+  animation: colorChange 5s infinite;
+}
