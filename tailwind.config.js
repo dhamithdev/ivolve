@@ -7,6 +7,8 @@ module.exports = {
         GeistMono500 : ['GeistMono500'],
         GeistMono600 : ['GeistMono600'],
         Fixel400 : ['Fixel400'],
+        Fixel500 : ['Fixel500'],
+        Fixel600 : ['Fixel600'],
       },
 
     },

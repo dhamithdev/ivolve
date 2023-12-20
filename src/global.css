@@ -62,6 +62,22 @@ body {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Fixel500';
+  src: url('/assets/fonts/FixelText-Medium.woff2') format('woff2');
+  font-weight: Medium;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Fixel600';
+  src: url('/assets/fonts/FixelText-SemiBold.woff2') format('woff2');
+  font-weight: Medium;
+  font-style: normal;
+}
+
+
 .main-text-gradient {
   background: linear-gradient(90deg, #8000FF 72.08%, #C600FF 78.08%, #FF3B8C 81.61%, #FFC600 85.08%, #FF7800 91.16%);
   -webkit-background-clip: text;
@@ -70,18 +86,31 @@ body {
   color: transparent;
 }
 
-@keyframes colorChange {
+.orange-arrow-gradient {
+  background: linear-gradient(125deg, #FBBF04 0.51%, #FF0013 92.48%);
+}
+
+.purplr-arrow-gradient {
+  background: linear-gradient(280deg, #792FFF 0%, #C600FF 114.1%);
+}
+
+.my-checkbox {
+  background-color: #8000FF;
+}
+
+.image-slider {
+  display: flex;
+  animation: slide 20s linear infinite;
+}
+
+@keyframes slide {
   0% {
-    fill: red; /* Initial color */
-  }
-  50% {
-    fill: blue; /* Midpoint color */
+
+    transform: translateX(-100%); 
   }
   100% {
-    fill: green; /* Final color */
+    transform: translateX(0);
   }
 }
 
-.mySvg {
-  animation: colorChange 5s infinite;
-}
+

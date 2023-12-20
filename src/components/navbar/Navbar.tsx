@@ -2,8 +2,8 @@ import { component$ } from '@builder.io/qwik';
 import { Link } from '@builder.io/qwik-city';
 
 export default component$(() => {
-    return (<div class="mx-10">
-        <header class="flex h-20 w-full items-center px-6 ">
+    return (<div class="mx-20">
+        <header class="flex h-20 w-full items-center  ">
             <Link class="mr-6" href="#">
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="126" height="36" viewBox="0 0 126 36" fill="none">
