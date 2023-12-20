@@ -98,19 +98,85 @@ body {
   background-color: #8000FF;
 }
 
-.image-slider {
+.your-idea-gradient {
+  background: linear-gradient(91deg, #8000FF 23.3%, #8000FF 25.15%, #0096EB 31.52%, #00F6B3 42.4%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+    background-clip: text;
+    color: transparent;
+}
+
+.our-expertise-gradient {
+  background: linear-gradient(90deg, #FF548D 47.84%, #D700FF 61.19%, #5606EF 76.63%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+    background-clip: text;
+    color: transparent;
+}
+
+.card-background-gradient {
+  background: linear-gradient(180deg, rgba(57, 1, 113, 0.00) 0%, rgba(102, 0, 202, 0.05) 100%);
+}
+
+.green-cese-gradient {
+  background: linear-gradient(180deg, #E6FFF5 0%, rgba(249, 255, 255, 0.00) 100%);
+}
+
+.pink-case-gradient {
+  background: linear-gradient(180deg, #FBE9FF 0.02%, rgba(255, 251, 255, 0.00) 99.98%);
+}
+
+.green-read-cese-gradient {
+  background-color: -webkit-linear-gradient(90deg, #CE66FF 5.16%, #8000FF 70.36%); 
+  background-color: linear-gradient(90deg, #CE66FF 5.16%, #8000FF 70.36%)
+}
+
+
+
+.your-vision-gradient {
+  background: linear-gradient(90deg, #8000FF 26.35%, #0096EB 37.71%, #00F6B3 53.87%));
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+  background-clip: text;
+  color: transparent;
+}
+
+
+
+.precision-gradient {
+  background: linear-gradient(90deg, #FF548D 12.04%, #D700FF 45.87%, #5606EF 81.7%));
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+  background-clip: text;
+  color: transparent;
+}
+
+.marquee-items {
+  width: 100%;
   display: flex;
-  animation: slide 20s linear infinite;
+  justify-content: space-around;
+  align-items: center;
 }
 
-@keyframes slide {
-  0% {
-
-    transform: translateX(-100%); 
-  }
-  100% {
-    transform: translateX(0);
-  }
+.marquee {
+  display: flex;
+  width: 200%;
+  animation: marqueeSlide 20s linear infinite;
 }
 
+@keyframes marqueeSlide {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
+
+.marquee2 {
+  display: flex;
+  width: 200%;
+  animation: marqueeSlide2 20s linear infinite;
+}
+
+@keyframes marqueeSlide2 {
+    from { transform: translateX(-50%);}
+    to { transform: translateX(0);  }
+}
 

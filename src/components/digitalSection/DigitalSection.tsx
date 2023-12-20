@@ -13,7 +13,7 @@ export default component$(() => {
         { label: "Data-Driven Marketing", isChecked: false },
         { label: "Conversion Rate Optimization", isChecked: false },
     ];
-    return (<div class="mx-20 mt-24">
+    return (<div class="mx-20 mt-24 mb-36">
         <div>
             <div class="flex flex-row justify-between">
                 <div>
@@ -263,7 +263,35 @@ export default component$(() => {
                 </div>
                 <div>
                     <div class="mb-5">
-                        <h3 class="w-[624px] font-GeistMono600 text-[37px] leading-tight text-[#1B123B] ">Precision Tactics for Seamless Digital Growth</h3>
+                        <div class="absolute">
+                            <div class="mt-[34px] ml-[-3px] absolute">
+                                <svg width="320" height="13" viewBox="0 0 320 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M319.933 1.71401C320.738 3.84768 314.033 3.69184 311.948 4.31354C287.059 7.71383 240.941 9.68835 215.505 10.5322C194.947 11.1655 174.43 12.1785 153.845 12.4669C138.674 12.8914 123.485 12.4354 108.307 12.7289C76.3034 12.8797 44.139 13.0406 12.3362 10.5189C9.03508 10.0813 5.52812 10.0348 2.36947 9.28383C-5.72109 5.73268 9.23563 5.71444 12.5341 6.09078C107.518 10.9069 108.766 10.6267 180.953 9.05007C212.882 8.4234 244.606 5.86531 293.566 2.17655C294.812 2.06879 295.989 2.76675 295.796 3.56253C300.594 3.14141 305.372 2.63222 310.122 2.03563C312.584 1.64935 315.057 1.27965 317.498 0.843627C318.004 0.759741 318.542 0.803685 318.997 0.966051C319.453 1.12842 319.789 1.3963 319.933 1.71235V1.71401Z" fill="url(#paint0_linear_28_525)" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear_28_525" x1="0" y1="0.802002" x2="0.898736" y2="24.7683" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#00E0A3" />
+                                            <stop offset="1" stop-color="#00DED5" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <div class="mt-[37px] ml-[305px] absolute">
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1.802L9.8375 23.0145L12.975 13.777L22.2125 10.6395L1 1.802Z" fill="url(#paint0_linear_28_526)" stroke="url(#paint1_linear_28_526)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear_28_526" x1="1" y1="1.802" x2="22.2125" y2="23.0145" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#00E0A3" />
+                                            <stop offset="1" stop-color="#00DED5" />
+                                        </linearGradient>
+                                        <linearGradient id="paint1_linear_28_526" x1="1" y1="1.802" x2="22.2125" y2="23.0145" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#00E0A3" />
+                                            <stop offset="1" stop-color="#00DED5" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="w-[624px] font-GeistMono600 text-[37px] leading-tight text-[#1B123B] "><span class="bg-gradient-to-r from-pink-500 via-fuchsia-600 to-indigo-800   text-transparent bg-clip-text">Precision Tactics</span> for Seamless Digital Growth</h3>
                     </div>
                     <div class="mb-5">
                         <p class="w-[626px] text-[#494162] text-[18px] font-Fixel400">Explore our comprehensive suite of digital mastery, where each element is intricately designed to elevate your brand's presence in the vast digital landscape.</p>
@@ -308,25 +336,23 @@ export default component$(() => {
                     <div class="mb-5">
                         <p class="w-[600px] text-[18px] font-Fixel400 text-[#494162]">Step into a digital realm where your brand's story is curated with precision. Our tailored solutions are the brushstrokes, painting an unforgettable narrative. Ready to redefine your digital journey? Explore the possibilities now!</p>
                     </div>
-                    <div class="flex flex-row justify-between mb-5">
-                        <div>
-                            <Image src={"/assets/images/digitalSection/imageLine/google.svg"} width={70} height={24} />
-                        </div>
-                        <div>
+                    <div class="flex flex-row overflow-hidden w-[600px] mb-5">
+                    <div class="marquee">
+                        <div class="marquee-items flex gap-24">
+                        <Image src={"/assets/images/digitalSection/imageLine/google.svg"} width={70} height={24} />
                             <Image src={"/assets/images/digitalSection/imageLine/later.svg"} width={66} height={22} />
-                        </div>
-                        <div>
                             <Image src={"/assets/images/digitalSection/imageLine/gadds.svg"} width={60} height={30} />
-                        </div>
-                        <div>
                             <Image src={"/assets/images/digitalSection/imageLine/meta.svg"} width={82} height={16} />
-                        </div>
-                        <div>
                             <Image src={"/assets/images/digitalSection/imageLine/hubspot.svg"} width={74} height={22} />
-                        </div>
-                        <div>
+                            <Image src={"/assets/images/digitalSection/imageLine/seo.svg"} width={166} height={22} />
+                            <Image src={"/assets/images/digitalSection/imageLine/google.svg"} width={70} height={24} />
+                            <Image src={"/assets/images/digitalSection/imageLine/later.svg"} width={66} height={22} />
+                            <Image src={"/assets/images/digitalSection/imageLine/gadds.svg"} width={60} height={30} />
+                            <Image src={"/assets/images/digitalSection/imageLine/meta.svg"} width={82} height={16} />
+                            <Image src={"/assets/images/digitalSection/imageLine/hubspot.svg"} width={74} height={22} />
                             <Image src={"/assets/images/digitalSection/imageLine/seo.svg"} width={166} height={22} />
                         </div>
+                    </div>
                     </div>
 
                 </div>

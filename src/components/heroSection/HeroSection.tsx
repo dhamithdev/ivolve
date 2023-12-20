@@ -209,9 +209,10 @@ export default component$(() => {
                 </defs>
             </svg>
         </div>
-        
+
         <div class="flex flex-col items-center justify-center relative ">
             <div>
+   
                 <h1 class="text-[80px] font-semibold text-[#1B123B] w-[1100px] text-center leading-tight mt-[80px] font-GeistMono600">Seamlessly blending design and technology to <span class="main-text-gradient">sculpt</span> your success story.</h1>
             </div>
             <div>
