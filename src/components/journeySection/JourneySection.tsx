@@ -2,7 +2,7 @@ import { component$ } from '@builder.io/qwik';
 import { Image } from '@unpic/qwik';
 
 export default component$(() => {
-    return (<div class="mx-24">
+    return (<div class="mx-36">
         <div>
             <div class="mb-24">
                 <div>

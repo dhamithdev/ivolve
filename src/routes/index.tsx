@@ -18,7 +18,7 @@ export default component$(() => {
       <DiscoverySection/>
       <ElevateSection/>
       <DigitalSection/>
-
+      <YourIdeaSection/>
       <JourneySection/>
     </div>
   );
