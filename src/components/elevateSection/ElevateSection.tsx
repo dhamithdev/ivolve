@@ -85,7 +85,7 @@ export default component$(() => {
                     <div class="mb-5">
                         <p class="w-[600px] text-[18px] font-Fixel400 text-[#494162]">From design brilliance to seamless project delivery, we turn visions into exceptional realities by utilizing the best technologies out there. Elevate your digital presence with us.</p>
                     </div>
-                    <div class="flex flex-row mb-5 overflow-hidden w-[600px]">
+                    <div class="flex flex-row mb-8 overflow-hidden w-[600px]">
                         <div class="marquee">
                             <div class="marquee-items flex gap-24">
                                 <Image src={"/assets/images/elevateSection/imageLine1/nuxt.svg"} width={103} height={30} />

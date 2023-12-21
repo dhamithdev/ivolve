@@ -6,6 +6,7 @@ import ElevateSection from "~/components/elevateSection/ElevateSection";
 import HeroSection from "~/components/heroSection/HeroSection";
 import JourneySection from "~/components/journeySection/JourneySection";
 import Navbar from "~/components/navbar/Navbar";
+import Test from "~/components/test/Test";
 import TruestSection from "~/components/truestSection/TruestSection";
 import YourIdeaSection from "~/components/yourIdeaSection/YourIdeaSection";
 
@@ -20,6 +21,7 @@ export default component$(() => {
       <DigitalSection/>
       <YourIdeaSection/>
       <JourneySection/>
+      {/* <Test/> */}
     </div>
   );
 });

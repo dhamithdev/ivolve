@@ -104,11 +104,11 @@ export default component$(() => {
                     </p>
                 </div>
             </div>
-            <div class="mt-24 mb-20">
-                <div class="justify-between flex ">
+            <div class="mt-24 mb-20 ">
+                <div class="justify-between flex gap-[30px]">
                     {/* card 1 */}
-                    <div class="w-[406px] h-[364px] border-[1px] border-[#D8D5E0] rounded-[22px] card-background-gradient">
-                        <svg width="406" height="244" viewBox="0 0 406 244" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div  class="w-1/3 h-auto border-[1px] border-[#D8D5E0] card-background-gradient gradient-border-card  rounded-[22px] relative">
+                        <svg class="w-full h-auto" viewBox="0 0 406 244" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <line y1="80.5" x2="406" y2="80.5" stroke="#D8D5E0" />
                             <line y1="162.5" x2="406" y2="162.5" stroke="#D8D5E0" stroke-opacity="0.5" />
                             <line x1="81.4999" y1="9.18925e-05" x2="81.4551" y2="244" stroke="url(#paint0_linear_28_919)" />
@@ -134,6 +134,9 @@ export default component$(() => {
                                 </linearGradient>
                             </defs>
                         </svg>
+                        <div class="shimmer" style="--delay: -1s">
+                        </div>
+                        <i aria-hidden="true"></i>
                         <div class="absolute">
                             <div class="ml-[42px] mt-[-190px]">
                                 <svg width="212" height="55" viewBox="0 0 212 55" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -175,20 +178,20 @@ export default component$(() => {
 
                             </div>
                         </div>
-                        <div class="ml-[22px] mt-1">
+                        <div class="mx-[28px] mt-1">
                             <div>
-                                <h6 class="text-[#1B123B] font-GeistMono600 text-[20px]">Tailored Solutions for Your Vision</h6>
+                                <h6 class="text-[#1B123B] font-GeistMono600 text-[20px] ">Tailored Solutions for Your Vision</h6>
                             </div>
-                            <div class="mt-[8px]">
-                                <p class="font-Fixel400 text-[16px] text-[#1B123B] w-[340px]">
+                            <div class="mt-[8px] mb-7">
+                                <p class="font-Fixel400 text-[16px] text-[#1B123B]">
                                     From Conceptualization to Prototyping - Let Us Bring Your Ideas to Life!
                                 </p>
                             </div>
                         </div>
                     </div>
                     {/* card 2 */}
-                    <div class="w-[406px] h-[364px] border-[1px] border-[#D8D5E0] rounded-[22px] card-background-gradient">
-                        <svg width="406" height="244" viewBox="0 0 406 244" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div class="w-1/3 h-auto border-[1px] border-[#D8D5E0] rounded-[22px] card-background-gradient gradient-border-card relative">
+                        <svg class="w-full h-auto" viewBox="0 0 406 244" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <line y1="80.5" x2="406" y2="80.5" stroke="#D8D5E0" />
                             <line y1="162.5" x2="406" y2="162.5" stroke="#D8D5E0" stroke-opacity="0.5" />
                             <line x1="81.4999" y1="9.18925e-05" x2="81.4551" y2="244" stroke="url(#paint0_linear_28_919)" />
@@ -214,6 +217,9 @@ export default component$(() => {
                                 </linearGradient>
                             </defs>
                         </svg>
+                        <div class="shimmer" style="--delay: -1s">
+                        </div>
+                        <i aria-hidden="true"></i>
                         <div class="absolute">
                             <div class="ml-[75px] mt-[-195px]">
                                 <svg width="262" height="172" viewBox="0 0 262 172" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -375,20 +381,20 @@ export default component$(() => {
                                 </svg>
                             </div>
                         </div>
-                        <div class="ml-[22px] mt-1">
+                        <div class="mx-7 mt-1">
                             <div>
                                 <h6 class="text-[#1B123B] font-GeistMono600 text-[18px]">Expand Resources at Your Fingertips</h6>
                             </div>
-                            <div class="mt-[8px]">
-                                <p class="font-Fixel400 text-[16px] text-[#1B123B] w-[340px]">
+                            <div class="mt-[8px] mb-7">
+                                <p class="font-Fixel400 text-[16px] text-[#1B123B]">
                                     Access Our Expert Engineering Team On-Demand for Seamless Growth and Flexibility
                                 </p>
                             </div>
                         </div>
                     </div>
                     {/* card 3 */}
-                    <div class="w-[406px] h-[364px] border-[1px] border-[#D8D5E0] rounded-[22px] card-background-gradient">
-                        <svg width="406" height="244" viewBox="0 0 406 244" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div class="w-1/3 h-auto border-[1px] border-[#D8D5E0] rounded-[22px] card-background-gradient gradient-border-card relative">
+                        <svg class="w-full h-auto" viewBox="0 0 406 244" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <line y1="80.5" x2="406" y2="80.5" stroke="#D8D5E0" />
                             <line y1="162.5" x2="406" y2="162.5" stroke="#D8D5E0" stroke-opacity="0.5" />
                             <line x1="81.4999" y1="9.18925e-05" x2="81.4551" y2="244" stroke="url(#paint0_linear_28_919)" />
@@ -414,26 +420,29 @@ export default component$(() => {
                                 </linearGradient>
                             </defs>
                         </svg>
+                        <div class="shimmer" style="--delay: -1s">
+                        </div>
+                        <i aria-hidden="true"></i>
                         <div class="absolute">
                             <div class="ml-[50px] mt-[-230px]">
                                 <Image src={"/assets/images/yourIdeaSection/card3/card3 (2).svg"} width={306} height={208} />
                             </div>
                         </div>
-                        <div class="ml-[22px] mt-[-14px]">
+                        <div class="mx-7 mt-[-14px]">
                             <div>
                                 <h6 class="text-[#1B123B] font-GeistMono600 text-[20px]">Precision Craftsmanship</h6>
                             </div>
-                            <div class="mt-[8px]">
-                                <p class="font-Fixel400 text-[16px] text-[#1B123B] w-[360px]">
+                            <div class="mt-[8px] mb-7">
+                                <p class="font-Fixel400 text-[16px] text-[#1B123B]">
                                     Streamline the creative & development Process with our Experienced Team - Delivering Excellence Every Step of the Way!
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="justify-between flex mt-10">
+                <div class="gap-10 flex mt-10">
                     {/* card 4 */}
-                    <div class="w-[624px] h-[364px] border-[1px] border-[#D8D5E0] rounded-[22px] card-background-gradient">
+                    <div class="w-1/2 h-[364px] border-[1px] border-[#D8D5E0] rounded-[22px] card-background-gradient gradient-border-card relative">
                         <svg width="624" height="244" viewBox="0 0 624 244" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_28_956)">
                                 <path d="M0 124H624" stroke="#D8D5E0" />
@@ -464,6 +473,9 @@ export default component$(() => {
                                 </clipPath>
                             </defs>
                         </svg>
+                        <div class="shimmer" style="--delay: -1s">
+                        </div>
+                        <i aria-hidden="true"></i>
                         <div class="mt-[-240px] ml-[50px] ">
                             <svg width="522" height="428" viewBox="0 0 522 428" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g filter="url(#filter0_dddd_28_963)">
@@ -3039,7 +3051,7 @@ export default component$(() => {
                         </div>
                     </div>
                     {/* card 5 */}
-                    <div class="w-[624px] h-[364px] border-[1px] border-[#D8D5E0] rounded-[22px] card-background-gradient">
+                    <div class="w-1/2 h-[364px] border-[1px] border-[#D8D5E0] rounded-[22px] card-background-gradient gradient-border-card relative">
                         <svg width="624" height="244" viewBox="0 0 624 244" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_28_956)">
                                 <path d="M0 124H624" stroke="#D8D5E0" />
@@ -3070,6 +3082,9 @@ export default component$(() => {
                                 </clipPath>
                             </defs>
                         </svg>
+                        <div class="shimmer" style="--delay: -1s">
+                        </div>
+                        <i aria-hidden="true"></i>
                         <div class="mt-[-225px] ml-[100px]">
                             <svg width="432" height="201" viewBox="0 0 432 201" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M18.7905 166.689V166.1H427.616V166.69L18.7905 166.689ZM19.217 131.818V131.229H428.043V131.818H19.217ZM19.217 97.5182V96.9236H428.043V97.5182H19.217ZM18.7905 61.4857V60.8968H427.616V61.4857H18.7905ZM19.217 26.615V26.0261H428.043V26.615H19.217ZM19.217 -7.68432V-8.27328H428.043V-7.68432H19.217ZM18.7905 -43.1275V-43.7164H427.616V-43.1275H18.7905Z" fill="#F1F4F9" />

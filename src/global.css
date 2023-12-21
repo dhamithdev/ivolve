@@ -116,6 +116,7 @@ body {
 
 .card-background-gradient {
   background: linear-gradient(180deg, rgba(57, 1, 113, 0.00) 0%, rgba(102, 0, 202, 0.05) 100%);
+  
 }
 
 .green-cese-gradient {
@@ -180,3 +181,405 @@ body {
     to { transform: translateX(0);  }
 }
 
+
+/*svg animation*/
+
+@keyframes drawLine {
+  0% { stroke-dasharray: 1000; stroke-dashoffset: 1000; }
+  100% { stroke-dasharray: 1000; stroke-dashoffset: 0; } 
+}
+
+.mySvg path {
+  animation: drawLine 10s ease-in-out infinite;
+ 
+}
+
+/*card a border*/
+
+/* body {
+	background: #000;
+	color: #fff;
+	font-family: "Inter", sans-serif;
+	position: relative;
+} */
+
+
+
+
+
+
+:root {
+	--text-color: #a1a1a1;
+	--accent-color: #111;
+	--geist-foreground-rgb: 255, 255, 255;
+	--border-radius: 22px;
+}
+
+
+
+.gradient-border-card {
+	position: relative;
+	border-radius: var(--border-radius);
+	box-shadow: 0 0 0 1px transparent, 0 2px 4px transparent, 0 12px 24px transparent;
+	cursor: pointer;
+	
+	z-index: 1;
+}
+	@keyframes shimmer {
+		0% {
+			opacity: 0
+		}
+
+		5% {
+			opacity: 0;
+			background-position: -50%
+		}
+
+		10% {
+			opacity: .7
+		}
+
+		15% {
+			opacity: 0;
+			background-position: 150%
+		}
+
+		20% {
+			opacity: 0
+		}
+
+		to {
+			opacity: 0
+		}
+	}
+
+	.shimmer {
+		background: linear-gradient(112deg,transparent 30%,rgba(var(--geist-foreground-rgb),.1) 40%,rgba(var(--geist-foreground-rgb),.3) 50%,rgba(var(--geist-foreground-rgb),.1) 60%,transparent 80%);
+		position: absolute;
+		inset: 0;
+		z-index: 20;
+		pointer-events: none;
+		border-radius: inherit;
+		background-size: 200% auto;
+		background-position: 0;
+		animation: shimmer 18s cubic-bezier(.8,0,.05,1) infinite;
+		animation-delay: var(--delay);
+	}
+
+	i {
+		content: "";
+		position: absolute;
+		inset: -1px;
+		padding: var(--border-size);
+
+		--border-size: 1px;
+		--padding: 1px;
+		--border-bg: conic-gradient(from 180deg at 50% 50%,#e92a67 0deg,#a853ba 112.5deg,#2a8af6 228.75deg,rgba(42,138,246,0) 360deg);
+		overflow: hidden;
+		padding: calc(var(--padding) + var(--border-size));
+		border-radius: var(--border-radius);
+		display: inline-block;
+		z-index: 0;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+		perspective: 1000;
+		transform: translateZ(0);
+
+		-webkit-mask: linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+		mask: linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+		-webkit-mask-composite: xor;
+		mask-composite: exclude;
+		z-index: -1;
+		border-radius: calc(var(--border-radius) + var(--border-size));
+		&:before {
+			content: "";
+			display: block;
+			background: var(--border-bg);
+			box-shadow: 0 0 40px 20px --var(--border-bg);
+			width: calc(100% * 1.41421356237);
+			padding-bottom: calc(100% * 1.41421356237);
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%,-50%);
+			border-radius: 100%;
+			z-index: -2;
+			animation: landing_spin__XlUIM 5s linear infinite;
+		}
+	}
+
+
+	@keyframes landing_spin__XlUIM {
+		0% {
+			transform: translate(-50%,-50%) rotate(1turn)
+		}
+
+		to {
+			transform: translate(-50%,-50%) rotate(0)
+		}
+	}
+
+
+
+
+
+
+
+/* Gradient Animation Button
+/******************************/
+
+.highlight-bg:after {
+	content: "";
+	position: absolute;
+	background-size: inherit;
+	background-image: inherit;
+	animation: inherit;
+	left: 0;
+	right: 0;
+	top: 2px;
+	height: 100%;
+	filter: blur(.5rem);
+	transition: 0.25s;
+}
+
+@keyframes background-anim {
+	50% {
+		background-position: 140% 50%;
+		transform: skew(-2deg);
+	}
+}
+
+/*****************/
+
+.gradient-background__wrapper {
+	background: #141414;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+@media (max-width: 568px) {
+	.gradient-background__wrapper {
+		background: #FFFFFF
+	}
+}
+
+.gradient-background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-filter: blur(250px);
+	filter: blur(250px);
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0)
+}
+
+@media (max-width: 568px) {
+	.gradient-background {
+		display: none
+	}
+}
+
+.gradient-background__shape {
+	mix-blend-mode: lighten;
+	-webkit-animation-duration: 20s;
+	animation-duration: 20s;
+	position: absolute;
+	border-radius: 100%;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: cubic-bezier(0.1, 0, 0.9, 1);
+	animation-timing-function: cubic-bezier(0.1, 0, 0.9, 1)
+}
+
+
+
+
+
+/*****************************/
+
+
+.glowing-wrapper-button {
+	z-index: 1;
+	color: #fff;
+	letter-spacing: -.01em;
+	background-color: transparent;
+	border: 1px solid rgba(255, 255, 255, .1);
+	border-radius: 62.5rem;
+	padding: .7rem 1.5rem;
+	font-size: .88rem;
+	line-height: 1.42;
+	text-decoration: none;
+	position: relative;
+	max-width: 100%;
+	display: inline-block;
+}
+
+.glowing-wrapper {
+	border-radius: 62.5rem;
+	display: inline-block;
+	position: relative;
+	overflow: hidden
+}
+
+.glowing-wrapper.glowing-wrapper-active {
+	background-color: #000
+}
+
+.glowing-wrapper-borders-masker {
+	width: 100%;
+	opacity: 0;
+	border-radius: 62.5rem;
+	padding: .11rem;
+	line-height: 100%;
+	transition: opacity 1s;
+	position: absolute;
+	top: 0;
+	left: 0
+}
+
+.glowing-wrapper .button-text {
+	z-index: 2;
+	color: #fff;
+	position: relative
+}
+
+.glowing-wrapper-animations {
+	width: 100%;
+	opacity: 0;
+	transition: opacity 1s;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%)
+}
+
+.glowing-wrapper-mask {
+	opacity: 1
+}
+
+.glowing-wrapper-glow {
+	opacity: .12;
+	filter: blur(8px)
+}
+
+.glowing-wrapper-borders {
+	width: 100%;
+	opacity: 1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%)
+}
+
+.glowing-wrapper-mask-wrapper {
+	opacity: 1
+}
+
+.glowing-wrapper-button:after {
+	background: radial-gradient(85% 120% at 50% 120%, rgba(255, 255, 255, .24) 0%, rgba(255, 255, 255, 0) 100%);
+	border-radius: 999px;
+	content: "";
+	height: calc(100% + 4px);
+	left: -2px;
+	opacity: 0;
+	position: absolute;
+	top: -2px;
+	transition: 1s all;
+	width: calc(100% + 4px)
+}
+
+.glowing-wrapper-button:hover:after {
+	opacity: .7
+}
+
+
+.glowing-wrapper-active .glowing-wrapper-animations,
+.glowing-wrapper-active .glowing-wrapper-borders-masker {
+	opacity: 1
+}
+
+.glowing-wrapper-animations:before,
+.glowing-wrapper-borders:before {
+	content: "";
+	float: left;
+	padding-top: 100%
+}
+
+.glowing-wrapper-animations:after,
+.glowing-wrapper-borders:after {
+	clear: both;
+	content: "";
+	display: block
+}
+
+.glowing-wrapper-animations {
+	pointer-events: none;
+}
+
+.glowing-wrapper-animations * {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%
+}
+
+.glowing-wrapper-borders,
+.glowing-wrapper-glow,
+.glowing-wrapper-mask {
+	animation: borderTurn 2.5s infinite linear;
+	background-image: conic-gradient(from 0 at 50% 50%, rgba(255, 255, 255, .5) 0deg, rgba(255, 255, 255, 0) 60deg, rgba(255, 255, 255, 0) 310deg, rgba(255, 255, 255, .5) 360deg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover
+}
+
+.glowing-wrapper-mask-wrapper {
+	-webkit-mask: url("data:image/svg+xml,url('data:image/svg+xml,%253Csvg width='28' height='24' viewBox='0 0 28 24' fill='none' xmlns='http://www.w3.org/2000/svg'%253E%253Crect width='28' height='24' fill='black'/%253E%253C/svg%253E%250A');");
+	mask: url("data:image/svg+xml,url('data:image/svg+xml,%253Csvg width='28' height='24' viewBox='0 0 28 24' fill='none' xmlns='http://www.w3.org/2000/svg'%253E%253Crect width='28' height='24' fill='black'/%253E%253C/svg%253E%250A');");
+	mask-repeat: repeat;
+	-webkit-mask-size: auto;
+	mask-size: auto
+}
+
+.glowing-wrapper-borders {
+	animation-name: borderTurnWithTranslate
+}
+
+.glowing-wrapper-borders-masker {
+	content: "";
+	inset: 0;
+	-webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+	mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+	mask-composite: xor;
+	-webkit-mask-composite: xor;
+	mask-composite: exclude;
+	pointer-events: none;
+}
+
+@keyframes borderTurn {
+	0% {
+		transform: rotate(0)
+	}
+
+	to {
+		transform: rotate(360deg)
+	}
+}
+
+@keyframes borderTurnWithTranslate {
+	0% {
+		transform: translate(-50%, -50%) rotate(0)
+	}
+
+	to {
+		transform: translate(-50%, -50%) rotate(360deg)
+	}
+}
