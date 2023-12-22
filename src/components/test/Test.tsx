@@ -11,15 +11,14 @@ export default component$(() => {
 
             <div class="row g-4 mt-3">
                 <div class="col-lg-4">
-                    <div class="gradient-border-card">
+                    <div class="gradient-border-card ">
 
-                        <div class="icon mb-3">
+
+
+                        <div class="shimmer " style="--delay: -1s">
                         </div>
 
-                        <div class="shimmer" style="--delay: -1s">
-                        </div>
-
-                        <i aria-hidden="true"></i>
+                        <i class="innerii" aria-hidden="true"></i>
 
                         <div class="glowing-wrapper glowing-wrapper-active mt-3">
                             <div class="glowing-wrapper-animations">

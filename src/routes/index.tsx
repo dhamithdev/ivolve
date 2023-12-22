@@ -15,13 +15,13 @@ export default component$(() => {
     <div class="">
       <Navbar/>
       <HeroSection/>
-      <TruestSection/>
+       {/* <TruestSection/>
       <DiscoverySection/>
       <ElevateSection/>
-      <DigitalSection/>
+      <DigitalSection/> */}
       <YourIdeaSection/>
-      <JourneySection/>
-      {/* <Test/> */}
+      {/* <JourneySection/>  */}
+      <Test/>
     </div>
   );
 });

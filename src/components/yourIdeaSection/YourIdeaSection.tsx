@@ -107,90 +107,93 @@ export default component$(() => {
             <div class="mt-24 mb-20 ">
                 <div class="justify-between flex gap-[30px]">
                     {/* card 1 */}
-                    <div  class="w-1/3 h-auto border-[1px] border-[#D8D5E0] card-background-gradient gradient-border-card  rounded-[22px] relative">
-                        <svg class="w-full h-auto" viewBox="0 0 406 244" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <line y1="80.5" x2="406" y2="80.5" stroke="#D8D5E0" />
-                            <line y1="162.5" x2="406" y2="162.5" stroke="#D8D5E0" stroke-opacity="0.5" />
-                            <line x1="81.4999" y1="9.18925e-05" x2="81.4551" y2="244" stroke="url(#paint0_linear_28_919)" />
-                            <line x1="162.545" y1="9.18925e-05" x2="162.5" y2="244" stroke="url(#paint1_linear_28_919)" />
-                            <line x1="243.59" y1="9.18925e-05" x2="243.545" y2="244" stroke="url(#paint2_linear_28_919)" />
-                            <line x1="324.634" y1="9.18925e-05" x2="324.59" y2="244" stroke="url(#paint3_linear_28_919)" />
-                            <defs>
-                                <linearGradient id="paint0_linear_28_919" x1="80.9999" y1="0" x2="80.9999" y2="244" gradientUnits="userSpaceOnUse">
-                                    <stop stop-color="#D8D5E0" />
-                                    <stop offset="1" stop-color="#C7C3D2" stop-opacity="0" />
-                                </linearGradient>
-                                <linearGradient id="paint1_linear_28_919" x1="162.045" y1="0" x2="162.045" y2="244" gradientUnits="userSpaceOnUse">
-                                    <stop stop-color="#D8D5E0" />
-                                    <stop offset="1" stop-color="#C7C3D2" stop-opacity="0" />
-                                </linearGradient>
-                                <linearGradient id="paint2_linear_28_919" x1="243.09" y1="0" x2="243.09" y2="244" gradientUnits="userSpaceOnUse">
-                                    <stop stop-color="#D8D5E0" />
-                                    <stop offset="1" stop-color="#C7C3D2" stop-opacity="0" />
-                                </linearGradient>
-                                <linearGradient id="paint3_linear_28_919" x1="324.134" y1="0" x2="324.134" y2="244" gradientUnits="userSpaceOnUse">
-                                    <stop stop-color="#D8D5E0" />
-                                    <stop offset="1" stop-color="#C7C3D2" stop-opacity="0" />
-                                </linearGradient>
-                            </defs>
-                        </svg>
-                        <div class="shimmer" style="--delay: -1s">
-                        </div>
-                        <i aria-hidden="true"></i>
-                        <div class="absolute">
-                            <div class="ml-[42px] mt-[-190px]">
-                                <svg width="212" height="55" viewBox="0 0 212 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect x="0.5" y="0.5" width="211" height="54" rx="5.5" fill="#FBFDFF" stroke="#D8D5E0" />
-                                    <path d="M12 11L12 44" stroke="url(#paint0_linear_28_823)" stroke-width="4" stroke-linecap="round" />
-                                    <rect x="22" y="13" width="156" height="10" rx="4.5" fill="#D8D5E0" fill-opacity="0.53" />
-                                    <rect x="22" y="33" width="102" height="9" rx="4.5" fill="#D8D5E0" fill-opacity="0.32" />
-                                    <defs>
-                                        <linearGradient id="paint0_linear_28_823" x1="12" y1="7.5" x2="12" y2="46" gradientUnits="userSpaceOnUse">
-                                            <stop stop-color="#00E0A3" />
-                                            <stop offset="1" stop-color="#00DED5" />
-                                        </linearGradient>
-                                    </defs>
-                                </svg>
-                            </div>
-                            <div class="ml-[145px] mt-[-10px]">
-                                <svg width="220" height="108" viewBox="0 0 220 108" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect x="14.0039" width="212" height="55" rx="6" transform="rotate(14.7513 14.0039 0)" fill="#B366FF" />
-                                    <path d="M22.8076 13.6929L14.405 45.6052" stroke="white" stroke-width="4" stroke-linecap="round" />
-                                    <rect width="156" height="29" transform="translate(31.9687 18.1732) rotate(14.7513)" fill="#B366FF" />
-                                    <rect x="31.9687" y="18.1732" width="156" height="10" rx="4.5" transform="rotate(14.7513 31.9687 18.1732)" fill="#DDD1FF" />
-                                    <rect x="26.8762" y="37.514" width="102" height="9" rx="4.5" transform="rotate(14.7513 26.8762 37.514)" fill="#E4DAFF" fill-opacity="0.79" />
-                                </svg>
+                    <div  class="w-1/3 h-auto rounded-[22px] gradient-border-card z-2">
+                         {/* <div class="shimmer" style="--delay: -1s"></div> */}
+                        <div class="z-0 ">
+                            <svg class="w-full h-auto" viewBox="0 0 406 244" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line y1="80.5" x2="406" y2="80.5" stroke="#D8D5E0" />
+                                <line y1="162.5" x2="406" y2="162.5" stroke="#D8D5E0" stroke-opacity="0.5" />
+                                <line x1="81.4999" y1="9.18925e-05" x2="81.4551" y2="244" stroke="url(#paint0_linear_28_919)" />
+                                <line x1="162.545" y1="9.18925e-05" x2="162.5" y2="244" stroke="url(#paint1_linear_28_919)" />
+                                <line x1="243.59" y1="9.18925e-05" x2="243.545" y2="244" stroke="url(#paint2_linear_28_919)" />
+                                <line x1="324.634" y1="9.18925e-05" x2="324.59" y2="244" stroke="url(#paint3_linear_28_919)" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_28_919" x1="80.9999" y1="0" x2="80.9999" y2="244" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#D8D5E0" />
+                                        <stop offset="1" stop-color="#C7C3D2" stop-opacity="0" />
+                                    </linearGradient>
+                                    <linearGradient id="paint1_linear_28_919" x1="162.045" y1="0" x2="162.045" y2="244" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#D8D5E0" />
+                                        <stop offset="1" stop-color="#C7C3D2" stop-opacity="0" />
+                                    </linearGradient>
+                                    <linearGradient id="paint2_linear_28_919" x1="243.09" y1="0" x2="243.09" y2="244" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#D8D5E0" />
+                                        <stop offset="1" stop-color="#C7C3D2" stop-opacity="0" />
+                                    </linearGradient>
+                                    <linearGradient id="paint3_linear_28_919" x1="324.134" y1="0" x2="324.134" y2="244" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#D8D5E0" />
+                                        <stop offset="1" stop-color="#C7C3D2" stop-opacity="0" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        
+                            
+                            {/* <i class="innerii" aria-hidden="true"></i> */}
+                            <div class="absolute">
+                                <div class="ml-[42px] mt-[-190px]">
+                                    <svg width="212" height="55" viewBox="0 0 212 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.5" y="0.5" width="211" height="54" rx="5.5" fill="#FBFDFF" stroke="#D8D5E0" />
+                                        <path d="M12 11L12 44" stroke="url(#paint0_linear_28_823)" stroke-width="4" stroke-linecap="round" />
+                                        <rect x="22" y="13" width="156" height="10" rx="4.5" fill="#D8D5E0" fill-opacity="0.53" />
+                                        <rect x="22" y="33" width="102" height="9" rx="4.5" fill="#D8D5E0" fill-opacity="0.32" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_28_823" x1="12" y1="7.5" x2="12" y2="46" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#00E0A3" />
+                                                <stop offset="1" stop-color="#00DED5" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div class="ml-[145px] mt-[-10px]">
+                                    <svg width="220" height="108" viewBox="0 0 220 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="14.0039" width="212" height="55" rx="6" transform="rotate(14.7513 14.0039 0)" fill="#B366FF" />
+                                        <path d="M22.8076 13.6929L14.405 45.6052" stroke="white" stroke-width="4" stroke-linecap="round" />
+                                        <rect width="156" height="29" transform="translate(31.9687 18.1732) rotate(14.7513)" fill="#B366FF" />
+                                        <rect x="31.9687" y="18.1732" width="156" height="10" rx="4.5" transform="rotate(14.7513 31.9687 18.1732)" fill="#DDD1FF" />
+                                        <rect x="26.8762" y="37.514" width="102" height="9" rx="4.5" transform="rotate(14.7513 26.8762 37.514)" fill="#E4DAFF" fill-opacity="0.79" />
+                                    </svg>
 
-                            </div>
-                            <div class="ml-[42px] mt-[-38px]">
-                                <svg width="212" height="55" viewBox="0 0 212 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect x="0.5" y="0.5" width="211" height="54" rx="5.5" fill="#FBFDFF" stroke="#D8D5E0" />
-                                    <path d="M12 11L12 44" stroke="url(#paint0_linear_28_835)" stroke-width="4" stroke-linecap="round" />
-                                    <rect x="22" y="13" width="156" height="10" rx="4.5" fill="#D8D5E0" fill-opacity="0.53" />
-                                    <rect x="22" y="33" width="102" height="9" rx="4.5" fill="#D8D5E0" fill-opacity="0.32" />
-                                    <defs>
-                                        <linearGradient id="paint0_linear_28_835" x1="12" y1="45.5" x2="12" y2="9" gradientUnits="userSpaceOnUse">
-                                            <stop stop-color="#FFC600" stop-opacity="0.56" />
-                                            <stop offset="1" stop-color="#FF7F00" />
-                                        </linearGradient>
-                                    </defs>
-                                </svg>
+                                </div>
+                                <div class="ml-[42px] mt-[-38px]">
+                                    <svg width="212" height="55" viewBox="0 0 212 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.5" y="0.5" width="211" height="54" rx="5.5" fill="#FBFDFF" stroke="#D8D5E0" />
+                                        <path d="M12 11L12 44" stroke="url(#paint0_linear_28_835)" stroke-width="4" stroke-linecap="round" />
+                                        <rect x="22" y="13" width="156" height="10" rx="4.5" fill="#D8D5E0" fill-opacity="0.53" />
+                                        <rect x="22" y="33" width="102" height="9" rx="4.5" fill="#D8D5E0" fill-opacity="0.32" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_28_835" x1="12" y1="45.5" x2="12" y2="9" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#FFC600" stop-opacity="0.56" />
+                                                <stop offset="1" stop-color="#FF7F00" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
 
+                                </div>
                             </div>
-                        </div>
-                        <div class="mx-[28px] mt-1">
-                            <div>
-                                <h6 class="text-[#1B123B] font-GeistMono600 text-[20px] ">Tailored Solutions for Your Vision</h6>
-                            </div>
-                            <div class="mt-[8px] mb-7">
-                                <p class="font-Fixel400 text-[16px] text-[#1B123B]">
-                                    From Conceptualization to Prototyping - Let Us Bring Your Ideas to Life!
-                                </p>
+                            <div class="mx-[28px] mt-1">
+                                <div>
+                                    <h6 class="text-[#1B123B] font-GeistMono600 text-[20px] ">Tailored Solutions for Your Vision</h6>
+                                </div>
+                                <div class="mt-[8px] mb-7">
+                                    <p class="font-Fixel400 text-[16px] text-[#1B123B]">
+                                        From Conceptualization to Prototyping - Let Us Bring Your Ideas to Life!
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     {/* card 2 */}
-                    <div class="w-1/3 h-auto border-[1px] border-[#D8D5E0] rounded-[22px] card-background-gradient gradient-border-card relative">
+                    {/* <div class="w-1/3 h-auto border-[1px] border-[#D8D5E0] rounded-[22px] card-background-gradient gradient-border-card relative">
                         <svg class="w-full h-auto" viewBox="0 0 406 244" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <line y1="80.5" x2="406" y2="80.5" stroke="#D8D5E0" />
                             <line y1="162.5" x2="406" y2="162.5" stroke="#D8D5E0" stroke-opacity="0.5" />
@@ -391,9 +394,9 @@ export default component$(() => {
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     {/* card 3 */}
-                    <div class="w-1/3 h-auto border-[1px] border-[#D8D5E0] rounded-[22px] card-background-gradient gradient-border-card relative">
+                    {/* <div class="w-1/3 h-auto border-[1px] border-[#D8D5E0] rounded-[22px] card-background-gradient gradient-border-card relative">
                         <svg class="w-full h-auto" viewBox="0 0 406 244" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <line y1="80.5" x2="406" y2="80.5" stroke="#D8D5E0" />
                             <line y1="162.5" x2="406" y2="162.5" stroke="#D8D5E0" stroke-opacity="0.5" />
@@ -438,11 +441,11 @@ export default component$(() => {
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
-                <div class="gap-10 flex mt-10">
+                {/* <div class="gap-10 flex mt-10"> */}
                     {/* card 4 */}
-                    <div class="w-1/2 h-[364px] border-[1px] border-[#D8D5E0] rounded-[22px] card-background-gradient gradient-border-card relative">
+                    {/* <div class="w-1/2 h-[364px] border-[1px] border-[#D8D5E0] rounded-[22px] card-background-gradient gradient-border-card relative">
                         <svg width="624" height="244" viewBox="0 0 624 244" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_28_956)">
                                 <path d="M0 124H624" stroke="#D8D5E0" />
@@ -3049,9 +3052,9 @@ export default component$(() => {
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     {/* card 5 */}
-                    <div class="w-1/2 h-[364px] border-[1px] border-[#D8D5E0] rounded-[22px] card-background-gradient gradient-border-card relative">
+                    {/* <div class="w-1/2 h-[364px] border-[1px] border-[#D8D5E0] rounded-[22px] card-background-gradient gradient-border-card relative">
                         <svg width="624" height="244" viewBox="0 0 624 244" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_28_956)">
                                 <path d="M0 124H624" stroke="#D8D5E0" />
@@ -3130,8 +3133,8 @@ export default component$(() => {
                                 </p>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </div> */}
+                {/* </div> */}
             </div>
         </div>
     </div>)
