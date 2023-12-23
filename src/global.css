@@ -79,11 +79,11 @@ body {
 
 
 .main-text-gradient {
-  background: linear-gradient(90deg, #8000FF 72.08%, #C600FF 78.08%, #FF3B8C 81.61%, #FFC600 85.08%, #FF7800 91.16%);
-  -webkit-background-clip: text;
--webkit-text-fill-color: transparent; 
+
+  background: linear-gradient(90deg, #8000FF 10.64%, #C600FF 31.12%, #FF3B8C 53.56%, #FFC600 69%, #FF7800 89.42%);
   background-clip: text;
-  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .orange-arrow-gradient {
@@ -196,12 +196,12 @@ body {
 
 /*card a border*/
 
-body {
+/* body {
 	background: #000;
 	color: #fff;
 	font-family: "Inter", sans-serif;
 	position: relative;
-}
+} */
 
 
 
