@@ -77,6 +77,20 @@ body {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'PlusJakartaSans';
+  src: url('/assets/fonts/PlusJakartaSans-Regular.woff2') format('woff2');
+  font-weight: Medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CerebriSans';
+  src: url('/assets/fonts/CerebriSans-Regular.woff2') format('woff2');
+  font-weight: Medium;
+  font-style: normal;
+}
+
 
 .main-text-gradient {
 
@@ -142,10 +156,32 @@ body {
   color: transparent;
 }
 
+.success-gradient{
+  background: linear-gradient(90deg, #00D5F3 46.79%, #02DFA1 68.12%, #FFBC00 81.13%, #FF7800 96.73%);
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+  background-clip: text;
+  color: transparent;
+}
 
+.stories-gradient{
+  background: linear-gradient(90deg, #00D5F3 -19.98%, #02DFA1 0.24%, #FFBC00 12.57%, #FF7800 27.37%);
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+  background-clip: text;
+  color: transparent;
+}
 
 .precision-gradient {
   background: linear-gradient(90deg, #FF548D 12.04%, #D700FF 45.87%, #5606EF 81.7%));
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+  background-clip: text;
+  color: transparent;
+}
+
+.weve-sculpted-gradient{
+  background:linear-gradient(90deg, #7133FA 34.63%, #643EF8 44.43%, #0096EB 59.6%, #00D8A3 84.41%);
   -webkit-background-clip: text;
 -webkit-text-fill-color: transparent; 
   background-clip: text;
@@ -226,14 +262,11 @@ body {
 }
 
 .gradient-border-card:hover  {
-	position: relative;
 	border-radius: 80px;
-  
 	box-shadow: 0 0 0 1px transparent, 0 2px 4px transparent, 0 12px 24px transparent;
   inset: -1px;
   padding: var(--border-size);
 	cursor: pointer;
-  z-index: 0;
   --border-size: 2px;
   --padding: 1px;
   --border-bg: conic-gradient(from 180deg at 50% 50%,#e92a67 0deg,#a853ba 112.5deg,#2a8af6 228.75deg,rgba(42,138,246,0) 360deg);
@@ -244,7 +277,7 @@ body {
 		mask: linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
 		-webkit-mask-composite: xor;
 		mask-composite: exclude;
-    z-index: -1;
+
 
   border-radius: var(--border-radius);
   		&:before {

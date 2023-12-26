@@ -2,23 +2,39 @@ import { component$ } from '@builder.io/qwik';
 import { Image } from '@unpic/qwik';
 
 export default component$(() => {
-    return (<div class="mx-36">
+    return (<div class="mx-28">
         <div>
             <div class="mb-24">
-                <div>
-                    <h2 class="text-[#1B123B] font-GeistMono600 text-[49px] text-center leading-tight">A Journey of Discovery, Collaboration, and Transformation</h2>
+                <div class="flex gap-10">
+                    <div class="w-[50%]">
+                    <h2 class="text-[49px] font-GeistMono600 text-[#1B123B] leading-none">Illuminating <span class="success-gradient">Success</span> <span class="stories-gradient">Stories</span> in Digital Evolution</h2>
+                    </div>
+                    <div class="w-[50%] ">
+                        <p class="text-[#494162] font-Fixel400 text-[24px] w-[600px] leading-snug pl-10">Dive into the chronicles of digital metamorphosis, where each case study narrates a unique tale of transformation and triumph.</p>
+                    </div>
                 </div>
                 <div class="mt-14 flex justify-between">
                     {/* card 1 */}
                     <div class="w-[590px] h-[749px] green-cese-gradient rounded-[30px]">
-                        <div class="ml-[30px] pt-[30px]">
+                        {/* <div class="ml-[30px] pt-[30px]">
                             <h6 class="text-[#8000FF] font-GeistMono600 text-[20px] ">Seal the Promise / Craft</h6>
-                        </div>
-                        <div class="ml-[30px] pt-[10px]">
+                        </div> */}
+                        <div class="ml-[30px] pt-[30px]">
                             <h5 class="text-[#1B123B] font-GeistMono600 text-[28px]">A Journey of Discovery, Collaboration, and Transformation</h5>
                         </div>
-                        <div class="ml-[30px] pt-[30px]">
+                        <div class="ml-[30px] pt-[18px]">
                             <p class="text-[#494162] font-Fixel400 text-[18px]">It’s well and good setting an ambitious top-down target, but you also need a credible bottom-up plan to get there. Causal’s templates give you a great starting point to set realistic targets.</p>
+                        </div>
+                        <div class="flex ml-[30px] pt-[18px] gap-5">
+                            <div>
+                                <div class="font-Fixel500 text-[16px] text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded">UX/UI</div>
+                            </div>
+                            <div>
+                                <div class="font-Fixel500 text-[16px] text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded">Development</div>
+                            </div>
+                            <div>
+                                <div class="font-Fixel500 text-[16px] text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded">SEO</div>
+                            </div>
                         </div>
                         <div class="ml-[30px] pt-[30px]">
                             <button  class="w-[220px] h-[32px]  rounded-lg bg-gradient-to-r from-purple-400 via-purple-500 to-indigo-600 ">

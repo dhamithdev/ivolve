@@ -9,6 +9,8 @@ module.exports = {
         Fixel400 : ['Fixel400'],
         Fixel500 : ['Fixel500'],
         Fixel600 : ['Fixel600'],
+        PlusJakartaSans : ['PlusJakartaSans'],
+        CerebriSans : ['CerebriSans'],
       },
 
     },

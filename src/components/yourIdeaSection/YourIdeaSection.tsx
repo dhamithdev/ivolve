@@ -107,9 +107,9 @@ export default component$(() => {
             <div class="mt-24 mb-20 ">
                 <div class="justify-between flex gap-[30px]">
                     {/* card 1 */}
-                    <div  class="w-1/3 h-auto rounded-[22px] gradient-border-card z-2">
+                    <div  class="w-1/3 h-auto rounded-[22px] gradient-border-card ">
                          {/* <div class="shimmer" style="--delay: -1s"></div> */}
-                        <div class="z-0 ">
+                        <div class="sampleclass">
                             <svg class="w-full h-auto" viewBox="0 0 406 244" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <line y1="80.5" x2="406" y2="80.5" stroke="#D8D5E0" />
                                 <line y1="162.5" x2="406" y2="162.5" stroke="#D8D5E0" stroke-opacity="0.5" />
