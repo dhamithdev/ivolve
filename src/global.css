@@ -188,6 +188,16 @@ body {
   color: transparent;
 }
 
+.shedule-call-gradient{
+background: linear-gradient(107deg, #39145D 1.96%, #A654F7 90.12%);
+}
+
+.shedule-call-button-gradient{
+
+background: linear-gradient(248deg, #FFF 34.56%, #FFF 62.32%, #E8D1FF 85.42%);
+  }
+  
+
 .marquee-items {
   width: 100%;
   display: flex;

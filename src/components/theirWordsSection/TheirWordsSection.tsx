@@ -52,11 +52,11 @@ export default component$(() => {
     ];
 
     return (
-        <div class="mx-28 mb-36">
+        <div class="mx-28 mb-28">
             <div class="text-center flex justify-center">
                 <h2 class="text-[#1B123B] text-[49px] font-GeistMono600 text-center w-[1000px] leading-none">Their words, a testament to the digital triumphs <span class="weve-sculpted-gradient">we've sculpted together</span>.</h2>
             </div>
-            <div class="mt-20">
+            <div class="mt-20 overflow-hidden">
                 <div class="flex gap-10">
                     {myCardData.map((mycarddata) => (
                         <div key={mycarddata.id} class="w-[360px] h-[218px] rounded-2xl border-[1px] border-[#C7C3D2B3]">
