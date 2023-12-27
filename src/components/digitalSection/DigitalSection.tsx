@@ -1,6 +1,6 @@
 import { component$ } from '@builder.io/qwik';
 import { Image } from '@unpic/qwik';
-import ProgressBarImage from '../../../public/assets/images/digitalSection/leftSide/progressBar.svg'
+import ProgressBarImage from '/assets/images/digitalSection/leftSide/progressBar.svg'
 
 export default component$(() => {
 
@@ -22,7 +22,7 @@ export default component$(() => {
                         <div class="ml-[30px] pt-[30px]">
                             <div >
                                 
-                                <Image src={ProgressBarImage} width={403} height={460} alt="progrss bar"/>
+                                <Image  width={403} height={460} alt="progrss bar"/>
                             </div>
                         </div>
                         <div class="ml-[380px] absolute mt-[-505px]">
