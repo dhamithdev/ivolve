@@ -54,7 +54,7 @@ export default component$(() => {
                 </div>
             </div>
             <div class="">
-                <h4 class="text-[#494162] font-Fixel400 text-center text-[24px] mt-5">Where every detail, plan, and execution transforms possibilities into reality.</h4>
+                <h3 class="text-[#494162] font-Fixel400 text-center text-[24px] mt-5">Where every detail, plan, and execution transforms possibilities into reality.</h3>
             </div>
             <div class="mt-16 flex flex-row justify-between mb-40">
                 <div class="w-[405px] h-[550px] rounded-3xl bg-[#FEFAFF]">
