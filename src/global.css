@@ -42,6 +42,13 @@ body {
 }
 
 @font-face {
+	font-family: 'GeistMono400';
+	src: url('/assets/fonts/Geist-Regular.woff2') format('woff2');
+	font-weight: Medium;
+	font-style: normal;
+  }
+
+@font-face {
   font-family: 'GeistMono500';
   src: url('/assets/fonts/Geist-Medium.woff2') format('woff2');
   font-weight: Medium;
@@ -91,6 +98,25 @@ body {
   font-style: normal;
 }
 
+@font-face {
+	font-family: 'Poppins400';
+	src: url('/assets/fonts/poppins-regular-webfont.woff2') format('woff2');
+
+	font-style: normal;
+  }
+
+  
+  @font-face {
+	font-family: 'Poppins600';
+	src: url('/assets/fonts/poppins-semibold-webfont.woff2') format('woff2');
+	font-weight: Medium;
+	font-style: normal;
+  }
+  
+  .hr-color{
+	background: rgba(255, 255, 255, 0.32);
+	opacity: 0.2;
+  }
 
 .main-text-gradient {
 

@@ -3,6 +3,7 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 import DigitalSection from "~/components/digitalSection/DigitalSection";
 import DiscoverySection from "~/components/discoverySection/DiscoverySection";
 import ElevateSection from "~/components/elevateSection/ElevateSection";
+import Footer from "~/components/footer/Footer";
 import HeroSection from "~/components/heroSection/HeroSection";
 import JourneySection from "~/components/journeySection/JourneySection";
 import Navbar from "~/components/navbar/Navbar";
@@ -15,16 +16,17 @@ import YourIdeaSection from "~/components/yourIdeaSection/YourIdeaSection";
 export default component$(() => {
   return (
     <div class="">
-      {/* <Navbar/>
+      <Navbar/>
       <HeroSection/>
        <TruestSection/>
       <DiscoverySection/>
       <ElevateSection/>
       <DigitalSection/>
-      <YourIdeaSection/> */}
+      <YourIdeaSection/>
       <JourneySection/> 
       <TheirWordsSection/>
       <SheduleCall/>
+      <Footer/>
       {/* <Test/> */}
     </div>
   );

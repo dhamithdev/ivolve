@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
+        GeistMono400 : ['GeistMono400'],
         GeistMono500 : ['GeistMono500'],
         GeistMono600 : ['GeistMono600'],
         Fixel400 : ['Fixel400'],
@@ -11,6 +12,8 @@ module.exports = {
         Fixel600 : ['Fixel600'],
         PlusJakartaSans : ['PlusJakartaSans'],
         CerebriSans : ['CerebriSans'],
+        Poppins400 : ['Poppins400'],
+        Poppins600 : ['Poppins600'],
       },
 
     },

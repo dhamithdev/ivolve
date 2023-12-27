@@ -193,7 +193,7 @@ export default component$(() => {
                         </div>
                     </div>
                     {/* card 2 */}
-                    {/* <div class="w-1/3 h-auto border-[1px] border-[#D8D5E0] rounded-[22px] card-background-gradient gradient-border-card relative">
+                    <div class="w-1/3 h-auto border-[1px] border-[#D8D5E0] rounded-[22px] card-background-gradient gradient-border-card relative">
                         <svg class="w-full h-auto" viewBox="0 0 406 244" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <line y1="80.5" x2="406" y2="80.5" stroke="#D8D5E0" />
                             <line y1="162.5" x2="406" y2="162.5" stroke="#D8D5E0" stroke-opacity="0.5" />
@@ -394,9 +394,9 @@ export default component$(() => {
                                 </p>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                     {/* card 3 */}
-                    {/* <div class="w-1/3 h-auto border-[1px] border-[#D8D5E0] rounded-[22px] card-background-gradient gradient-border-card relative">
+                    <div class="w-1/3 h-auto border-[1px] border-[#D8D5E0] rounded-[22px] card-background-gradient gradient-border-card relative">
                         <svg class="w-full h-auto" viewBox="0 0 406 244" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <line y1="80.5" x2="406" y2="80.5" stroke="#D8D5E0" />
                             <line y1="162.5" x2="406" y2="162.5" stroke="#D8D5E0" stroke-opacity="0.5" />
@@ -441,11 +441,11 @@ export default component$(() => {
                                 </p>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
-                {/* <div class="gap-10 flex mt-10"> */}
+                <div class="gap-10 flex mt-10">
                     {/* card 4 */}
-                    {/* <div class="w-1/2 h-[364px] border-[1px] border-[#D8D5E0] rounded-[22px] card-background-gradient gradient-border-card relative">
+                    <div class="w-1/2 h-[364px] border-[1px] border-[#D8D5E0] rounded-[22px] card-background-gradient gradient-border-card relative">
                         <svg width="624" height="244" viewBox="0 0 624 244" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_28_956)">
                                 <path d="M0 124H624" stroke="#D8D5E0" />
@@ -3052,9 +3052,9 @@ export default component$(() => {
                                 </p>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                     {/* card 5 */}
-                    {/* <div class="w-1/2 h-[364px] border-[1px] border-[#D8D5E0] rounded-[22px] card-background-gradient gradient-border-card relative">
+                    <div class="w-1/2 h-[364px] border-[1px] border-[#D8D5E0] rounded-[22px] card-background-gradient gradient-border-card relative">
                         <svg width="624" height="244" viewBox="0 0 624 244" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_28_956)">
                                 <path d="M0 124H624" stroke="#D8D5E0" />
@@ -3133,8 +3133,8 @@ export default component$(() => {
                                 </p>
                             </div>
                         </div>
-                    </div> */}
-                {/* </div> */}
+                    </div>
+                </div>
             </div>
         </div>
     </div>)
