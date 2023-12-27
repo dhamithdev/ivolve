@@ -1,6 +1,6 @@
 import { component$ } from '@builder.io/qwik';
 import { Image } from '@unpic/qwik';
-import ProgressBarImage from '/assets/images/digitalSection/leftSide/progressBar.svg'
+
 
 export default component$(() => {
 
