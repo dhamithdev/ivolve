@@ -50,6 +50,42 @@ export default component$(() => {
             image: '/assets/images/theirWords/firstproject1.svg',
             altImage : 'avatar 4',
         },
+        {
+            id: 5,
+            title: 'Fast Project Delivery',
+            description: 'It’s well and good setting an ambi tious top-down target, but you also need a credible bottom-up plan to get there.',
+            name: 'Justus Menke',
+            position: 'CEO RankGenie',
+            image: '/assets/images/theirWords/firstproject1.svg',
+            altImage : 'avatar 1',
+        },
+        {
+            id: 6,
+            title: 'Fast Project Delivery',
+            description: 'It’s well and good setting an ambi tious top-down target, but you also need a credible bottom-up plan to get there.',
+            name: 'Justus Menke',
+            position: 'CEO RankGenie',
+            image: '/assets/images/theirWords/firstproject2.svg',
+            altImage : 'avatar 2',
+        },
+        {
+            id: 7,
+            title: 'Fast Project Delivery',
+            description: 'It’s well and good setting an ambi tious top-down target, but you also need a credible bottom-up plan to get there.',
+            name: 'Justus Menke',
+            position: 'CEO RankGenie',
+            image: '/assets/images/theirWords/firstproject3.svg',
+            altImage : 'avatar 3',
+        },
+        {
+            id: 8,
+            title: 'Fast Project Delivery',
+            description: 'It’s well and good setting an ambi tious top-down target, but you also need a credible bottom-up plan to get there.',
+            name: 'Justus Menke',
+            position: 'CEO RankGenie',
+            image: '/assets/images/theirWords/firstproject1.svg',
+            altImage : 'avatar 4',
+        },
 
     ];
 
@@ -59,7 +95,8 @@ export default component$(() => {
                 <h2 class="text-[#1B123B] text-[49px] font-GeistMono600 text-center w-[1000px] leading-none">Their words, a testament to the digital triumphs <span class="weve-sculpted-gradient">we've sculpted together</span>.</h2>
             </div>
             <div class="mt-20 overflow-hidden">
-                <div class="flex gap-10">
+                <div class="marquee">
+                <div class="flex gap-10 marquee-items">
                     {myCardData.map((mycarddata) => (
                         <div key={mycarddata.id} class="w-[360px] h-[218px] rounded-2xl border-[1px] border-[#C7C3D2B3]">
                             <div class="p-[24px]">
@@ -82,7 +119,10 @@ export default component$(() => {
                     ))}
 
                 </div>
+                </div>
             </div>
         </div>
     )
 });
+
+       
