@@ -10,6 +10,7 @@ export default component$(() => {
         name: string;
         position: string;
         image: string;
+        altImage : string;
     }
 
     const myCardData: CardDetails[] = [
@@ -20,6 +21,7 @@ export default component$(() => {
             name: 'Justus Menke',
             position: 'CEO RankGenie',
             image: '/assets/images/theirWords/firstproject1.svg',
+            altImage : 'avatar 1',
         },
         {
             id: 2,
@@ -28,6 +30,7 @@ export default component$(() => {
             name: 'Justus Menke',
             position: 'CEO RankGenie',
             image: '/assets/images/theirWords/firstproject2.svg',
+            altImage : 'avatar 2',
         },
         {
             id: 3,
@@ -36,6 +39,7 @@ export default component$(() => {
             name: 'Justus Menke',
             position: 'CEO RankGenie',
             image: '/assets/images/theirWords/firstproject3.svg',
+            altImage : 'avatar 3',
         },
         {
             id: 4,
@@ -44,6 +48,7 @@ export default component$(() => {
             name: 'Justus Menke',
             position: 'CEO RankGenie',
             image: '/assets/images/theirWords/firstproject1.svg',
+            altImage : 'avatar 4',
         },
 
     ];
@@ -63,7 +68,8 @@ export default component$(() => {
                                 <div class="mt-4">
                                     <div class="flex gap-4">
                                         <div class="mt-1">
-                                            <Image width={37} height={37} src={mycarddata.image} />
+                                            <Image width={37} height={37} src={mycarddata.image} 
+                                            alt={mycarddata.altImage}/>
                                         </div>
                                         <div >
                                             <h5 class="font-PlusJakartaSans text-[14px] text-[#160042] font-semibold mb-[1px]">{mycarddata.name}</h5>

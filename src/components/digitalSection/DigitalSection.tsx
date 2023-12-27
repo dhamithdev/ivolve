@@ -178,7 +178,7 @@ export default component$(() => {
                         </div>
                         <div class="absolute mt-[-380px] ml-[313px]">
                             <div>
-                                <Image src={"/assets/images/digitalSection/leftSide/teammembers.svg"} width={216} height={270} />
+                                <Image src={"/assets/images/digitalSection/leftSide/teammembers.svg"} width={216} height={270} alt="teammembers image"/>
                             </div>
                         </div>
                         <div class="absolute ml-[30px] mt-[-30px] ">
@@ -341,18 +341,18 @@ export default component$(() => {
                     <div class="flex flex-row overflow-hidden w-[600px] mb-5">
                     <div class="marquee">
                         <div class="marquee-items flex gap-24">
-                        <Image src={"/assets/images/digitalSection/imageLine/google.svg"} width={70} height={24} />
-                            <Image src={"/assets/images/digitalSection/imageLine/later.svg"} width={66} height={22} />
-                            <Image src={"/assets/images/digitalSection/imageLine/gadds.svg"} width={60} height={30} />
-                            <Image src={"/assets/images/digitalSection/imageLine/meta.svg"} width={82} height={16} />
-                            <Image src={"/assets/images/digitalSection/imageLine/hubspot.svg"} width={74} height={22} />
-                            <Image src={"/assets/images/digitalSection/imageLine/seo.svg"} width={166} height={22} />
-                            <Image src={"/assets/images/digitalSection/imageLine/google.svg"} width={70} height={24} />
-                            <Image src={"/assets/images/digitalSection/imageLine/later.svg"} width={66} height={22} />
-                            <Image src={"/assets/images/digitalSection/imageLine/gadds.svg"} width={60} height={30} />
-                            <Image src={"/assets/images/digitalSection/imageLine/meta.svg"} width={82} height={16} />
-                            <Image src={"/assets/images/digitalSection/imageLine/hubspot.svg"} width={74} height={22} />
-                            <Image src={"/assets/images/digitalSection/imageLine/seo.svg"} width={166} height={22} />
+                        <Image src={"/assets/images/digitalSection/imageLine/google.svg"} alt="google image" width={70} height={24} />
+                            <Image src={"/assets/images/digitalSection/imageLine/later.svg"} alt="later image" width={66} height={22} />
+                            <Image src={"/assets/images/digitalSection/imageLine/gadds.svg"} alt="gadds image" width={60} height={30} />
+                            <Image src={"/assets/images/digitalSection/imageLine/meta.svg"} alt="meta image" width={82} height={16} />
+                            <Image src={"/assets/images/digitalSection/imageLine/hubspot.svg"} alt="hubspot image" width={74} height={22} />
+                            <Image src={"/assets/images/digitalSection/imageLine/seo.svg"} alt="seo image"  width={166} height={22} />
+                            <Image src={"/assets/images/digitalSection/imageLine/google.svg"} alt="google image" width={70} height={24} />
+                            <Image src={"/assets/images/digitalSection/imageLine/later.svg"} alt="later image" width={66} height={22} />
+                            <Image src={"/assets/images/digitalSection/imageLine/gadds.svg"} alt="gadds image" width={60} height={30} />
+                            <Image src={"/assets/images/digitalSection/imageLine/meta.svg"} alt="meta image" width={82} height={16} />
+                            <Image src={"/assets/images/digitalSection/imageLine/hubspot.svg"} alt="hubspot image"  width={74} height={22} />
+                            <Image src={"/assets/images/digitalSection/imageLine/seo.svg"} alt="seo image" width={166} height={22} />
                         </div>
                     </div>
                     </div>

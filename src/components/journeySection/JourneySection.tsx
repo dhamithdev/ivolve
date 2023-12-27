@@ -58,7 +58,7 @@ export default component$(() => {
                             </button>
                         </div>
                         <div class="ml-[40px] pt-[50px]">
-                        <Image src={"/assets/images/journeySection/jgreen.svg"} alt="" layout="constrained" width={470} height={350} />
+                        <Image src={"/assets/images/journeySection/jgreen.svg"} alt="jgreen image"  layout="constrained" width={470} height={350} />
                         </div>
 
                     </div>
@@ -95,7 +95,7 @@ export default component$(() => {
                             </button>
                         </div>
                         <div class="ml-[40px] pt-[50px]">
-                        <Image src={"/assets/images/journeySection/jpink.svg"} alt="" layout="constrained" width={528} height={352} />
+                        <Image src={"/assets/images/journeySection/jpink.svg"} alt="jpink image"  layout="constrained" width={528} height={352} />
                         </div>
 
                     </div>

@@ -428,7 +428,7 @@ export default component$(() => {
                         <i aria-hidden="true"></i>
                         <div class="absolute">
                             <div class="ml-[50px] mt-[-230px]">
-                                <Image src={"/assets/images/yourIdeaSection/card3/card3 (2).svg"} width={306} height={208} />
+                                <Image src={"/assets/images/yourIdeaSection/card3/card3 (2).svg"} width={306} height={208} alt="card 3 2 Image"/>
                             </div>
                         </div>
                         <div class="mx-7 mt-[-14px]">

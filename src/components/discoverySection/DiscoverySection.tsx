@@ -26,7 +26,7 @@ export default component$(() => {
                     </div>
                 </div>
                 <div class="ml-[739px] mb-[-60px] z-0">
-                    <Image src={"/assets/images/discoverySection/Rectangle 4784.png"} width={343} height={73} />
+                    <Image src={"/assets/images/discoverySection/Rectangle 4784.png"} alt="Rectangle image" width={343} height={73} />
                 </div>
                 <h2 class="text-[#1B123B] text-[49px] font-GeistMono600 text-center leading-tight"><span class="pr-2">A Journey of Discovery,</span> Collaboration, and Transformation</h2>
                 <div class="ml-[1075px] mt-[-70px] ">
@@ -60,7 +60,7 @@ export default component$(() => {
                 <div class="w-[405px] h-[550px] rounded-3xl bg-[#FEFAFF]">
                     <div class="mx-5">
                     <div class="">
-                            <Image src={"/assets/images/discoverySection/cards/card1.svg"} width={370} height={335}  class="mt-5"/>
+                            <Image src={"/assets/images/discoverySection/cards/card1.svg"} alt="card 1 image" width={370} height={335}  class="mt-5"/>
                         </div>
                         <div>
                             <h5 class="text-[#1B123B] font-GeistMono600 text-[24px] my-2">Discover</h5>
@@ -74,7 +74,7 @@ export default component$(() => {
                 <div class="w-[405px] h-[550px] rounded-3xl bg-[#F2FFFA]">
                     <div class="mx-5">
                         <div class="">
-                            <Image src={"/assets/images/discoverySection/cards/card2.svg"} width={370} height={335} class="mt-5"/>
+                            <Image src={"/assets/images/discoverySection/cards/card2.svg"} alt="card 2 image" width={370} height={335} class="mt-5"/>
                         </div>
                         <div>
                             <h5 class="text-[#1B123B] font-GeistMono600 text-[24px] my-2">Crafting Possibilities</h5>
@@ -87,7 +87,7 @@ export default component$(() => {
                 <div class="w-[405px] h-[550px] rounded-3xl bg-[#FFFAF7]">
                     <div class="mx-5">
                     <div class="">
-                            <Image src={"/assets/images/discoverySection/cards/card3.svg"} width={370} height={335} class="mt-5"/>
+                            <Image src={"/assets/images/discoverySection/cards/card3.svg"} alt="card 3 image" width={370} height={335} class="mt-5"/>
                         </div>
                         <div>
                             <h5 class="text-[#1B123B] font-GeistMono600 text-[24px] my-2">Seal the Promise / Craft</h5>

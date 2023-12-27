@@ -88,18 +88,18 @@ export default component$(() => {
                     <div class="flex flex-row mb-8 overflow-hidden w-[600px]">
                         <div class="marquee">
                             <div class="marquee-items flex gap-24">
-                                <Image src={"/assets/images/elevateSection/imageLine1/nuxt.svg"} width={103} height={30} />
-                                <Image src={"/assets/images/elevateSection/imageLine1/Figma.svg"} width={72} height={20} />
-                                <Image src={"/assets/images/elevateSection/imageLine1/aws.svg"} width={40} height={24} />
-                                <Image src={"/assets/images/elevateSection/imageLine1/vite.svg"} width={26} height={26} />
-                                <Image src={"/assets/images/elevateSection/imageLine1/next.svg"} width={84} height={20} />
-                                <Image src={"/assets/images/elevateSection/imageLine1/node.svg"} width={77} height={22} />
-                                <Image src={"/assets/images/elevateSection/imageLine1/nuxt.svg"} width={103} height={30} />
-                                <Image src={"/assets/images/elevateSection/imageLine1/Figma.svg"} width={72} height={20} />
-                                <Image src={"/assets/images/elevateSection/imageLine1/aws.svg"} width={40} height={24} />
-                                <Image src={"/assets/images/elevateSection/imageLine1/vite.svg"} width={26} height={26} />
-                                <Image src={"/assets/images/elevateSection/imageLine1/next.svg"} width={84} height={20} />
-                                <Image src={"/assets/images/elevateSection/imageLine1/node.svg"} width={77} height={22} />
+                                <Image src={"/assets/images/elevateSection/imageLine1/nuxt.svg"} alt="nuxt image" width={103} height={30} />
+                                <Image src={"/assets/images/elevateSection/imageLine1/Figma.svg"} alt="Figma image" width={72} height={20} />
+                                <Image src={"/assets/images/elevateSection/imageLine1/aws.svg"} alt="aws image"  width={40} height={24} />
+                                <Image src={"/assets/images/elevateSection/imageLine1/vite.svg"} alt="vite image" width={26} height={26} />
+                                <Image src={"/assets/images/elevateSection/imageLine1/next.svg"} alt="next image" width={84} height={20} />
+                                <Image src={"/assets/images/elevateSection/imageLine1/node.svg"} alt="node image" width={77} height={22} />
+                                <Image src={"/assets/images/elevateSection/imageLine1/nuxt.svg"} alt="nuxt image" width={103} height={30} />
+                                <Image src={"/assets/images/elevateSection/imageLine1/Figma.svg"} alt="Figma image"  width={72} height={20} />
+                                <Image src={"/assets/images/elevateSection/imageLine1/aws.svg"} alt="aws image" width={40} height={24} />
+                                <Image src={"/assets/images/elevateSection/imageLine1/vite.svg"} alt="vite image" width={26} height={26} />
+                                <Image src={"/assets/images/elevateSection/imageLine1/next.svg"} alt="next image" width={84} height={20} />
+                                <Image src={"/assets/images/elevateSection/imageLine1/node.svg"} alt="node image" width={77} height={22} />
                             </div>
                         </div>
                     </div>
@@ -107,16 +107,16 @@ export default component$(() => {
                     <div class="flex flex-row overflow-hidden w-[600px] mb-5">
                         <div class="marquee2">
                             <div class="marquee-items2 flex gap-24">
-                                <Image src={"/assets/images/elevateSection/imageLine2/ghost.svg"} width={70} height={26} />
-                                <Image src={"/assets/images/elevateSection/imageLine2/strapi.svg"} width={87} height={23} />
-                                <Image src={"/assets/images/elevateSection/imageLine2/webflow.svg"} width={111} height={18} />
-                                <Image src={"/assets/images/elevateSection/imageLine2/shopity.svg"} width={84} height={24} />
-                                <Image src={"/assets/images/elevateSection/imageLine2/sanirty.svg"} width={88} height={18} />
-                                <Image src={"/assets/images/elevateSection/imageLine2/ghost.svg"} width={70} height={26} />
-                                <Image src={"/assets/images/elevateSection/imageLine2/strapi.svg"} width={87} height={23} />
-                                <Image src={"/assets/images/elevateSection/imageLine2/webflow.svg"} width={111} height={18} />
-                                <Image src={"/assets/images/elevateSection/imageLine2/shopity.svg"} width={84} height={24} />
-                                <Image src={"/assets/images/elevateSection/imageLine2/sanirty.svg"} width={88} height={18} />
+                                <Image src={"/assets/images/elevateSection/imageLine2/ghost.svg"} alt="ghost image" width={70} height={26} />
+                                <Image src={"/assets/images/elevateSection/imageLine2/strapi.svg"} alt="strapi image"  width={87} height={23} />
+                                <Image src={"/assets/images/elevateSection/imageLine2/webflow.svg"} alt="webflow image"  width={111} height={18} />
+                                <Image src={"/assets/images/elevateSection/imageLine2/shopity.svg"} alt="shopity image"  width={84} height={24} />
+                                <Image src={"/assets/images/elevateSection/imageLine2/sanirty.svg"} alt="sanirty image"  width={88} height={18} />
+                                <Image src={"/assets/images/elevateSection/imageLine2/ghost.svg"} alt="ghost image"  width={70} height={26} />
+                                <Image src={"/assets/images/elevateSection/imageLine2/strapi.svg"} alt="strapi image"  width={87} height={23} />
+                                <Image src={"/assets/images/elevateSection/imageLine2/webflow.svg"} alt="webflow image"  width={111} height={18} />
+                                <Image src={"/assets/images/elevateSection/imageLine2/shopity.svg"} alt="shopity image"  width={84} height={24} />
+                                <Image src={"/assets/images/elevateSection/imageLine2/sanirty.svg"} alt="sanirty image"  width={88} height={18} />
                             </div>
                         </div>
                     </div>
@@ -181,7 +181,7 @@ export default component$(() => {
                                 </svg>
                             </div>
                             <div class="absolute ml-[310px] mt-[110px]">
-                                <Image src={"/assets/images/elevateSection/rightside/alpaSEo.svg"} width={214} height={233} />
+                                <Image src={"/assets/images/elevateSection/rightside/alpaSEo.svg"} width={214} height={233} alt="alpaSEo image" />
                             </div>
                             <div class="absolute ml-[30px] mt-[440px]">
                                 <svg width="526" height="208" viewBox="0 0 526 208" fill="none" xmlns="http://www.w3.org/2000/svg">
