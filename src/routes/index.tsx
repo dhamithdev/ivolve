@@ -15,7 +15,7 @@ import YourIdeaSection from "~/components/yourIdeaSection/YourIdeaSection";
 
 export default component$(() => {
   return (
-    <div class="">
+    <main class="">
       <Navbar/>
       <HeroSection/>
        <TruestSection/>
@@ -28,7 +28,7 @@ export default component$(() => {
       <SheduleCall/>
       <Footer/>
       {/* <Test/> */}
-    </div>
+    </main>
   );
 });
 
