@@ -1,7 +1,4 @@
 import { component$ } from '@builder.io/qwik';
-import FirstProjectImage1 from '/assets/images/theirWords/firstproject1.svg'
-import FirstProjectImage2 from '/assets/images/theirWords/firstproject2.svg'
-import FirstProjectImage3 from '/assets/images/theirWords/firstproject3.svg'
 import { Image } from '@unpic/qwik';
 
 export default component$(() => {
@@ -22,7 +19,7 @@ export default component$(() => {
             description: 'It’s well and good setting an ambi tious top-down target, but you also need a credible bottom-up plan to get there.',
             name: 'Justus Menke',
             position: 'CEO RankGenie',
-            image: FirstProjectImage1,
+            image: '/assets/images/theirWords/firstproject1.svg',
         },
         {
             id: 2,
@@ -30,7 +27,7 @@ export default component$(() => {
             description: 'It’s well and good setting an ambi tious top-down target, but you also need a credible bottom-up plan to get there.',
             name: 'Justus Menke',
             position: 'CEO RankGenie',
-            image: FirstProjectImage2,
+            image: '/assets/images/theirWords/firstproject2.svg',
         },
         {
             id: 3,
@@ -38,7 +35,7 @@ export default component$(() => {
             description: 'It’s well and good setting an ambi tious top-down target, but you also need a credible bottom-up plan to get there.',
             name: 'Justus Menke',
             position: 'CEO RankGenie',
-            image: FirstProjectImage3,
+            image: '/assets/images/theirWords/firstproject3.svg',
         },
         {
             id: 4,
@@ -46,7 +43,7 @@ export default component$(() => {
             description: 'It’s well and good setting an ambi tious top-down target, but you also need a credible bottom-up plan to get there.',
             name: 'Justus Menke',
             position: 'CEO RankGenie',
-            image: FirstProjectImage1,
+            image: '/assets/images/theirWords/firstproject1.svg',
         },
 
     ];
