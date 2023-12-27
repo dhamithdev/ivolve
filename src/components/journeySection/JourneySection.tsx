@@ -15,11 +15,11 @@ export default component$(() => {
                 </div>
                 <div class="mt-14 flex justify-between">
                     {/* card 1 */}
-                    <div class="w-[590px] h-[749px] green-cese-gradient rounded-[30px]">
-                        {/* <div class="ml-[30px] pt-[30px]">
+                    <div class="w-[630px] h-[749px] green-cese-gradient rounded-[30px]">
+                    <div class="ml-[30px] pt-[30px]">
                             <h6 class="text-[#8000FF] font-GeistMono600 text-[20px] ">Seal the Promise / Craft</h6>
-                        </div> */}
-                        <div class="ml-[30px] pt-[30px]">
+                        </div>
+                        <div class="ml-[30px] pt-[10px]">
                             <h5 class="text-[#1B123B] font-GeistMono600 text-[28px]">A Journey of Discovery, Collaboration, and Transformation</h5>
                         </div>
                         <div class="ml-[30px] pt-[18px]">
@@ -63,15 +63,26 @@ export default component$(() => {
 
                     </div>
                     {/* card 2 */}
-                    <div class="w-[590px] h-[749px] pink-case-gradient rounded-[30px]">
+                    <div class="w-[630px] h-[749px] pink-case-gradient rounded-[30px]">
                         <div class="ml-[30px] pt-[30px]">
-                            <h6 class="text-[#8000FF] font-GeistMono600 text-[20px] ">Seal the Promise / Craft</h6>
+                        <h6 class="text-[#8000FF] font-GeistMono600 text-[20px] ">Seal the Promise / Craft</h6>
                         </div>
                         <div class="ml-[30px] pt-[10px]">
                             <h5 class="text-[#1B123B] font-GeistMono600 text-[28px]">A Journey of Discovery, Collaboration, and Transformation</h5>
                         </div>
-                        <div class="ml-[30px] pt-[30px]">
+                        <div class="ml-[30px] pt-[18px]">
                             <p class="text-[#494162] font-Fixel400 text-[18px]">It’s well and good setting an ambitious top-down target, but you also need a credible bottom-up plan to get there. Causal’s templates give you a great starting point to set realistic targets.</p>
+                        </div>
+                        <div class="flex ml-[30px] pt-[18px] gap-5">
+                            <div>
+                                <div class="font-Fixel500 text-[16px] text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded">UX/UI</div>
+                            </div>
+                            <div>
+                                <div class="font-Fixel500 text-[16px] text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded">Development</div>
+                            </div>
+                            <div>
+                                <div class="font-Fixel500 text-[16px] text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded">SEO</div>
+                            </div>
                         </div>
                         <div class="ml-[30px] pt-[30px]">
                             <button  class="w-[220px] h-[32px]  rounded-lg bg-gradient-to-r from-purple-400 via-purple-500 to-indigo-600 ">
