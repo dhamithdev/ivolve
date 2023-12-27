@@ -23,9 +23,9 @@ export default component$(() => {
       <ElevateSection/>
       {/* <DigitalSection/>
       <YourIdeaSection/>
-      <JourneySection/> 
+      <JourneySection/>  */}
       <TheirWordsSection/>
-      <SheduleCall/>
+      {/* <SheduleCall/>
       <Footer/> */}
 
     </main>
