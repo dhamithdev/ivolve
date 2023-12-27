@@ -5,9 +5,9 @@ export default component$(() => {
     return (<div class="mx-20 ">
         <div class="">
             <div class="">
-                <div class="ml-[672px] mb-[-12px] z-1">
+                <div class="ml-[672px] mt-[-40px] absolute">
                     <div>
-                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg  width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M3.75 3.75L12.5875 24.9625L15.725 15.725L24.9625 12.5875L3.75 3.75Z" fill="url(#paint0_linear_28_122)" stroke="url(#paint1_linear_28_122)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             <defs>
                                 <linearGradient id="paint0_linear_28_122" x1="14.3563" y1="3.75" x2="23.4831" y2="23.2025" gradientUnits="userSpaceOnUse">
@@ -25,8 +25,8 @@ export default component$(() => {
                         <span class="py-2 text-[14px] font-Fixel500 text-white">Smith</span>
                     </div>
                 </div>
-                <div class="ml-[739px] mb-[-60px] z-0">
-                    <Image src={"/assets/images/discoverySection/Rectangle 4784.png"} alt="Rectangle image" width={343} height={73} />
+                <div class="ml-[739px] mb-[-60px] ">
+                    <Image  src={"/assets/images/discoverySection/Rectangle 4784.png"} alt="Rectangle image" width={343} height={73} />
                 </div>
                 <h2 class="text-[#1B123B] text-[49px] font-GeistMono600 text-center leading-tight"><span class="pr-2">A Journey of Discovery,</span> Collaboration, and Transformation</h2>
                 <div class="ml-[1075px] mt-[-70px] ">

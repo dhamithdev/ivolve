@@ -21,12 +21,12 @@ export default component$(() => {
        <TruestSection/>
       <DiscoverySection/>
       <ElevateSection/>
-      <DigitalSection/>
+      {/* <DigitalSection/>
       <YourIdeaSection/>
       <JourneySection/> 
       <TheirWordsSection/>
       <SheduleCall/>
-      <Footer/>
+      <Footer/> */}
 
     </main>
   );
