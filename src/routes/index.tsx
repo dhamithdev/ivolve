@@ -18,15 +18,15 @@ export default component$(() => {
     <main class="max-w-[1920px] mx-auto relative overflow-hidden">
       <Navbar/>
       <HeroSection/>
-       <TruestSection/>
+      <TruestSection/>
       <DiscoverySection/>
-      <ElevateSection/>
+      {/* <ElevateSection/>
       <DigitalSection/>
       <YourIdeaSection/>
       <JourneySection/> 
       <TheirWordsSection/>
       <SheduleCall/>
-      <Footer/>
+      <Footer/> */}
 
     </main>
   );
