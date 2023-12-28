@@ -65,44 +65,44 @@ export default component$(() => {
 
             <div class="mt-16 flex flex-row justify-between mb-40">
                 {/* card 1 */}
-                <div class="w-[380px] h-[550px] rounded-3xl bg-[#FEFAFF]">
+                <div class="w-[30%] h-auto rounded-3xl bg-[#cc6de4] pb-8">
                     <div class="mx-3">
                         <div class="">
-                            <Image src={"/assets/images/discoverySection/cards/card1.svg"} alt="card 1 image" width={350} height={335} class="mt-5" />
+                            <Image layout="constrained" src={"/assets/images/discoverySection/cards/card1.svg"} alt="card 1 image" width={350} height={335} class="mt-5" />
                         </div>
                         <div>
                             <h5 class="text-[#1B123B] font-GeistMono600 text-[24px] my-2 w-[350px]">Discover</h5>
                         </div>
                         <div class="mt-4">
-                            <p class="text-[#1B123B] font-Fixel400 text-[16px] w-[350px] ">Embark on a journey with us as we delve into the heart of your project. Through a meticulous Discovery & Needs Assessment, we unravel your vision, ensuring every detail is captured.</p>
+                            <p class="text-[#1B123B] font-Fixel400 text-[16px] w-auto ">Embark on a journey with us as we delve into the heart of your project. Through a meticulous Discovery & Needs Assessment, we unravel your vision, ensuring every detail is captured.</p>
                         </div>
                     </div>
                 </div>
                 {/* card 2 */}
-                <div class="w-[380px] h-[550px] rounded-3xl bg-[#F2FFFA]">
+                <div class="w-[30%] h-auto rounded-3xl bg-[#56dead] pb-8">
                     <div class="mx-3">
                         <div class="">
-                            <Image src={"/assets/images/discoverySection/cards/card2.svg"} alt="card 2 image" width={350} height={335} class="mt-5" />
+                            <Image layout="constrained" src={"/assets/images/discoverySection/cards/card2.svg"} alt="card 2 image" width={350} height={335} class="mt-5" />
                         </div>
                         <div>
                             <h5 class="text-[#1B123B] font-GeistMono600 text-[24px] my-2">Crafting Possibilities</h5>
                         </div>
                         <div class="mt-4">
-                            <p class="text-[#1B123B] font-Fixel400 text-[16px] w-[350px]">Explore possibilities with our expertise, working together to sculpt your Vision. We blend creativity and precision, shaping ideas into a solid plan through budget and timeline.</p>
+                            <p class="text-[#1B123B] font-Fixel400 text-[16px] w-auto">Explore possibilities with our expertise, working together to sculpt your Vision. We blend creativity and precision, shaping ideas into a solid plan through budget and timeline.</p>
                         </div>
                     </div>
                 </div>
                 {/* card 3 */}
-                <div class="w-[380px] h-[550px] rounded-3xl bg-[#FFFAF7]">
+                <div class="w-[30%] h-auto rounded-3xl bg-[#f8a372] pb-8">
                     <div class="mx-3">
                         <div class="">
-                            <Image src={"/assets/images/discoverySection/cards/card3.svg"} alt="card 3 image" width={350} height={335} class="mt-5" />
+                            <Image layout="constrained" src={"/assets/images/discoverySection/cards/card3.svg"} alt="card 3 image" width={350} height={335} class="mt-5" />
                         </div>
                         <div>
                             <h5 class="text-[#1B123B] font-GeistMono600 text-[24px] my-2">Seal the Promise / Craft</h5>
                         </div>
                         <div class="mt-4">
-                            <p class="text-[#1B123B] font-Fixel400 text-[16px] w-[350px]">Watch as your vision unfolds. From meticulous execution to real-time progress updates, we ensure every step is a testament to the transformative results we craft together.</p>
+                            <p class="text-[#1B123B] font-Fixel400 text-[16px] w-auto">Watch as your vision unfolds. From meticulous execution to real-time progress updates, we ensure every step is a testament to the transformative results we craft together.</p>
                         </div>
                     </div>
                 </div>

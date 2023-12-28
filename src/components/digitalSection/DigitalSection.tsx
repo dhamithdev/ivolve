@@ -17,8 +17,8 @@ export default component$(() => {
     return (<div class="mx-20 mt-24 mb-36">
         <div>
             <div class="flex flex-row justify-between">
-                <div>
-                    <div class="w-[545px] h-[630px] bg-[#FFFAF7] rounded-[30px]">
+              
+                    <div class="w-[48%] h-auto bg-[#534944] rounded-[30px]">
                         <div class="ml-[30px] pt-[30px]">
                             <div >
                                 <svg width="403" height="460" viewBox="0 0 403 460" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -262,8 +262,8 @@ export default component$(() => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div>
+               
+                <div class="w-[48%]">
                     <div class="mb-5">
                         <div class="absolute">
                             <div class="mt-[34px] ml-[-3px] absolute">
@@ -293,10 +293,10 @@ export default component$(() => {
                                 </svg>
                             </div>
                         </div>
-                        <h3 class="w-[624px] font-GeistMono600 text-[37px] leading-tight text-[#1B123B] "><span class="bg-gradient-to-r from-pink-500 via-fuchsia-600 to-indigo-800   text-transparent bg-clip-text">Precision Tactics</span> for Seamless Digital Growth</h3>
+                        <h3 class="w-auto font-GeistMono600 text-[37px] leading-tight text-[#1B123B] "><span class="bg-gradient-to-r from-pink-500 via-fuchsia-600 to-indigo-800   text-transparent bg-clip-text">Precision Tactics</span> for Seamless Digital Growth</h3>
                     </div>
                     <div class="mb-5">
-                        <p class="w-[626px] text-[#494162] text-[18px] font-Fixel400">Explore our comprehensive suite of digital mastery, where each element is intricately designed to elevate your brand's presence in the vast digital landscape.</p>
+                        <p class="w-auto text-[#494162] text-[18px] font-Fixel400">Explore our comprehensive suite of digital mastery, where each element is intricately designed to elevate your brand's presence in the vast digital landscape.</p>
                     </div>
                     <div class="mb-5">
                         <hr class="bg-[#D1D0D8]" />
@@ -336,9 +336,9 @@ export default component$(() => {
                         <hr class="bg-[#D1D0D8]" />
                     </div>
                     <div class="mb-5">
-                        <p class="w-[600px] text-[18px] font-Fixel400 text-[#494162]">Step into a digital realm where your brand's story is curated with precision. Our tailored solutions are the brushstrokes, painting an unforgettable narrative. Ready to redefine your digital journey? Explore the possibilities now!</p>
+                        <p class="w-auto text-[18px] font-Fixel400 text-[#494162]">Step into a digital realm where your brand's story is curated with precision. Our tailored solutions are the brushstrokes, painting an unforgettable narrative. Ready to redefine your digital journey? Explore the possibilities now!</p>
                     </div>
-                    <div class="flex flex-row overflow-hidden w-[600px] mb-5">
+                    <div class="flex flex-row overflow-hidden w-auto mb-5">
                     <div class="marquee">
                         <div class="marquee-items flex gap-24">
                         <Image src={"/assets/images/digitalSection/imageLine/google.svg"} alt="google image" width={70} height={24} />

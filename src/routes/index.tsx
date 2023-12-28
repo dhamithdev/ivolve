@@ -20,13 +20,13 @@ export default component$(() => {
       <HeroSection/>
       <TruestSection/>
       <DiscoverySection/>
-      {/* <ElevateSection/>
+      <ElevateSection/>
       <DigitalSection/>
       <YourIdeaSection/>
       <JourneySection/> 
       <TheirWordsSection/>
       <SheduleCall/>
-      <Footer/> */}
+      <Footer/>
 
     </main>
   );
