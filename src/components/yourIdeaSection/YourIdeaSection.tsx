@@ -99,9 +99,9 @@ export default component$(() => {
                     </h2>
                 </div>
                 <div class="text-center justify-center items-center flex mt-2">
-                    <h5 class="text-center text-[#494162] text-[24px] font-Fixel400 w-[1000px]">
+                    <p class="text-center text-[#494162] text-[24px] font-Fixel400 w-[1000px]">
                         Embark on a Journey of Creative Synergy with Us. Where Imagination Meets Expertise in an Unprecedented Partnership Adventure.
-                    </h5>
+                    </p>
                 </div>
             </div>
             <div class="mt-24 mb-20 ">

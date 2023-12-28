@@ -43,7 +43,7 @@ export default component$(() => {
                             </svg>
                             </Link>
                             <Link href="/" aria-label="go to ivolve Global page">
-                            <h5 class="text-white text-[24px] font-GeistMono600">ivolve Global</h5>
+                            <p class="text-white text-[24px] font-GeistMono600">ivolve Global</p>
                             </Link>
                         </div>
                         

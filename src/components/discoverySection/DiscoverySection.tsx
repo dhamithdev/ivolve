@@ -59,7 +59,7 @@ export default component$(() => {
                 </div>
             </div>
             <div class="">
-                <h5 class="text-[#494162] font-Fixel400 text-center text-[24px] mt-5">Where every detail, plan, and execution transforms possibilities into reality.</h5>
+                <p class="text-[#494162] font-Fixel400 text-center text-[24px] mt-5">Where every detail, plan, and execution transforms possibilities into reality.</p>
             </div>
             </div>
 
@@ -71,7 +71,7 @@ export default component$(() => {
                             <Image layout="constrained" src={"/assets/images/discoverySection/cards/card1.svg"} alt="card 1 image" width={350} height={335} class="mt-5" />
                         </div>
                         <div>
-                            <h5 class="text-[#1B123B] font-GeistMono600 text-[24px] my-2 w-[350px]">Discover</h5>
+                            <p class="text-[#1B123B] font-GeistMono600 text-[24px] my-2 w-[350px]">Discover</p>
                         </div>
                         <div class="mt-4">
                             <p class="text-[#1B123B] font-Fixel400 text-[16px] w-auto ">Embark on a journey with us as we delve into the heart of your project. Through a meticulous Discovery & Needs Assessment, we unravel your vision, ensuring every detail is captured.</p>
@@ -85,7 +85,7 @@ export default component$(() => {
                             <Image layout="constrained" src={"/assets/images/discoverySection/cards/card2.svg"} alt="card 2 image" width={350} height={335} class="mt-5" />
                         </div>
                         <div>
-                            <h5 class="text-[#1B123B] font-GeistMono600 text-[24px] my-2">Crafting Possibilities</h5>
+                            <p class="text-[#1B123B] font-GeistMono600 text-[24px] my-2">Crafting Possibilities</p>
                         </div>
                         <div class="mt-4">
                             <p class="text-[#1B123B] font-Fixel400 text-[16px] w-auto">Explore possibilities with our expertise, working together to sculpt your Vision. We blend creativity and precision, shaping ideas into a solid plan through budget and timeline.</p>
@@ -99,7 +99,7 @@ export default component$(() => {
                             <Image layout="constrained" src={"/assets/images/discoverySection/cards/card3.svg"} alt="card 3 image" width={350} height={335} class="mt-5" />
                         </div>
                         <div>
-                            <h5 class="text-[#1B123B] font-GeistMono600 text-[24px] my-2">Seal the Promise / Craft</h5>
+                            <p class="text-[#1B123B] font-GeistMono600 text-[24px] my-2">Seal the Promise / Craft</p>
                         </div>
                         <div class="mt-4">
                             <p class="text-[#1B123B] font-Fixel400 text-[16px] w-auto">Watch as your vision unfolds. From meticulous execution to real-time progress updates, we ensure every step is a testament to the transformative results we craft together.</p>

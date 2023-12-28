@@ -5,7 +5,7 @@ export default component$(() => {
     return (<div class="mx-20 mt-28">
         <div>
             <div class="">
-                <h5 class="font-GeistMono600 text-[#1B123B] text-[24px] text-center ">Trusted by best in the business</h5>
+                <p class="font-GeistMono600 text-[#1B123B] text-[24px] text-center ">Trusted by best in the business</p>
             </div>
             <div class=" mt-10  mb-32 overflow-hidden">
             <div class="marquee">
