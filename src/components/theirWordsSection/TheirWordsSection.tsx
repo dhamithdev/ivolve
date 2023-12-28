@@ -109,8 +109,8 @@ export default component$(() => {
                                             alt={mycarddata.altImage}/>
                                         </div>
                                         <div >
-                                            <h5 class="font-Fixel600 text-[14px] text-[#160042] font-semibold mb-[1px]">{mycarddata.name}</h5>
-                                            <h5 class="font-Fixel400 font-normal text-[12px] text-[#3D345145]">{mycarddata.position}</h5>
+                                            <p class="font-Fixel600 text-[14px] text-[#160042] font-semibold mb-[1px]">{mycarddata.name}</p>
+                                            <p class="font-Fixel400 font-normal text-[12px] text-[#3D345145]">{mycarddata.position}</p>
                                         </div>
                                     </div>
                                 </div>
