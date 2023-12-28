@@ -17,7 +17,7 @@ export default component$(() => {
                     {/* card 1 */}
                     <div class="w-[48%] h-auto green-cese-gradient rounded-[30px] px-[30px]">
                     <div class=" pt-[30px]">
-                            <h6 class="text-[#8000FF] font-GeistMono600 text-[20px] ">Seal the Promise / Craft</h6>
+                            <p class="text-[#8000FF] font-GeistMono600 text-[20px] ">Seal the Promise / Craft</p>
                         </div>
                         <div class=" pt-[10px]">
                             <h4 class="text-[#1B123B] font-GeistMono600 text-[28px]">A Journey of Discovery, Collaboration, and Transformation</h4>
@@ -65,7 +65,7 @@ export default component$(() => {
                     {/* card 2 */}
                     <div class="w-[48%] h-auto pink-case-gradient rounded-[30px] px-[30px]">
                         <div class=" pt-[30px]">
-                        <h6 class="text-[#8000FF] font-GeistMono600 text-[20px] ">Seal the Promise / Craft</h6>
+                        <p class="text-[#8000FF] font-GeistMono600 text-[20px] ">Seal the Promise / Craft</p>
                         </div>
                         <div class=" pt-[10px]">
                             <h4 class="text-[#1B123B] font-GeistMono600 text-[28px]">A Journey of Discovery, Collaboration, and Transformation</h4>

@@ -181,7 +181,7 @@ export default component$(() => {
                             </div>
                             <div class="mx-[28px] mt-1">
                                 <div>
-                                    <h6 class="text-[#1B123B] font-GeistMono600 text-[20px] w-auto">Tailored Solutions for Your Vision</h6>
+                                    <p class="text-[#1B123B] font-GeistMono600 text-[20px] w-auto">Tailored Solutions for Your Vision</p>
                                 </div>
                                 <div class="mt-[8px] mb-7">
                                     <p class="font-Fixel400 text-[16px] text-[#1B123B] w-auto">
@@ -225,7 +225,7 @@ export default component$(() => {
                         </div>
                         <div class="mx-7 mt-1">
                             <div>
-                                <h6 class="text-[#1B123B] font-GeistMono600 text-[18px] w-auto">Expand Resources at Your Fingertips</h6>
+                                <p class="text-[#1B123B] font-GeistMono600 text-[18px] w-auto">Expand Resources at Your Fingertips</p>
                             </div>
                             <div class="mt-[8px] mb-7">
                                 <p class="font-Fixel400 text-[16px] text-[#1B123B] w-auto">
@@ -268,7 +268,7 @@ export default component$(() => {
                         </div>
                         <div class="mx-7 mt-[-14px]">
                             <div>
-                                <h6 class="text-[#1B123B] font-GeistMono600 text-[20px] w-auto">Precision Craftsmanship</h6>
+                                <p class="text-[#1B123B] font-GeistMono600 text-[20px] w-auto">Precision Craftsmanship</p>
                             </div>
                             <div class="mt-[8px] mb-7">
                                 <p class="font-Fixel400 text-[16px] text-[#1B123B] w-auto">
@@ -318,7 +318,7 @@ export default component$(() => {
 
                         <div class="mx-[22px] mt-[-180px] pb-5">
                             <div>
-                                <h6 class="text-[#1B123B] font-GeistMono600 text-[20px] w-auto">Unleash Your Product's Potential on a Global Scale</h6>
+                                <p class="text-[#1B123B] font-GeistMono600 text-[20px] w-auto">Unleash Your Product's Potential on a Global Scale</p>
                             </div>
                             <div class="mt-[8px]">
                                 <p class="font-Fixel400 text-[16px] text-[#1B123B]  w-auto">
@@ -366,7 +366,7 @@ export default component$(() => {
 
                         <div class="mx-[22px] mt-[30px] ">
                             <div>
-                                <h6 class="text-[#1B123B] font-GeistMono600 text-[20px] w-auto">Long-Term Success Driven by Continuous Improvement</h6>
+                                <p class="text-[#1B123B] font-GeistMono600 text-[20px] w-auto">Long-Term Success Driven by Continuous Improvement</p>
                             </div>
                             <div class="mt-[8px]">
                                 <p class="font-Fixel400 text-[16px] text-[#1B123B] w-auto">
