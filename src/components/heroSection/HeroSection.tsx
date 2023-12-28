@@ -217,7 +217,7 @@ export default component$(() => {
                 <h1 class="text-[80px] font-semibold text-[#1B123B] xl:w-[1100px] text-center leading-tight xl:mt-[80px] font-GeistMono600">Seamlessly blending design and technology to <span class="main-text-gradient">sculpt</span> your success story.</h1>
             </div>
             <div>
-                <h3 class="text-[24px] font-normal font-Fixel400 xl:w-[950px] text-center mt-10">From pixel to code, we craft visually intuitive digital experiences, elevating your brand with a compelling digital presence where creativity meets functionality.</h3>
+                <h5 class="text-[24px] font-normal font-Fixel400 xl:w-[950px] text-center mt-10">From pixel to code, we craft visually intuitive digital experiences, elevating your brand with a compelling digital presence where creativity meets functionality.</h5>
             </div>
             <div class="mt-16">
                 <button class=" py-3 px-4 rounded-3xl bg-gradient-to-r to-[#792FFF] from-[#AE5CFF]  flex" >

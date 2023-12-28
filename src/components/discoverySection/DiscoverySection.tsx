@@ -59,7 +59,7 @@ export default component$(() => {
                 </div>
             </div>
             <div class="">
-                <h3 class="text-[#494162] font-Fixel400 text-center text-[24px] mt-5">Where every detail, plan, and execution transforms possibilities into reality.</h3>
+                <h5 class="text-[#494162] font-Fixel400 text-center text-[24px] mt-5">Where every detail, plan, and execution transforms possibilities into reality.</h5>
             </div>
             </div>
 

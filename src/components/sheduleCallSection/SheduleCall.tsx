@@ -7,10 +7,10 @@ export default component$(() => {
         <div class="mx-28 mb-36">
             <div class="flex justify-center text-center flex-col shedule-call-gradient rounded-[22px] h-[498px]">
                 <div>
-                    <h4 class="text-white text-[49px] font-GeistMono600 mt-[-5px]">Ready to Redefine Your Digital Journey?</h4>
+                    <h2 class="text-white text-[49px] font-GeistMono600 mt-[-5px]">Ready to Redefine Your Digital Journey?</h2>
                 </div>
                 <div class="flex justify-center text-center">
-                    <h3 class="text-[#FFFFFFCC] w-[900px] font-Fixel400 text-[24px] mt-[24px]">Explore our tailored solutions, witness triumphs, and join the league of digital success. Let's craft your unique story. Explore Possibilities Now!</h3>
+                    <h5 class="text-[#FFFFFFCC] w-[900px] font-Fixel400 text-[24px] mt-[24px]">Explore our tailored solutions, witness triumphs, and join the league of digital success. Let's craft your unique story. Explore Possibilities Now!</h5>
                 </div>
                 <div class="flex justify-center text-center mt-[50px]">
                     <button class=" py-3 px-4 rounded-3xl border-[1px] border-[#BA87ED] flex shedule-call-button-gradient" >
