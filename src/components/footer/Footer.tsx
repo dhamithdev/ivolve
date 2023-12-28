@@ -56,26 +56,26 @@ export default component$(() => {
                         <div>
                             <ul>
                                 <li class="text-white text-[14px] font-GeistMono600 uppercase tracking-widest">Company</li>
-                                <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400 pt-[15px]"><Link href="#">Blog</Link></li>
-                                <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400 pt-[15px]"><Link href="#">Careers</Link></li>
-                                <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400 pt-[15px]"><Link href="#">Pricing</Link></li>
+                                <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400 pt-[15px]"><Link href="#" aria-label="go to blog page">Blog</Link></li>
+                                <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400 pt-[15px]"><Link href="#" aria-label="go to career page">Careers</Link></li>
+                                <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400 pt-[15px]"><Link href="#" aria-label="go to pricing page">Pricing</Link></li>
                             </ul>
                         </div>
                         <div>
                             <ul>
                                 <li class="text-white text-[14px] font-GeistMono600 uppercase tracking-widest">Resources</li>
-                                <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400  pt-[15px]"><Link href="#">Documentation</Link></li>
-                                <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400 pt-[15px]"><Link href="#">Papers</Link></li>
-                                <li class="text-[#FFFFFFCC] text-[16px] ffont-Fixel400pt-[15px]"><Link href="#">Press Conferences</Link></li>
+                                <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400  pt-[15px]"><Link href="#" aria-label="go to documentation page">Documentation</Link></li>
+                                <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400 pt-[15px]"><Link href="#" aria-label="go to papers page">Papers</Link></li>
+                                <li class="text-[#FFFFFFCC] text-[16px] ffont-Fixel400pt-[15px]"><Link href="#" aria-label="go to press conferences page">Press Conferences</Link></li>
                             </ul>
                         </div>
                         <div>
                             <ul class="">
                                 <li class="text-white text-[14px] font-GeistMono600 uppercase tracking-widest">Legal</li>
-                                <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400 pt-[15px]"><Link href="#">Terms of Service</Link></li>
-                                <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400 pt-[15px]"><Link href="#">Privacy Policy</Link></li>
-                                <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400 pt-[15px]"><Link href="#">Cookies Policy</Link></li>
-                                <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400 pt-[15px]"><Link href="#">Data Processing</Link></li>
+                                <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400 pt-[15px]"><Link href="#" aria-label="go to terms of service page">Terms of Service</Link></li>
+                                <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400 pt-[15px]"><Link href="#" aria-label="go to privacy policy page">Privacy Policy</Link></li>
+                                <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400 pt-[15px]"><Link href="#" aria-label="go to cookies policy page">Cookies Policy</Link></li>
+                                <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400 pt-[15px]"><Link href="#" aria-label="go to data processing page">Data Processing</Link></li>
                             </ul>
                         </div>
                     </div>
