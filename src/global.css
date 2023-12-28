@@ -271,7 +271,7 @@ background: linear-gradient(248deg, #FFF 34.56%, #FFF 62.32%, #E8D1FF 85.42%);
 }
 
 .mySvg path {
-  animation: drawLine 10s ease-in-out infinite;
+  animation: drawLine 5s ease-in-out infinite;
  
 }
 
