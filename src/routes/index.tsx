@@ -39,5 +39,22 @@ export const head: DocumentHead = {
       name: "description",
       content: "From pixel to code, we craft visually intuitive digital experiences, elevating your brand with a compelling digital presence where creativity meets functionality.",
     },
+    //open grpah
+    {
+      property: 'og:title',
+      content: 'ivolve Global',
+    },
+    {
+      property: 'og:description',
+      content: 'From pixel to code, we craft visually intuitive digital experiences, elevating your brand with a compelling digital presence where creativity meets functionality.',
+    },
+    {
+      property: 'og:image',
+      content: 'https://i.ibb.co/b2qjNbz/Screenshot-2023-12-28-234754.png',
+    },
+    {
+      property: 'og:url',
+      content: 'https://ivolve.vercel.app/',
+    },
   ],
 };
