@@ -18,7 +18,7 @@ export default component$(() => {
         <div>
             <div class="flex flex-row justify-between">
               
-                    <div class="w-[48%] h-auto bg-[#534944] rounded-[30px]">
+                    <div class="w-[48%] h-auto bg-[#FFFAF7] rounded-[30px]">
                         <div class="ml-[30px] pt-[30px]">
                             <div >
                                 <svg width="403" height="460" viewBox="0 0 403 460" fill="none" xmlns="http://www.w3.org/2000/svg">

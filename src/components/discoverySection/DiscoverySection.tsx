@@ -63,7 +63,7 @@ export default component$(() => {
             </div>
             </div>
 
-            <div class="mt-16 flex flex-row justify-between mb-40">
+            <div class="mt-16 flex flex-wrap justify-between mb-40">
                 {/* card 1 */}
                 <div class="w-[30%] h-auto rounded-3xl bg-[#cc6de4] pb-8">
                     <div class="mx-3">
@@ -79,7 +79,7 @@ export default component$(() => {
                     </div>
                 </div>
                 {/* card 2 */}
-                <div class="w-[30%] h-auto rounded-3xl bg-[#56dead] pb-8">
+                <div class="w-[30%] h-auto rounded-3xl bg-[#56dead] pb-8 border-[1px]">
                     <div class="mx-3">
                         <div class="">
                             <Image layout="constrained" src={"/assets/images/discoverySection/cards/card2.svg"} alt="card 2 image" width={350} height={335} class="mt-5" />

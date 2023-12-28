@@ -120,7 +120,7 @@ export default component$(() => {
                         </div>
                     </div>
                 </div>
-                <div class="w-[48%] h-auto bg-[#736876] rounded-[30px]">
+                <div class="w-[48%] h-auto bg-[#FEFAFF] rounded-[30px]">
                     
                         <div class="absolute ml-[30px] mt-[30px]">
                             <svg width="422" height="433" viewBox="0 0 422 433" fill="none" xmlns="http://www.w3.org/2000/svg">

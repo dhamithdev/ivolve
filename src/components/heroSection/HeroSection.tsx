@@ -115,7 +115,7 @@ export default component$(() => {
                         <feColorMatrix type="matrix" values="0 0 0 0 0.501961 0 0 0 0 0 0 0 0 0 1 0 0 0 0.06 0" />
                         <feBlend mode="normal" in2="shape" result="effect1_innerShadow_28_13" />
                     </filter>
-                    <linearGradient id="paint0_linear_28_13" x1="nan" y1="nan" x2="nan" y2="nan" gradientUnits="userSpaceOnUse">
+                    <linearGradient id="paint0_linear_28_13" x1="0" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
                         <stop stop-color="white" />
                         <stop offset="1" stop-color="#C2C2C2" stop-opacity="0.15" />
                     </linearGradient>
@@ -124,19 +124,19 @@ export default component$(() => {
                         <stop offset="0.275761" stop-color="#0DEE9C" stop-opacity="0.47" />
                         <stop offset="0.915924" stop-color="#8000FF" stop-opacity="0.47" />
                     </linearGradient>
-                    <linearGradient id="paint2_linear_28_13" x1="nan" y1="nan" x2="nan" y2="nan" gradientUnits="userSpaceOnUse">
+                    <linearGradient id="paint2_linear_28_13" x1="0" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
                         <stop stop-color="white" />
                         <stop offset="1" stop-color="#C2C2C2" stop-opacity="0.14" />
                     </linearGradient>
-                    <linearGradient id="paint3_linear_28_13" x1="nan" y1="nan" x2="nan" y2="nan" gradientUnits="userSpaceOnUse">
+                    <linearGradient id="paint3_linear_28_13" x1="0" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
                         <stop stop-color="white" />
                         <stop offset="1" stop-color="#F6F6F6" />
                     </linearGradient>
-                    <linearGradient id="paint4_linear_28_13" x1="nan" y1="nan" x2="nan" y2="nan" gradientUnits="userSpaceOnUse">
+                    <linearGradient id="paint4_linear_28_13" x1="0" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
                         <stop stop-color="white" />
                         <stop offset="1" stop-color="#C2C2C2" stop-opacity="0.1" />
                     </linearGradient>
-                    <linearGradient id="paint5_linear_28_13" x1="nan" y1="nan" x2="nan" y2="nan" gradientUnits="userSpaceOnUse">
+                    <linearGradient id="paint5_linear_28_13" x1="0" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
                         <stop stop-color="white" />
                         <stop offset="1" stop-color="#C2C2C2" stop-opacity="0.08" />
                     </linearGradient>
@@ -144,47 +144,47 @@ export default component$(() => {
                         <stop stop-color="white" />
                         <stop offset="1" stop-color="#C2C2C2" stop-opacity="0.05" />
                     </linearGradient>
-                    <linearGradient id="paint7_linear_28_13" x1="nan" y1="nan" x2="nan" y2="nan" gradientUnits="userSpaceOnUse">
+                    <linearGradient id="paint7_linear_28_13" x1="0" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
                         <stop stop-color="white" />
                         <stop offset="1" stop-color="#C2C2C2" stop-opacity="0.13" />
                     </linearGradient>
-                    <linearGradient id="paint8_linear_28_13" x1="nan" y1="nan" x2="nan" y2="nan" gradientUnits="userSpaceOnUse">
+                    <linearGradient id="paint8_linear_28_13" x1="0" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
                         <stop stop-color="white" />
                         <stop offset="1" stop-color="#C2C2C2" stop-opacity="0" />
                     </linearGradient>
-                    <linearGradient id="paint9_linear_28_13" x1="nan" y1="nan" x2="nan" y2="nan" gradientUnits="userSpaceOnUse">
+                    <linearGradient id="paint9_linear_28_13" x1="0" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
                         <stop stop-color="white" />
                         <stop offset="1" stop-color="#C2C2C2" stop-opacity="0.3" />
                     </linearGradient>
-                    <linearGradient id="paint10_linear_28_13" x1="nan" y1="nan" x2="nan" y2="nan" gradientUnits="userSpaceOnUse">
+                    <linearGradient id="paint10_linear_28_13" x1="0" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
                         <stop stop-color="white" />
                         <stop offset="1" stop-color="#C2C2C2" stop-opacity="0.3" />
                     </linearGradient>
-                    <linearGradient id="paint11_linear_28_13" x1="nan" y1="nan" x2="nan" y2="nan" gradientUnits="userSpaceOnUse">
+                    <linearGradient id="paint11_linear_28_13" x1="0" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
                         <stop stop-color="white" />
                         <stop offset="1" stop-color="#F5F5F5" />
                     </linearGradient>
-                    <linearGradient id="paint12_linear_28_13" x1="nan" y1="nan" x2="nan" y2="nan" gradientUnits="userSpaceOnUse">
+                    <linearGradient id="paint12_linear_28_13" x1="0" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
                         <stop stop-color="white" />
                         <stop offset="1" stop-color="#C2C2C2" stop-opacity="0.3" />
                     </linearGradient>
-                    <linearGradient id="paint13_linear_28_13" x1="nan" y1="nan" x2="nan" y2="nan" gradientUnits="userSpaceOnUse">
+                    <linearGradient id="paint13_linear_28_13" x1="0" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
                         <stop stop-color="white" />
                         <stop offset="1" stop-color="#C2C2C2" stop-opacity="0.3" />
                     </linearGradient>
-                    <linearGradient id="paint14_linear_28_13" x1="nan" y1="nan" x2="nan" y2="nan" gradientUnits="userSpaceOnUse">
+                    <linearGradient id="paint14_linear_28_13" x1="0" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
                         <stop stop-color="white" />
                         <stop offset="1" stop-color="#C2C2C2" stop-opacity="0.3" />
                     </linearGradient>
-                    <linearGradient id="paint15_linear_28_13" x1="nan" y1="nan" x2="nan" y2="nan" gradientUnits="userSpaceOnUse">
+                    <linearGradient id="paint15_linear_28_13" x1="0" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
                         <stop stop-color="white" />
                         <stop offset="1" stop-color="#C2C2C2" stop-opacity="0.3" />
                     </linearGradient>
-                    <linearGradient id="paint16_linear_28_13" x1="nan" y1="nan" x2="nan" y2="nan" gradientUnits="userSpaceOnUse">
+                    <linearGradient id="paint16_linear_28_13" x1="0" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
                         <stop stop-color="white" />
                         <stop offset="1" stop-color="#C2C2C2" stop-opacity="0.3" />
                     </linearGradient>
-                    <linearGradient id="paint17_linear_28_13" x1="nan" y1="nan" x2="nan" y2="nan" gradientUnits="userSpaceOnUse">
+                    <linearGradient id="paint17_linear_28_13" x1="0" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
                         <stop stop-color="white" />
                         <stop offset="1" stop-color="#C2C2C2" stop-opacity="0.3" />
                     </linearGradient>
