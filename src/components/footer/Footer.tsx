@@ -42,7 +42,7 @@ export default component$(() => {
                                 </g>
                             </svg>
                             </Link>
-                            <Link href="/" aria-label="go to home page">
+                            <Link href="/" aria-label="go to ivolve Global page">
                             <h4 class="text-white text-[24px] font-GeistMono600">ivolve Global</h4>
                             </Link>
                         </div>
@@ -57,7 +57,7 @@ export default component$(() => {
                             <ul>
                                 <li class="text-white text-[14px] font-GeistMono600 uppercase tracking-widest">Company</li>
                                 <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400 pt-[15px]"><Link href="#" aria-label="go to blog page">Blog</Link></li>
-                                <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400 pt-[15px]"><Link href="#" aria-label="go to career page">Careers</Link></li>
+                                <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400 pt-[15px]"><Link href="#" aria-label="go to careers page">Careers</Link></li>
                                 <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400 pt-[15px]"><Link href="#" aria-label="go to pricing page">Pricing</Link></li>
                             </ul>
                         </div>

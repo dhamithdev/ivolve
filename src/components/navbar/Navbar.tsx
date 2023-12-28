@@ -4,7 +4,7 @@ import { Link } from '@builder.io/qwik-city';
 export default component$(() => {
     return (<div class="mx-20">
         <header class="flex h-20 w-full items-center  ">
-            <Link class="mr-6" href="#">
+            <Link class="mr-6" href="#" aria-label="go to home page">
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="126" height="36" viewBox="0 0 126 36" fill="none">
                         <g clip-path="url(#clip0_28_53)">
