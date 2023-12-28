@@ -110,7 +110,7 @@ export default component$(() => {
                                         </div>
                                         <div >
                                             <p class="font-Fixel600 text-[14px] text-[#160042] font-semibold mb-[1px]">{mycarddata.name}</p>
-                                            <p class="font-Fixel400 font-normal text-[12px] text-[#241d3445]">{mycarddata.position}</p>
+                                            <p class="font-Fixel400 font-normal text-[12px] text-[#241d3e]">{mycarddata.position}</p>
                                         </div>
                                     </div>
                                 </div>
