@@ -89,7 +89,7 @@ export default component$(() => {
                     </div>
                     <div class="flex gap-8">
                         <div>
-                            <Link href="/twitter">
+                            <Link href="/twitter" aria-label="go to company twitter page">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path opacity="0.4" d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2Z" fill="white" fill-opacity="0.8" />
                                 <path d="M12.5461 10.6576L16.6412 6H15.6707L12.1152 10.0443L9.27494 6H6L10.2946 12.1155L6 17H6.97049L10.7251 12.7292L13.7246 17H17L12.5461 10.6576ZM11.2173 12.1696L10.7817 11.5605L7.32084 6.715H8.81124L11.6047 10.6255L12.0403 11.2346L15.6717 16.3175H14.1813L11.2173 12.1696Z" fill="#E0DCE4" />
@@ -97,7 +97,7 @@ export default component$(() => {
                             </Link>
                         </div>
                         <div>
-                            <Link href="/instergram">
+                            <Link href="/instergram" aria-label="go to company instergram page">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path opacity="0.4" d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2Z" fill="white" fill-opacity="0.8" />
                                 <path d="M12.0001 15.8801C14.143 15.8801 15.8801 14.143 15.8801 12.0001C15.8801 9.85725 14.143 8.12012 12.0001 8.12012C9.85725 8.12012 8.12012 9.85725 8.12012 12.0001C8.12012 14.143 9.85725 15.8801 12.0001 15.8801Z" fill="white" fill-opacity="0.8" />
@@ -106,7 +106,7 @@ export default component$(() => {
                             </Link>
                         </div>
                         <div>
-                            <Link href="/facebook">
+                            <Link href="/facebook" aria-label="go to company facebook page">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path opacity="0.4" d="M16.19 2H7.82001C4.18001 2 2.01001 4.17 2.01001 7.81V16.18C2.01001 19.82 4.18001 21.99 7.82001 21.99H16.19C19.83 21.99 22 19.82 22 16.18V7.81C22 4.17 19.83 2 16.19 2Z" fill="white" fill-opacity="0.8" />
                                 <path d="M13.92 9.2802L13.97 12.2302L16.6 12.1902C16.79 12.1902 16.93 12.3602 16.9 12.5402L16.55 14.4502C16.52 14.5902 16.4 14.6902 16.26 14.7002L14.01 14.7402L14.13 21.9902L11.13 22.0402L11.01 14.7902L9.30997 14.8202C9.13997 14.8202 9.00998 14.6902 9.00998 14.5202L8.97998 12.6202C8.97998 12.4502 9.10997 12.3202 9.27997 12.3202L10.98 12.2902L10.93 9.0402C10.9 7.3802 12.22 6.0202 13.88 5.9902L16.58 5.9502C16.75 5.9502 16.88 6.0802 16.88 6.2502L16.92 8.6502C16.92 8.8202 16.79 8.9502 16.62 8.9502L14.22 8.9902C14.05 8.9802 13.92 9.1202 13.92 9.2802Z" fill="white" fill-opacity="0.8" />
@@ -115,7 +115,7 @@ export default component$(() => {
 
                         </div>
                         <div>
-                            <Link href="/youtube">
+                            <Link href="/youtube" aria-label="go to company youtube channel">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path opacity="0.4" d="M17 20H7C4 20 2 18 2 15V9C2 6 4 4 7 4H17C20 4 22 6 22 9V15C22 18 20 20 17 20Z" fill="white" fill-opacity="0.8" />
                                 <path d="M11.4201 9.49009L13.8901 10.9701C14.8301 11.5401 14.8301 12.4601 13.8901 13.0301L11.4201 14.5101C10.4201 15.1101 9.6001 14.6501 9.6001 13.4801V10.5101C9.6001 9.3501 10.4201 8.89009 11.4201 9.49009Z" fill="white" fill-opacity="0.8" />
