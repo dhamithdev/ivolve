@@ -100,7 +100,7 @@ export default component$(() => {
                     {myCardData.map((mycarddata) => (
                         <div key={mycarddata.id} class="w-[360px] h-[218px] rounded-2xl border-[1px] border-[#C7C3D2B3]">
                             <div class="p-[24px]">
-                                <p class="font-GeistMono600 text-[#FF8A00] text-[20px] font-semibold">{mycarddata.title}</p>
+                                <p class="font-GeistMono600 text-[#8D00FF] text-[20px] font-semibold">{mycarddata.title}</p>
                                 <p class="text-[#494162] font-Fixel400 text-[16px] w-[300px] mt-3">{mycarddata.description}</p>
                                 <div class="mt-4">
                                     <div class="flex gap-4">
@@ -110,7 +110,7 @@ export default component$(() => {
                                         </div>
                                         <div >
                                             <p class="font-Fixel600 text-[14px] text-[#160042] font-semibold mb-[1px]">{mycarddata.name}</p>
-                                            <p class="font-Fixel400 font-normal text-[12px] text-[#3D345145]">{mycarddata.position}</p>
+                                            <p class="font-Fixel400 font-normal text-[12px] text-[#241d3445]">{mycarddata.position}</p>
                                         </div>
                                     </div>
                                 </div>
