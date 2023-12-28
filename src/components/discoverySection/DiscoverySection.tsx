@@ -65,7 +65,7 @@ export default component$(() => {
 
             <div class="mt-16 flex flex-row justify-between mb-40">
                 {/* card 1 */}
-                <div class="w-[400px] h-[550px] rounded-3xl bg-[#FEFAFF]">
+                <div class="w-[380px] h-[550px] rounded-3xl bg-[#FEFAFF]">
                     <div class="mx-3">
                         <div class="">
                             <Image src={"/assets/images/discoverySection/cards/card1.svg"} alt="card 1 image" width={350} height={335} class="mt-5" />
@@ -79,7 +79,7 @@ export default component$(() => {
                     </div>
                 </div>
                 {/* card 2 */}
-                <div class="w-[400px] h-[550px] rounded-3xl bg-[#F2FFFA]">
+                <div class="w-[380px] h-[550px] rounded-3xl bg-[#F2FFFA]">
                     <div class="mx-3">
                         <div class="">
                             <Image src={"/assets/images/discoverySection/cards/card2.svg"} alt="card 2 image" width={350} height={335} class="mt-5" />
@@ -93,7 +93,7 @@ export default component$(() => {
                     </div>
                 </div>
                 {/* card 3 */}
-                <div class="w-[400px] h-[550px] rounded-3xl bg-[#FFFAF7]">
+                <div class="w-[380px] h-[550px] rounded-3xl bg-[#FFFAF7]">
                     <div class="mx-3">
                         <div class="">
                             <Image src={"/assets/images/discoverySection/cards/card3.svg"} alt="card 3 image" width={350} height={335} class="mt-5" />
