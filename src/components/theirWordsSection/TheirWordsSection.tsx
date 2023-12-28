@@ -100,7 +100,7 @@ export default component$(() => {
                     {myCardData.map((mycarddata) => (
                         <div key={mycarddata.id} class="w-[360px] h-[218px] rounded-2xl border-[1px] border-[#C7C3D2B3]">
                             <div class="p-[24px]">
-                                <h4 class="font-GeistMono600 text-[#FF8A00] text-[20px] font-semibold">{mycarddata.title}</h4>
+                                <p class="font-GeistMono600 text-[#FF8A00] text-[20px] font-semibold">{mycarddata.title}</p>
                                 <p class="text-[#494162] font-Fixel400 text-[16px] w-[300px] mt-3">{mycarddata.description}</p>
                                 <div class="mt-4">
                                     <div class="flex gap-4">

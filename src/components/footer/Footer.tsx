@@ -85,7 +85,7 @@ export default component$(() => {
                 </div>
                 <div class="flex justify-between pb-5">
                     <div>
-                        <h4 class="text-[#FFFFFFCC] font-GeistMono400 text-[14px]">© 2024 ivolve Global. All rights reserved.</h4>
+                        <p class="text-[#FFFFFFCC] font-GeistMono400 text-[14px]">© 2024 ivolve Global. All rights reserved.</p>
                     </div>
                     <div class="flex gap-8">
                         <div>

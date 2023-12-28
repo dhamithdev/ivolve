@@ -20,7 +20,7 @@ export default component$(() => {
                             <p class="text-[#8000FF] font-GeistMono600 text-[20px] ">Seal the Promise / Craft</p>
                         </div>
                         <div class=" pt-[10px]">
-                            <h4 class="text-[#1B123B] font-GeistMono600 text-[28px]">A Journey of Discovery, Collaboration, and Transformation</h4>
+                            <p class="text-[#1B123B] font-GeistMono600 text-[28px]">A Journey of Discovery, Collaboration, and Transformation</p>
                         </div>
                         <div class=" pt-[18px]">
                             <p class="text-[#494162] font-Fixel400 text-[18px]">It’s well and good setting an ambitious top-down target, but you also need a credible bottom-up plan to get there. Causal’s templates give you a great starting point to set realistic targets.</p>
@@ -68,7 +68,7 @@ export default component$(() => {
                         <p class="text-[#8000FF] font-GeistMono600 text-[20px] ">Seal the Promise / Craft</p>
                         </div>
                         <div class=" pt-[10px]">
-                            <h4 class="text-[#1B123B] font-GeistMono600 text-[28px]">A Journey of Discovery, Collaboration, and Transformation</h4>
+                            <p class="text-[#1B123B] font-GeistMono600 text-[28px]">A Journey of Discovery, Collaboration, and Transformation</p>
                         </div>
                         <div class=" pt-[18px]">
                             <p class="text-[#494162] font-Fixel400 text-[18px]">It’s well and good setting an ambitious top-down target, but you also need a credible bottom-up plan to get there. Causal’s templates give you a great starting point to set realistic targets.</p>
