@@ -15,7 +15,7 @@ import YourIdeaSection from "~/components/yourIdeaSection/YourIdeaSection";
 
 export default component$(() => {
   return (
-    <main class="max-w-[1920px] mx-auto relative overflow-hidden">
+    <main class="max-w-[1920px] mx-auto ">
       <Navbar/>
       <HeroSection/>
       <TruestSection/>
