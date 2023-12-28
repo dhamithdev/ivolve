@@ -10,7 +10,7 @@ export default component$(() => {
                     <div>
                     
                         <div class=" w-auto">
-                            <Link href="/" class="flex gap-4" alt="go to home page">
+                            <Link href="/" class="flex gap-4" aria-label="go to home page">
                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="37" viewBox="0 0 40 37" fill="none">
                                 <mask id="mask0_203_6429" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="40" height="37">
                                     <path d="M40 0H0V36.9308H40V0Z" fill="white" />
@@ -42,7 +42,7 @@ export default component$(() => {
                                 </g>
                             </svg>
                             </Link>
-                            <Link href="/" alt="go to home page">
+                            <Link href="/" aria-label="go to home page">
                             <h4 class="text-white text-[24px] font-GeistMono600">ivolve Global</h4>
                             </Link>
                         </div>
