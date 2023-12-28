@@ -53,7 +53,7 @@ export default component$(() => {
                     <div class="flex gap-20">
                         <div>
                             <ul>
-                                <li class="text-white text-[14px] font-GeistMono600 uppercase tracking-widest"><Link>Company</Link></li>
+                                <li class="text-white text-[14px] font-GeistMono600 uppercase tracking-widest">Company</li>
                                 <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400 pt-[15px]"><Link href="#">Blog</Link></li>
                                 <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400 pt-[15px]"><Link href="#">Careers</Link></li>
                                 <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400 pt-[15px]"><Link href="#">Pricing</Link></li>
@@ -61,7 +61,7 @@ export default component$(() => {
                         </div>
                         <div>
                             <ul>
-                                <li class="text-white text-[14px] font-GeistMono600 uppercase tracking-widest"><Link>Resources</Link></li>
+                                <li class="text-white text-[14px] font-GeistMono600 uppercase tracking-widest">Resources</li>
                                 <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400  pt-[15px]"><Link href="#">Documentation</Link></li>
                                 <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400 pt-[15px]"><Link href="#">Papers</Link></li>
                                 <li class="text-[#FFFFFFCC] text-[16px] ffont-Fixel400pt-[15px]"><Link href="#">Press Conferences</Link></li>
@@ -69,7 +69,7 @@ export default component$(() => {
                         </div>
                         <div>
                             <ul class="">
-                                <li class="text-white text-[14px] font-GeistMono600 uppercase tracking-widest"><Link href="#">Legal</Link></li>
+                                <li class="text-white text-[14px] font-GeistMono600 uppercase tracking-widest">Legal</li>
                                 <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400 pt-[15px]"><Link href="#">Terms of Service</Link></li>
                                 <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400 pt-[15px]"><Link href="#">Privacy Policy</Link></li>
                                 <li class="text-[#FFFFFFCC] text-[16px] font-Fixel400 pt-[15px]"><Link href="#">Cookies Policy</Link></li>

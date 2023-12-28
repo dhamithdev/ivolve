@@ -33,7 +33,7 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "ivolve",
+  title: "ivolve Global",
   meta: [
     {
       name: "description",
