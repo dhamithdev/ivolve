@@ -10,7 +10,7 @@ export default component$(() => {
                     <h4 class="text-white text-[49px] font-GeistMono600 mt-[-5px]">Ready to Redefine Your Digital Journey?</h4>
                 </div>
                 <div class="flex justify-center text-center">
-                    <p class="text-[#FFFFFFCC] w-[900px] font-Fixel400 text-[24px] mt-[24px]">Explore our tailored solutions, witness triumphs, and join the league of digital success. Let's craft your unique story. Explore Possibilities Now!</p>
+                    <h3 class="text-[#FFFFFFCC] w-[900px] font-Fixel400 text-[24px] mt-[24px]">Explore our tailored solutions, witness triumphs, and join the league of digital success. Let's craft your unique story. Explore Possibilities Now!</h3>
                 </div>
                 <div class="flex justify-center text-center mt-[50px]">
                     <button class=" py-3 px-4 rounded-3xl border-[1px] border-[#BA87ED] flex shedule-call-button-gradient" >

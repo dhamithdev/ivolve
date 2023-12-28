@@ -10,7 +10,7 @@ export default component$(() => {
                     <h2 class="text-[49px] font-GeistMono600 text-[#1B123B] leading-none">Illuminating <span class="success-gradient">Success</span> <span class="stories-gradient">Stories</span> in Digital Evolution</h2>
                     </div>
                     <div class="w-[50%] ">
-                        <p class="text-[#494162] font-Fixel400 text-[24px] w-[600px] leading-snug pl-10">Dive into the chronicles of digital metamorphosis, where each case study narrates a unique tale of transformation and triumph.</p>
+                        <h3 class="text-[#494162] font-Fixel400 text-[24px] w-[600px] leading-snug pl-10">Dive into the chronicles of digital metamorphosis, where each case study narrates a unique tale of transformation and triumph.</h3>
                     </div>
                 </div>
                 <div class="mt-14 flex justify-between">
