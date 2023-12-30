@@ -15,7 +15,7 @@ export default component$(() => {
         { label: "Conversion Rate Optimization", isChecked: false },
     ];
     return (<div class="mx-20 mt-24 mb-36">
-        <div>
+        <section>
             <div class="flex flex-row justify-between ">
                     <div class="w-[40%] h-auto bg-[#FFFAF7] rounded-[30px] overflow-hidden">
                         <div class="ml-[30px] pt-[30px]">
@@ -355,6 +355,6 @@ export default component$(() => {
 
                 </div>
             </div>
-        </div>
+        </section>
     </div>)
 });

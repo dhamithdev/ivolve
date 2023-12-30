@@ -3,7 +3,7 @@ import { Image } from '@unpic/qwik';
 
 export default component$(() => {
     return (<div class="mx-28 ">
-        <div>
+        <section>
             <div>
                 <div>
                     <h2 class="font-GeistMono600 text-[49px]  text-center flex justify-center">
@@ -349,7 +349,7 @@ export default component$(() => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </div>)
 });
 

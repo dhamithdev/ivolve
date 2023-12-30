@@ -13,7 +13,7 @@ export default component$(() => {
     ];
 
     return (<div class="mx-20">
-        <div>
+        <section>
             <div class="flex flex-row justify-between">
                 <div class="w-[50%]">
                     <div class="mb-5">
@@ -266,6 +266,6 @@ export default component$(() => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </div>)
 });

@@ -3,7 +3,7 @@ import { Image } from '@unpic/qwik';
 
 export default component$(() => {
     return (<div class="mx-28">
-        <div>
+        <section>
             <div class="mb-24">
                 <div class="flex gap-10">
                     <div class="w-[50%]">
@@ -112,6 +112,6 @@ export default component$(() => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </div>)
 });

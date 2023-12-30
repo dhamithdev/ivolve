@@ -3,7 +3,7 @@ import { Image } from '@unpic/qwik';
 
 export default component$(() => {
     return (<div class="mx-20 ">
-        <div class="">
+        <section class="">
             <div class="flex justify-center flex-col text-center items-center">
             <div class="xl:w-[1140px] lg:w-[1020px]">
                 <div class="xl:ml-[565px] xl:mt-[-45px] lg:ml-[510px] lg:mt-[-45px]  absolute">
@@ -116,6 +116,6 @@ export default component$(() => {
                 </div>
 
             </div>
-        </div>
+        </section>
     </div>)
 });
