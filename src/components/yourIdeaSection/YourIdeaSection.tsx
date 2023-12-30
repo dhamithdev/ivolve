@@ -245,6 +245,7 @@ export default component$(() => {
                 <div class="gap-10 flex mt-10">
                     {/* card 4 */}
                     <div class="w-[48%] h-auto border-[1px] border-[#D8D5E0] rounded-[22px] card-background-gradient gradient-border-card relative">
+                        <div>
                         <svg class="w-full h-auto absolute" viewBox="0 0 624 244" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_28_956)">
                                 <path d="M0 124H624" stroke="#D8D5E0" />
@@ -277,10 +278,11 @@ export default component$(() => {
                         </svg>
 
                         <div class=" flex items-center justify-center relative">
-                            <Image width={522} height={428}  alt="card 4 image" src={"/assets/images/yourIdeaSection/card4/card4.svg"} layout="constrained" />
+                            <Image width={362} height={215}  alt="card 4 image" src={"/assets/images/yourIdeaSection/card4/Group1000001965.png"} layout="constrained" />
+                        </div>
                         </div>
 
-                        <div class="mx-[22px] mt-[-180px]  flex  flex-col">
+                        <div class="mx-[22px] bottom-0  flex  flex-col my-5">
                             <div>
                                 <p class="text-[#1B123B] font-GeistMono600 text-[20px] w-auto">Unleash Your Product's Potential on a Global Scale</p>
                             </div>
@@ -328,7 +330,7 @@ export default component$(() => {
                             <Image width={432} height={201} alt="card 5 image" src={"/assets/images/yourIdeaSection/card5/card005.svg"} layout="constrained" />
                         </div>
 
-                        <div class="mx-[22px] mt-[30px] flex  flex-col">
+                        <div class="mx-[22px] bottom-0 flex  flex-col my-5">
                             <div>
                                 <p class="text-[#1B123B] font-GeistMono600 text-[20px] w-auto">Long-Term Success Driven by Continuous Improvement</p>
                             </div>

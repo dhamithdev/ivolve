@@ -67,11 +67,11 @@ export default component$(() => {
                 {/* card 1 */}
 
                 <div class="w-[30%] h-auto rounded-3xl bg-[#FEFAFF] pb-8 border-[1px]">
-                    <div class="mx-3">
-                        <div class="flex justify-center">
+                    <div class="mx-4">
+                        <div class="flex justify-center w-full">
                             <Image layout="constrained" src={"/assets/images/discoverySection/cards/card1.svg"} alt="card 1 image" width={380} height={335} class="mt-5" />
                         </div>
-                        <div class="flex text-center flex-col">
+                        <div class="flex text-center flex-col w-full">
                         <div class="">
                             <p class="text-[#1B123B] font-GeistMono600 text-[24px] my-2 w-auto text-start">Discover</p>
                         </div>
@@ -85,11 +85,11 @@ export default component$(() => {
                 {/* card 2 */}
 
                 <div class="w-[30%] h-auto rounded-3xl bg-[#F2FFFA] pb-8 border-[1px]">
-                    <div class="mx-3">
-                    <div class="flex justify-center">
+                <div class="mx-4">
+                        <div class="flex justify-center w-full">
                             <Image layout="constrained" src={"/assets/images/discoverySection/cards/card2.svg"} alt="card 2 image" width={380} height={335} class="mt-5" />
                         </div>
-                        <div class="flex justify-center  flex-col">
+                        <div class="flex justify-center  flex-col w-full">
                         <div>
                             <p class="text-[#1B123B] font-GeistMono600 text-start text-[24px] my-2">Crafting Possibilities</p>
                         </div>
@@ -103,11 +103,11 @@ export default component$(() => {
                 {/* card 3 */}
 
                 <div class="w-[30%] h-auto rounded-3xl bg-[#FFFAF7] pb-8 border-[1px]">
-                <div class="mx-3">
-                        <div class="flex justify-center">
+                <div class="mx-4">
+                        <div class="flex justify-center w-full">
                             <Image layout="constrained" src={"/assets/images/discoverySection/cards/card3.svg"} alt="card 3 image" width={380} height={335} class="mt-5" />
                         </div>
-                        <div class="flex justify-center flex-col">
+                        <div class="flex justify-center flex-col w-full">
                             <div>
                                 <p class="text-[#1B123B] font-GeistMono600 text-start text-[24px] my-2 ">Seal the Promise / Craft</p>
                             </div>

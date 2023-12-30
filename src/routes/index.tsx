@@ -8,6 +8,7 @@ import HeroSection from "~/components/heroSection/HeroSection";
 import JourneySection from "~/components/journeySection/JourneySection";
 import Navbar from "~/components/navbar/Navbar";
 import SheduleCall from "~/components/sheduleCallSection/SheduleCall";
+import Test from "~/components/test/Test";
 
 import TheirWordsSection from "~/components/theirWordsSection/TheirWordsSection";
 import TruestSection from "~/components/truestSection/TruestSection";
@@ -18,7 +19,7 @@ export default component$(() => {
     <main class="max-w-[1920px] mx-auto ">
       <Navbar/>
       <HeroSection/>
-      <TruestSection/>
+      {/* <TruestSection/>
       <DiscoverySection/>
       <ElevateSection/>
       <DigitalSection/>
@@ -26,8 +27,8 @@ export default component$(() => {
       <JourneySection/> 
       <TheirWordsSection/>
       <SheduleCall/>
-      <Footer/>
-
+      <Footer/> */}
+      <Test/>
     </main>
   );
 });

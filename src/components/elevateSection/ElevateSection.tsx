@@ -52,13 +52,11 @@ export default component$(() => {
                             <div class="flex flex-col">
                                 {options.slice(0, 3).map((option, index) => (
                                     <label key={index} class="my-2 flex items-center">
-                                        <input
-                                            type="checkbox"
-                                            checked
-                                            readOnly
-                                            class="mr-2 mb-1 my-checkbox"
-
-                                        />
+                                        <div class="w-[15px] h-[15px] rounded-full bg-[#8000FF] flex justify-center items-center mb-1 mr-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 10 11" fill="none">
+                                                <path d="M8.33341 3.099L3.75008 7.68233L1.66675 5.599" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
                                         <span class="text-[#494162] font-Fixel600 text-[18px]">{option.label}</span>
                                     </label>
                                 ))}
@@ -66,12 +64,11 @@ export default component$(() => {
                             <div class="flex flex-col">
                                 {options.slice(3).map((option, index) => (
                                     <label key={index + 3} class="my-2 flex items-center">
-                                        <input
-                                            type="checkbox"
-                                            checked
-                                            readOnly
-                                            class="mr-2 mb-1 my-checkbox"
-                                        />
+                                       <div class="w-[15px] h-[15px] rounded-full bg-[#8000FF] flex justify-center items-center mb-1 mr-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 10 11" fill="none">
+                                                <path d="M8.33341 3.099L3.75008 7.68233L1.66675 5.599" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
                                         <span class="text-[#494162] font-Fixel600 text-[18px]">{option.label}</span>
                                     </label>
                                 ))}

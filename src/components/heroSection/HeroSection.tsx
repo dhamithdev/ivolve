@@ -4,7 +4,7 @@ import { Link } from '@builder.io/qwik-city';
 
 export default component$(() => {
 
-    return (<div class="">
+    return (<div class="mx-24">
         <div class="absolute ">
             <svg class="mySvg " width="1440" height="660" viewBox="0 0 1440 764" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_28_13)">
