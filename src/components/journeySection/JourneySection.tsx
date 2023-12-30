@@ -87,7 +87,7 @@ export default component$(() => {
                         <div class=" pt-[30px]">
                             <button  class="w-[220px] h-[32px]  rounded-lg bg-gradient-to-r from-purple-400 via-purple-500 to-indigo-600 ">
                                 <div class="text-white font-GeistMono600 text-[16px] flex justify-between mx-5">
-                                    Read Case Study
+                                    <label>Read Case Study</label>
                                     <span class="mt-1">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                                             <g clip-path="url(#clip0_28_3260)">
