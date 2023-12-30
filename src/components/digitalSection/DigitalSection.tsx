@@ -346,13 +346,13 @@ export default component$(() => {
                             <Image src={"/assets/images/digitalSection/imageLine/gadds.svg"} alt="gadds image" width={60} height={30} />
                             <Image src={"/assets/images/digitalSection/imageLine/meta.svg"} alt="meta image" width={82} height={16} />
                             <Image src={"/assets/images/digitalSection/imageLine/hubspot.svg"} alt="hubspot image" width={74} height={22} />
-                            <Image src={"/assets/images/digitalSection/imageLine/seo.svg"} alt="seo image"  width={166} height={22} />
+                            <Image src={"/assets/images/new/semrush lockup rgb.png"} alt="seo image"  width={166} height={22} />
                             <Image src={"/assets/images/digitalSection/imageLine/google.svg"} alt="google image" width={70} height={24} />
                             <Image src={"/assets/images/digitalSection/imageLine/later.svg"} alt="later image" width={66} height={22} />
                             <Image src={"/assets/images/digitalSection/imageLine/gadds.svg"} alt="gadds image" width={60} height={30} />
                             <Image src={"/assets/images/digitalSection/imageLine/meta.svg"} alt="meta image" width={82} height={16} />
                             <Image src={"/assets/images/digitalSection/imageLine/hubspot.svg"} alt="hubspot image"  width={74} height={22} />
-                            <Image src={"/assets/images/digitalSection/imageLine/seo.svg"} alt="seo image" width={166} height={22} />
+                            <Image src={"/assets/images/new/semrush lockup rgb.png"} alt="seo image" width={166} height={22} />
                         </div>
                     </div>
                     </div>

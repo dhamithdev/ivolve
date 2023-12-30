@@ -92,13 +92,14 @@ export default component$(() => {
                                 <Image src={"/assets/images/elevateSection/imageLine1/aws.svg"} alt="aws image" width={40} height={24} />
                                 <Image src={"/assets/images/elevateSection/imageLine1/vite.svg"} alt="vite image" width={26} height={26} />
                                 <Image src={"/assets/images/elevateSection/imageLine1/next.svg"} alt="next image" width={84} height={20} />
-                                <Image src={"/assets/images/elevateSection/imageLine1/node.svg"} alt="node image" width={77} height={22} />
+                                <Image src={"/assets/images/new/nodejs.jpg"} alt="node image" width={77} height={22} />
+
                                 <Image src={"/assets/images/elevateSection/imageLine1/nuxt.svg"} alt="nuxt image" width={103} height={30} />
                                 <Image src={"/assets/images/elevateSection/imageLine1/Figma.svg"} alt="Figma image" width={72} height={20} />
                                 <Image src={"/assets/images/elevateSection/imageLine1/aws.svg"} alt="aws image" width={40} height={24} />
                                 <Image src={"/assets/images/elevateSection/imageLine1/vite.svg"} alt="vite image" width={26} height={26} />
                                 <Image src={"/assets/images/elevateSection/imageLine1/next.svg"} alt="next image" width={84} height={20} />
-                                <Image src={"/assets/images/elevateSection/imageLine1/node.svg"} alt="node image" width={77} height={22} />
+                                <Image src={"/assets/images/new/nodejs.jpg"}alt="node image" width={77} height={22} />
                             </div>
                         </div>
                     </div>
@@ -110,12 +111,12 @@ export default component$(() => {
                                 <Image src={"/assets/images/elevateSection/imageLine2/strapi.svg"} alt="strapi image" width={87} height={23} />
                                 <Image src={"/assets/images/elevateSection/imageLine2/webflow.svg"} alt="webflow image" width={111} height={18} />
                                 <Image src={"/assets/images/elevateSection/imageLine2/shopity.svg"} alt="shopity image" width={84} height={24} />
-                                <Image src={"/assets/images/elevateSection/imageLine2/sanirty.svg"} alt="sanirty image" width={88} height={18} />
+                                <Image src={"/assets/images/new/sanity.svg"} alt="sanirty image" width={88} height={18} />
                                 <Image src={"/assets/images/elevateSection/imageLine2/ghost.svg"} alt="ghost image" width={70} height={26} />
                                 <Image src={"/assets/images/elevateSection/imageLine2/strapi.svg"} alt="strapi image" width={87} height={23} />
                                 <Image src={"/assets/images/elevateSection/imageLine2/webflow.svg"} alt="webflow image" width={111} height={18} />
                                 <Image src={"/assets/images/elevateSection/imageLine2/shopity.svg"} alt="shopity image" width={84} height={24} />
-                                <Image src={"/assets/images/elevateSection/imageLine2/sanirty.svg"} alt="sanirty image" width={88} height={18} />
+                                <Image src={"/assets/images/new/sanity.svg"} alt="sanirty image" width={88} height={18} />
                             </div>
                         </div>
                     </div>
