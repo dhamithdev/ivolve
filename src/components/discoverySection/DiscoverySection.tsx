@@ -5,8 +5,8 @@ export default component$(() => {
     return (<div class="mx-20 ">
         <div class="">
             <div class="flex justify-center flex-col text-center items-center">
-            <div class="xl:w-[1140px]">
-                <div class="xl:ml-[565px] xl:mt-[-45px]  absolute">
+            <div class="xl:w-[1140px] lg:w-[1020px]">
+                <div class="xl:ml-[565px] xl:mt-[-45px] lg:ml-[510px] lg:mt-[-45px]  absolute">
                     <div>
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M3.75 3.75L12.5875 24.9625L15.725 15.725L24.9625 12.5875L3.75 3.75Z" fill="url(#paint0_linear_28_122)" stroke="url(#paint1_linear_28_122)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -22,11 +22,11 @@ export default component$(() => {
                             </defs>
                         </svg>
                     </div>
-                    <div class="xl:w-[48px] xl:ml-[30px]  orange-arrow-gradient text-center rounded-sm">
+                    <div class="w-[48px] ml-[30px]  orange-arrow-gradient text-center rounded-sm">
                         <span class="py-2 text-[14px] font-Fixel500 text-white">Smith</span>
                     </div>
                 </div>
-                <div class="xl:ml-[630px] xl:mb-[-60px] ">
+                <div class="xl:ml-[630px] xl:mb-[-60px] lg:ml-[570px] lg:mb-[-60px]">
                     <Image src={"/assets/images/discoverySection/Rectangle 4784.png"} alt="Rectangle image" width={343} height={73} />
                 </div>
                 
@@ -34,7 +34,7 @@ export default component$(() => {
                 <h2 class="text-[#1B123B] text-[49px] font-GeistMono600 text-center leading-tight "><span class="pr-2">A Journey of Discovery,</span> Collaboration, and Transformation</h2>
                 </div>
 
-                <div class="xl:ml-[968px] xl:mt-[-70px] ">
+                <div class="xl:ml-[968px] xl:mt-[-70px] lg:ml-[905px] lg:mt-[-70px]">
                     <div>
                         <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="mouse-pointer 4">

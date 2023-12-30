@@ -228,7 +228,7 @@ export default component$(() => {
                         </svg>
 
                         <div class="flex items-center justify-center relative py-5">
-                            <Image width={306} height={208} alt="card 3 image" src={"/assets/images/yourIdeaSection/card3/card003.svg"} layout="constrained" />
+                            <Image width={306} height={208} alt="card 3 image" src={"/assets/images/yourIdeaSection/card3/card003.svg"}  />
                         </div>
                         <div class="mx-7 mt-[-14px]">
                             <div>
@@ -277,10 +277,10 @@ export default component$(() => {
                         </svg>
 
                         <div class=" flex items-center justify-center relative">
-                            <Image width={522} height={428} alt="card 4 image" src={"/assets/images/yourIdeaSection/card4/card004.svg"} layout="constrained" />
+                            <Image width={522} height={428}  alt="card 4 image" src={"/assets/images/yourIdeaSection/card4/card4.svg"} layout="constrained" />
                         </div>
 
-                        <div class="mx-[22px] mt-[-180px] pb-5">
+                        <div class="mx-[22px] mt-[-180px]  flex  flex-col">
                             <div>
                                 <p class="text-[#1B123B] font-GeistMono600 text-[20px] w-auto">Unleash Your Product's Potential on a Global Scale</p>
                             </div>
