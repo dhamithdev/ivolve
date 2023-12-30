@@ -69,11 +69,11 @@ export default component$(() => {
                 <div class="w-[30%] h-auto rounded-3xl bg-[#FEFAFF] pb-8 border-[1px]">
                     <div class="mx-3">
                         <div class="flex justify-center">
-                            <Image layout="constrained" src={"/assets/images/discoverySection/cards/card1.svg"} alt="card 1 image" width={364} height={335} class="mt-5" />
+                            <Image layout="constrained" src={"/assets/images/discoverySection/cards/card1.svg"} alt="card 1 image" width={380} height={335} class="mt-5" />
                         </div>
-                        <div class="flex justify-center flex-col">
+                        <div class="flex text-center flex-col">
                         <div class="">
-                            <p class="text-[#1B123B] font-GeistMono600 text-[24px] my-2 w-[350px] text-start">Discover</p>
+                            <p class="text-[#1B123B] font-GeistMono600 text-[24px] my-2 w-auto text-start">Discover</p>
                         </div>
                         <div class="mt-4 flex justify-center">
                             <p class="text-[#1B123B] font-Fixel400 text-base w-auto text-start">Embark on a journey with us as we delve into the heart of your project. Through a meticulous Discovery & Needs Assessment, we unravel your vision, ensuring every detail is captured.</p>
@@ -87,7 +87,7 @@ export default component$(() => {
                 <div class="w-[30%] h-auto rounded-3xl bg-[#F2FFFA] pb-8 border-[1px]">
                     <div class="mx-3">
                     <div class="flex justify-center">
-                            <Image layout="constrained" src={"/assets/images/discoverySection/cards/card2.svg"} alt="card 2 image" width={364} height={335} class="mt-5" />
+                            <Image layout="constrained" src={"/assets/images/discoverySection/cards/card2.svg"} alt="card 2 image" width={380} height={335} class="mt-5" />
                         </div>
                         <div class="flex justify-center  flex-col">
                         <div>
@@ -103,15 +103,15 @@ export default component$(() => {
                 {/* card 3 */}
 
                 <div class="w-[30%] h-auto rounded-3xl bg-[#FFFAF7] pb-8 border-[1px]">
-                    <div class="mx-3">
-                    <div class="flex justify-center">
-                            <Image layout="constrained" src={"/assets/images/discoverySection/cards/card3.svg"} alt="card 3 image" width={364} height={335} class="mt-5" />
+                <div class="mx-3">
+                        <div class="flex justify-center">
+                            <Image layout="constrained" src={"/assets/images/discoverySection/cards/card3.svg"} alt="card 3 image" width={380} height={335} class="mt-5" />
                         </div>
                         <div class="flex justify-center flex-col">
                             <div>
                                 <p class="text-[#1B123B] font-GeistMono600 text-start text-[24px] my-2 ">Seal the Promise / Craft</p>
                             </div>
-                            <div class="mt-4">
+                            <div class="mt-4 flex justify-center">
                                 <p class="text-[#1B123B] text-start font-Fixel400 text-base w-auto">Watch as your vision unfolds. From meticulous execution to real-time progress updates, we ensure every step is a testament to the transformative results we craft together.</p>
                             </div>
                         </div>
