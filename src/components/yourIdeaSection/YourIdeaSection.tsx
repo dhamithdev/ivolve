@@ -108,7 +108,9 @@ export default component$(() => {
                 <div class="justify-between flex gap-[30px]">
                     {/* card 1 */}
                     
-                    <div class="w-[33%] h-auto border-[1px] border-[#D8D5E0] rounded-[22px] gradient-border-card relative">                       
+                    <div class="w-[33%] h-auto border-[1px] border-[#D8D5E0] rounded-[22px]  relative gradient-border-card"> 
+                    
+                        <i class="innerii" aria-hidden="true"></i>      
                         <div class="sampleclass ">
                             <svg class="w-full h-auto absolute" viewBox="0 0 406 244" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <line y1="80.5" x2="406" y2="80.5" stroke="#D8D5E0" />
@@ -157,6 +159,8 @@ export default component$(() => {
 
                     {/* card 2 */}
                     <div class="w-[33%] h-auto border-[1px] border-[#D8D5E0] rounded-[22px] gradient-border-card relative">
+                    <i class="innerii" aria-hidden="true"></i> 
+
                         <svg class="w-full h-auto absolute" viewBox="0 0 406 244" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <line y1="80.5" x2="406" y2="80.5" stroke="#D8D5E0" />
                             <line y1="162.5" x2="406" y2="162.5" stroke="#D8D5E0" stroke-opacity="0.5" />
@@ -200,6 +204,7 @@ export default component$(() => {
                     </div>
                     {/* card 3 */}
                     <div class="w-[33%] h-auto border-[1px] border-[#D8D5E0] rounded-[22px] card-background-gradient gradient-border-card relative">
+                    <i class="innerii" aria-hidden="true"></i> 
                         <svg class="w-full h-auto absolute" viewBox="0 0 406 244" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <line y1="80.5" x2="406" y2="80.5" stroke="#D8D5E0" />
                             <line y1="162.5" x2="406" y2="162.5" stroke="#D8D5E0" stroke-opacity="0.5" />
@@ -246,6 +251,7 @@ export default component$(() => {
                     {/* card 4 */}
                     <div class="w-[48%] h-auto border-[1px] border-[#D8D5E0] rounded-[22px] card-background-gradient gradient-border-card relative">
                         <div>
+                        <i class="innerii" aria-hidden="true"></i> 
                         <svg class="w-full h-auto absolute" viewBox="0 0 624 244" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_28_956)">
                                 <path d="M0 124H624" stroke="#D8D5E0" />
@@ -325,7 +331,7 @@ export default component$(() => {
                                 </clipPath>
                             </defs>
                         </svg>
-
+                        <i class="innerii" aria-hidden="true"></i> 
                         <div class="flex items-center justify-center relative pt-5">
                             <Image width={432} height={201} alt="card 5 image" src={"/assets/images/yourIdeaSection/card5/card005.svg"} layout="constrained" />
                         </div>

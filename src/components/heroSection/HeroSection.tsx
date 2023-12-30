@@ -4,9 +4,9 @@ import { Link } from '@builder.io/qwik-city';
 
 export default component$(() => {
 
-    return (<div class="mx-24">
+    return (<div class="mx-20">
         <div class="absolute ">
-            <svg class="mySvg " width="1440" height="660" viewBox="0 0 1440 764" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="mySvg xl:w-[1440px] xl:h-[660px] lg:w-[1300px] lg:h-[550px]"  viewBox="0 0 1440 764" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_28_13)">
                     <mask id="mask0_28_13" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="-46" width="1440" height="810">
                         <path d="M1440 -46H0V764H1440V-46Z" fill="white" />
