@@ -101,7 +101,7 @@ export default component$(() => {
                         <div key={mycarddata.id} class="w-[360px] h-[218px] rounded-2xl border-[1px] border-[#C7C3D2B3]">
                             <div class="p-[24px]">
                                 <p class="font-GeistMono600 text-[#8D00FF] text-[20px] font-semibold">{mycarddata.title}</p>
-                                <p class="text-[#494162] font-Fixel400 text-[16px] w-[300px] mt-3">{mycarddata.description}</p>
+                                <p class="text-[#494162] font-Fixel400 text-base w-[300px] mt-3">{mycarddata.description}</p>
                                 <div class="mt-4">
                                     <div class="flex gap-4">
                                         <div class="mt-1">

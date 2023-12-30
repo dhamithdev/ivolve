@@ -73,10 +73,10 @@ export default component$(() => {
                         </div>
                         <div class="flex justify-center flex-col">
                         <div class="">
-                            <p class="text-[#1B123B] font-GeistMono600 text-[24px] my-2 w-[350px]">Discover</p>
+                            <p class="text-[#1B123B] font-GeistMono600 text-[24px] my-2 w-[350px] text-start">Discover</p>
                         </div>
                         <div class="mt-4 flex justify-center">
-                            <p class="text-[#1B123B] font-Fixel400 text-[16px] w-auto ">Embark on a journey with us as we delve into the heart of your project. Through a meticulous Discovery & Needs Assessment, we unravel your vision, ensuring every detail is captured.</p>
+                            <p class="text-[#1B123B] font-Fixel400 text-base w-auto text-start">Embark on a journey with us as we delve into the heart of your project. Through a meticulous Discovery & Needs Assessment, we unravel your vision, ensuring every detail is captured.</p>
                         </div>
                         </div>
                     </div>
@@ -89,12 +89,12 @@ export default component$(() => {
                     <div class="flex justify-center">
                             <Image layout="constrained" src={"/assets/images/discoverySection/cards/card2.svg"} alt="card 2 image" width={364} height={335} class="mt-5" />
                         </div>
-                        <div class="flex justify-center flex-col">
+                        <div class="flex justify-center  flex-col">
                         <div>
-                            <p class="text-[#1B123B] font-GeistMono600 text-[24px] my-2">Crafting Possibilities</p>
+                            <p class="text-[#1B123B] font-GeistMono600 text-start text-[24px] my-2">Crafting Possibilities</p>
                         </div>
                         <div class="mt-4">
-                            <p class="text-[#1B123B] font-Fixel400 text-[16px] w-auto">Explore possibilities with our expertise, working together to sculpt your Vision. We blend creativity and precision, shaping ideas into a solid plan through budget and timeline.</p>
+                            <p class="text-[#1B123B] font-Fixel400 text-start text-base w-auto">Explore possibilities with our expertise, working together to sculpt your Vision. We blend creativity and precision, shaping ideas into a solid plan through budget and timeline.</p>
                         </div>
                         </div>
                     </div>
@@ -109,10 +109,10 @@ export default component$(() => {
                         </div>
                         <div class="flex justify-center flex-col">
                             <div>
-                                <p class="text-[#1B123B] font-GeistMono600 text-[24px] my-2 ">Seal the Promise / Craft</p>
+                                <p class="text-[#1B123B] font-GeistMono600 text-start text-[24px] my-2 ">Seal the Promise / Craft</p>
                             </div>
                             <div class="mt-4">
-                                <p class="text-[#1B123B] font-Fixel400 text-[16px] w-auto">Watch as your vision unfolds. From meticulous execution to real-time progress updates, we ensure every step is a testament to the transformative results we craft together.</p>
+                                <p class="text-[#1B123B] text-start font-Fixel400 text-base w-auto">Watch as your vision unfolds. From meticulous execution to real-time progress updates, we ensure every step is a testament to the transformative results we craft together.</p>
                             </div>
                         </div>
                     </div>

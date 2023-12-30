@@ -1,304 +1,5 @@
-/**
- * Tailwind CSS imports
- * View the full documentation at https://tailwindcss.com
- */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-/**
- * WHAT IS THIS FILE?
- *
- * Globally applied styles. No matter which components are in the page or matching route,
- * the styles in here will be applied to the Document, without any sort of CSS scoping.
- *
- */
-html {
-  -webkit-text-size-adjust: 100%;
-  -moz-tab-size: 4;
-  -o-tab-size: 4;
-  tab-size: 4;
-  font-family:
-    ui-sans-serif,
-    GeistMono,
-    system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    "Helvetica Neue",
-    Arial,
-    "Noto Sans",
-    sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
-    "Segoe UI Symbol",
-    "Noto Color Emoji";
-}
-
-body {
-  padding: 0;
-  line-height: inherit;
-}
-
-@font-face {
-	font-family: 'GeistMono400';
-	src: url('/assets/fonts/Geist-Regular.woff2') format('woff2');
-	font-weight: Medium;
-	font-style: normal;
-	font-display: swap;
-  }
-
-@font-face {
-  font-family: 'GeistMono500';
-  src: url('/assets/fonts/Geist-Medium.woff2') format('woff2');
-  font-weight: Medium;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'GeistMono600';
-  src: url('/assets/fonts/Geist-SemiBold.woff2') format('woff2');
-  font-weight: Medium;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Fixel400';
-  src: url('/assets/fonts/FixelText-Regular.woff2') format('woff2');
-  font-weight: Medium;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Fixel500';
-  src: url('/assets/fonts/FixelText-Medium.woff2') format('woff2');
-  font-weight: Medium;
-  font-style: normal;
-  font-display: swap;
-}
-
-
-@font-face {
-  font-family: 'Fixel600';
-  src: url('/assets/fonts/FixelText-SemiBold.woff2') format('woff2');
-  font-weight: Medium;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PlusJakartaSans';
-  src: url('/assets/fonts/PlusJakartaSans-Regular.woff2') format('woff2');
-  font-weight: Medium;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'CerebriSans';
-  src: url('/assets/fonts/CerebriSans-Regular.woff2') format('woff2');
-  font-weight: Medium;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-	font-family: 'Poppins400';
-	src: url('/assets/fonts/poppins-regular-webfont.woff2') format('woff2');
-	font-style: normal;
-	font-display: swap;
-  }
-
-  
-  @font-face {
-	font-family: 'Poppins600';
-	src: url('/assets/fonts/poppins-semibold-webfont.woff2') format('woff2');
-	font-weight: Medium;
-	font-style: normal;
-	font-display: swap;
-  }
-  
-  .hr-color{
-	background: rgba(255, 255, 255, 0.32);
-	opacity: 0.2;
-  }
-
-.main-text-gradient {
-
-  background: linear-gradient(90deg, #8000FF 10.64%, #C600FF 31.12%, #FF3B8C 53.56%, #FFC600 69%, #FF7800 89.42%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.orange-arrow-gradient {
-  background: linear-gradient(125deg, #FBBF04 0.51%, #FF0013 92.48%);
-}
-
-.purplr-arrow-gradient {
-  background: linear-gradient(280deg, #792FFF 0%, #C600FF 114.1%);
-}
-
-.my-checkbox {
-  background-color: #8000FF;
-}
-
-.your-idea-gradient {
-  background: linear-gradient(91deg, #8000FF 23.3%, #8000FF 25.15%, #0096EB 31.52%, #00F6B3 42.4%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-    background-clip: text;
-    color: transparent;
-}
-
-.our-expertise-gradient {
-  background: linear-gradient(90deg, #FF548D 47.84%, #D700FF 61.19%, #5606EF 76.63%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-    background-clip: text;
-    color: transparent;
-}
-
-/* .card-background-gradient {
-  background: linear-gradient(180deg, rgba(57, 1, 113, 0.00) 0%, rgba(102, 0, 202, 0.05) 100%);
-  
-} */
-
-.green-cese-gradient {
-  background: linear-gradient(180deg, #E6FFF5 0%, rgba(249, 255, 255, 0.00) 100%);
-}
-
-.pink-case-gradient {
-  background: linear-gradient(180deg, #FBE9FF 0.02%, rgba(255, 251, 255, 0.00) 99.98%);
-}
-
-.green-read-cese-gradient {
-  background-color: -webkit-linear-gradient(90deg, #CE66FF 5.16%, #8000FF 70.36%); 
-  background-color: linear-gradient(90deg, #CE66FF 5.16%, #8000FF 70.36%)
-}
-
-
-
-.your-vision-gradient {
-  background: linear-gradient(90deg, #8000FF 26.35%, #0096EB 37.71%, #00F6B3 53.87%));
-  -webkit-background-clip: text;
--webkit-text-fill-color: transparent; 
-  background-clip: text;
-  color: transparent;
-}
-
-.success-gradient{
-  background: linear-gradient(90deg, #00D5F3 46.79%, #02DFA1 68.12%, #FFBC00 81.13%, #FF7800 96.73%);
-  -webkit-background-clip: text;
--webkit-text-fill-color: transparent; 
-  background-clip: text;
-  color: transparent;
-}
-
-.stories-gradient{
-  background: linear-gradient(90deg, #00D5F3 -19.98%, #02DFA1 0.24%, #FFBC00 12.57%, #FF7800 27.37%);
-  -webkit-background-clip: text;
--webkit-text-fill-color: transparent; 
-  background-clip: text;
-  color: transparent;
-}
-
-.precision-gradient {
-  background: linear-gradient(90deg, #FF548D 12.04%, #D700FF 45.87%, #5606EF 81.7%));
-  -webkit-background-clip: text;
--webkit-text-fill-color: transparent; 
-  background-clip: text;
-  color: transparent;
-}
-
-.weve-sculpted-gradient{
-  background:linear-gradient(90deg, #7133FA 34.63%, #643EF8 44.43%, #0096EB 59.6%, #00D8A3 84.41%);
-  -webkit-background-clip: text;
--webkit-text-fill-color: transparent; 
-  background-clip: text;
-  color: transparent;
-}
-
-.shedule-call-gradient{
-background: linear-gradient(107deg, #39145D 1.96%, #A654F7 90.12%);
-}
-
-.shedule-call-button-gradient{
-
-background: linear-gradient(248deg, #FFF 34.56%, #FFF 62.32%, #E8D1FF 85.42%);
-  }
-  
-
-.marquee-items {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.marquee {
-  display: flex;
-  width: 200%;
-  animation: marqueeSlide 20s linear infinite;
-}
-
-@keyframes marqueeSlide {
-    from { transform: translateX(0); }
-    to { transform: translateX(-50%); }
-}
-
-.marquee2 {
-  display: flex;
-  width: 200%;
-  animation: marqueeSlide2 20s linear infinite;
-}
-
-@keyframes marqueeSlide2 {
-    from { transform: translateX(-50%);}
-    to { transform: translateX(0);  }
-}
-
-
-/*svg animation*/
-
-@keyframes drawLine {
-  0% { stroke-dasharray: 1000; stroke-dashoffset: 1000; }
-  100% { stroke-dasharray: 1000; stroke-dashoffset: 0; } 
-}
-
-.mySvg path {
-  animation: drawLine 5s ease-in-out infinite;
- 
-}
-
-/*card a border*/
-
-/* body {
-	background: #000;
-	color: #fff;
-	font-family: "Inter", sans-serif;
-	position: relative;
-}
- */
-
-
-
-
-:root {
-	--text-color: #a1a1a1;
-	--accent-color: #111;
-	--geist-foreground-rgb: 255, 255, 255;
-	--border-radius: 22px;
-}
-
-
-
-
-/* .gradient-border-card{
+.gradient-border-card{
 	position: relative;
 	padding: 40px;
 	border-radius: var(--border-radius);
@@ -306,11 +7,45 @@ background: linear-gradient(248deg, #FFF 34.56%, #FFF 62.32%, #E8D1FF 85.42%);
 	border-width: 1px;
 	border-color: #D8D5E0;
 	border-style: solid;
-} */
-/* 
+}
+
 .gradient-border-card:hover {
-	
-} */
+	position: relative;
+	padding: 40px;
+	border-radius: var(--border-radius);
+	flex: 1 1;
+	transition: background .2s ease-in-out,box-shadow .2s ease-in-out;
+	box-shadow: 0 0 0 1px transparent, 0 2px 4px transparent, 0 12px 24px transparent;
+	cursor: pointer;
+	height: 100%;
+	z-index: 1;
+	@keyframes shimmer {
+		0% {
+			opacity: 0
+		}
+
+		5% {
+			opacity: 0;
+			background-position: -50%
+		}
+
+		10% {
+			opacity: .7
+		}
+
+		15% {
+			opacity: 0;
+			background-position: 150%
+		}
+
+		20% {
+			opacity: 0
+		}
+
+		to {
+			opacity: 0
+		}
+	}
 	.shimmer {
 		background: linear-gradient(112deg,transparent 30%,rgba(var(--geist-foreground-rgb),.1) 40%,rgba(var(--geist-foreground-rgb),.3) 50%,rgba(var(--geist-foreground-rgb),.1) 60%,transparent 80%);
 		position: absolute;
@@ -323,7 +58,7 @@ background: linear-gradient(248deg, #FFF 34.56%, #FFF 62.32%, #E8D1FF 85.42%);
 		animation: shimmer 18s cubic-bezier(.8,0,.05,1) infinite;
 		animation-delay: var(--delay);
 	}
-	x {
+	i {
 		content: "";
 		position: absolute;
 		inset: -1px;
@@ -364,7 +99,6 @@ background: linear-gradient(248deg, #FFF 34.56%, #FFF 62.32%, #E8D1FF 85.42%);
 			animation: landing_spin__XlUIM 5s linear infinite;
 		}
 	}
-
 	@keyframes landing_spin__XlUIM {
 		0% {
 			transform: translate(-50%,-50%) rotate(1turn)
@@ -380,16 +114,35 @@ background: linear-gradient(248deg, #FFF 34.56%, #FFF 62.32%, #E8D1FF 85.42%);
 		padding: 0.75rem;
 		border-radius: inherit;
 	}
-	
-	
-
+	p {
+		color: var(--text-color);
+	}
+	&:before, .icon:before {
+		content: "";
+		position: absolute;
+		inset: -1px;
+		border-radius: inherit;
+		padding: 1px;
+		background: radial-gradient(75% 75% at 25% 15%,#fff 0,hsla(0,0%,100%,.3) 100%);
+		-webkit-mask: linear-gradient(#000,#000) content-box,linear-gradient(#000,#000);
+		mask: linear-gradient(#000,#000) content-box,linear-gradient(#000,#000);
+		-webkit-mask-composite: xor;
+		mask-composite: exclude;
+		opacity: .5;
+		pointer-events: none;
+	}
+	&:hover {
+		background: var(--accent-color);
+		box-shadow: 0 0 0 1px rgba(0,0,0,.03), 0 2px 4px rgba(0,0,0,.05), 0 12px 24px rgba(0,0,0,.05);
+	}
+}
 
 
 /* Favorite Button
 /*************************/
 
 .favorite-item {
-
+	// width: calc(100% + 16px);
 	margin: 0 -8px;
 	padding: 0 8px;
 	display: inline-flex;
@@ -483,7 +236,7 @@ button {
 	right: 0;
 	bottom: 0;
 	left: 0;
-
+	// background: #000;
 	border-radius: 12px;
 	display: flex;
 	justify-content: center;
@@ -724,9 +477,10 @@ button {
 	color: #fff;
 	letter-spacing: -.01em;
 	background-color: transparent;
-	border: 2px solid rgba(255, 255, 255, .1);
-	border-radius: 1.5rem;
-	padding: 1px;
+	border: 1px solid rgba(255, 255, 255, .1);
+	border-radius: 62.5rem;
+	padding: .7rem 1.5rem;
+	font-size: .88rem;
 	line-height: 1.42;
 	text-decoration: none;
 	position: relative;
@@ -735,14 +489,14 @@ button {
 }
 
 .glowing-wrapper {
-	border-radius: 1.5rem;
+	border-radius: 62.5rem;
 	display: inline-block;
 	position: relative;
 	overflow: hidden
 }
 
 .glowing-wrapper.glowing-wrapper-active {
-	
+	background-color: #000
 }
 
 .glowing-wrapper-borders-masker {
@@ -750,7 +504,7 @@ button {
 	opacity: 0;
 	border-radius: 62.5rem;
 	padding: .11rem;
-
+	line-height: 100%;
 	transition: opacity 1s;
 	position: absolute;
 	top: 0;
@@ -759,6 +513,12 @@ button {
 
 .glowing-wrapper .button-text {
 	z-index: 2;
+	// color: transparent;
+	// -webkit-text-fill-color: transparent;
+	// background-image: linear-gradient(rgba(255, 255, 255, .8), #fff);
+	// -webkit-background-clip: text;
+	// background-clip: text;
+	// font-weight: 400;
 	color: #fff;
 	position: relative
 }
@@ -796,7 +556,7 @@ button {
 }
 
 .glowing-wrapper-button:after {
-	background: radial-gradient(85% 120% at 50% 120%, #00D8A3) 0%, rgba(255, 255, 255, 0) 100%);
+	background: radial-gradient(85% 120% at 50% 120%, rgba(255, 255, 255, .24) 0%, rgba(255, 255, 255, 0) 100%);
 	border-radius: 999px;
 	content: "";
 	height: calc(100% + 4px);
@@ -848,7 +608,7 @@ button {
 .glowing-wrapper-glow,
 .glowing-wrapper-mask {
 	animation: borderTurn 2.5s infinite linear;
-	background-image: conic-gradient(from 0 at 50% 50%, rgba(25, 255, 255, .5) 0deg, rgba(255, 255, 255, 0) 60deg, rgba(255, 255, 255, 0) 310deg, rgba(255, 25, 255, .5) 360deg);
+	background-image: conic-gradient(from 0 at 50% 50%, rgba(255, 255, 255, .5) 0deg, rgba(255, 255, 255, 0) 60deg, rgba(255, 255, 255, 0) 310deg, rgba(255, 255, 255, .5) 360deg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover
@@ -989,6 +749,18 @@ button {
 	outline: 0
 }
 
+// .sf-rings:before {
+// 	--theme: #ff00fe;
+// 	background: radial-gradient(circle at center,#ff00fe 30%,rgba(107,0,255,.5) 50%,transparent 70%);
+// 	background: radial-gradient(circle at center,var(--theme) 30%,rgba(107,0,255,.5) 50%,transparent 70%);
+// 	content: "";
+// 	height: 200%;
+// 	left: -50%;
+// 	position: absolute;
+// 	top: -10rem;
+// 	width: 200%;
+// 	z-index: -1
+// }
 
 .sf-ring.--1,.sf-ring.--2 {
 	animation: shape 100s linear infinite
@@ -1137,5 +909,4 @@ button {
 }
 
 /****************************/
-
 

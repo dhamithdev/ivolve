@@ -14,7 +14,7 @@ export default component$(() => {
                 </div>
                 <div class="flex justify-center text-center mt-[50px]">
                     <button class=" py-3 px-4 rounded-3xl border-[1px] border-[#BA87ED] flex shedule-call-button-gradient" >
-                        <Link class="text-[16px] font-GeistMono500  text-[#490092]  " href="#">
+                        <Link class="text-base font-GeistMono500  text-[#490092]  " href="#">
                             Schedule a call
                         </Link>
                         <span class="ml-2 my-auto">

@@ -51,22 +51,22 @@ export default component$(() => {
             <nav class="flex-grow">
                 <ul class="flex justify-center gap-12 ">
                     <li>
-                        <Link class="text-[16px] font-medium font-GeistMono500 text-[#1B123B] " href="#">
+                        <Link class="text-base font-medium font-GeistMono500 text-[#1B123B] " href="#">
                             Our Services
                         </Link>
                     </li>
                     <li>
-                        <Link class="text-[16px] font-medium font-GeistMono500 text-[#1B123B]  " href="#">
+                        <Link class="text-base font-medium font-GeistMono500 text-[#1B123B]  " href="#">
                             Our Process
                         </Link>
                     </li>
                     <li>
-                        <Link class="text-[16px] font-medium font-GeistMono500 text-[#1B123B]  " href="#">
+                        <Link class="text-base font-medium font-GeistMono500 text-[#1B123B]  " href="#">
                             Blog
                         </Link>
                     </li>
                     <li>
-                        <Link class="text-[16px] font-medium font-GeistMono500 text-[#1B123B]  " href="#">
+                        <Link class="text-base font-medium font-GeistMono500 text-[#1B123B]  " href="#">
                             About Us
                         </Link>
                     </li>
@@ -74,7 +74,7 @@ export default component$(() => {
             </nav>
             <div class="ml-auto">
                 <button class=" py-2 px-4 rounded-3xl bg-gradient-to-r from-purple-500 to-indigo-500 flex" >
-                    <Link class="text-[16px] font-medium text-[#FFF] font-GeistMono600 " href="#">
+                    <Link class="text-base font-medium text-[#FFF] font-GeistMono600 " href="#">
                     About Us
                     </Link>
                     <span class="ml-2 my-auto">

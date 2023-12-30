@@ -213,33 +213,54 @@ export default component$(() => {
 
         <div class="flex flex-col items-center justify-center relative ">
             <div>
-   
+
                 <h1 class="text-[80px] font-semibold text-[#1B123B] xl:w-[1100px] text-center leading-tight xl:mt-[80px] font-GeistMono600">Seamlessly blending design and technology to <span class="main-text-gradient">sculpt</span> your success story.</h1>
             </div>
             <div>
                 <p class="text-[24px] font-normal font-Fixel400 xl:w-[950px] text-center mt-10">From pixel to code, we craft visually intuitive digital experiences, elevating your brand with a compelling digital presence where creativity meets functionality.</p>
             </div>
-            <div class="mt-16">
-                <button class=" py-3 px-4 rounded-3xl bg-gradient-to-r to-[#792FFF] from-[#AE5CFF]  flex" >
-                    <Link class="text-[16px]  text-[#FFF]  " href="#">
-                        Schedule a call
-                    </Link>
-                    <span class="ml-2 my-auto">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                            <g clip-path="url(#clip0_28_91)">
-                                <path d="M9 16.5C13.1421 16.5 16.5 13.1421 16.5 9C16.5 4.85786 13.1421 1.5 9 1.5C4.85786 1.5 1.5 4.85786 1.5 9C1.5 13.1421 4.85786 16.5 9 16.5Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                <path d="M9 12L12 9L9 6" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                <path d="M6 9H12" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_28_91">
-                                    <rect width="18" height="18" fill="white" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                    </span>
-                </button>
+
+            <div class="glowing-wrapper glowing-wrapper-active mt-16 cursor-pointer">
+                <div class="glowing-wrapper-animations">
+                    <div class="glowing-wrapper-glow"></div>
+                    <div class="glowing-wrapper-mask-wrapper">
+                        <div class="glowing-wrapper-mask"></div>
+                    </div>
+                </div>
+
+                <div class="glowing-wrapper-borders-masker">
+                    <div class="glowing-wrapper-borders"></div>
+                </div>
+
+                <div class="glowing-wrapper-button ">
+                    <div>
+                        <div class="">
+                            <button class=" py-3 px-4 rounded-3xl bg-gradient-to-r to-[#792FFF] from-[#AE5CFF]  flex" >
+                                <Link class="text-base  text-[#FFF]  " href="#">
+                                    Schedule a call
+                                </Link>
+                                <span class="ml-2 my-auto">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                        <g clip-path="url(#clip0_28_91)">
+                                            <path d="M9 16.5C13.1421 16.5 16.5 13.1421 16.5 9C16.5 4.85786 13.1421 1.5 9 1.5C4.85786 1.5 1.5 4.85786 1.5 9C1.5 13.1421 4.85786 16.5 9 16.5Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M9 12L12 9L9 6" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M6 9H12" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_28_91">
+                                                <rect width="18" height="18" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+
+
 
         </div>
 

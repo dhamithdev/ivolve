@@ -10,7 +10,7 @@ export default component$(() => {
                     <h2 class="text-[49px] font-GeistMono600 text-[#1B123B] leading-none">Illuminating <span class="success-gradient">Success</span> <span class="stories-gradient">Stories</span> in Digital Evolution</h2>
                     </div>
                     <div class="w-[50%] ">
-                        <p class="text-[#494162] font-Fixel400 text-[24px] w-[600px] leading-snug pl-10">Dive into the chronicles of digital metamorphosis, where each case study narrates a unique tale of transformation and triumph.</p>
+                        <p class="text-[#494162] font-Fixel400 text-[24px] w-auto leading-snug pl-10">Dive into the chronicles of digital metamorphosis, where each case study narrates a unique tale of transformation and triumph.</p>
                     </div>
                 </div>
                 <div class="mt-14 flex justify-between">
@@ -27,18 +27,18 @@ export default component$(() => {
                         </div>
                         <div class="flex  pt-[18px] gap-5">
                             <div>
-                                <div class="font-Fixel500 text-[16px] text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded"><label>UX/UI</label></div>
+                                <div class="font-Fixel500 text-base text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded"><label>UX/UI</label></div>
                             </div>
                             <div>
-                                <div class="font-Fixel500 text-[16px] text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded"><label>Development</label></div>
+                                <div class="font-Fixel500 text-base text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded"><label>Development</label></div>
                             </div>
                             <div>
-                                <div class="font-Fixel500 text-[16px] text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded"><label>SEO</label></div>
+                                <div class="font-Fixel500 text-base text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded"><label>SEO</label></div>
                             </div>
                         </div>
                         <div class=" pt-[30px]">
                             <button  class="w-[220px] h-[32px]  rounded-lg bg-gradient-to-r from-purple-400 via-purple-500 to-indigo-600 ">
-                                <div class="text-white font-GeistMono600 text-[16px] flex justify-between mx-5">
+                                <div class="text-white font-GeistMono600 text-base flex justify-between mx-5">
                                     Read Case Study
                                     <span class="mt-1">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
@@ -57,7 +57,7 @@ export default component$(() => {
                                 </div>
                             </button>
                         </div>
-                        <div class="ml-[10px] pt-[50px]">
+                        <div class="flex items-center justify-center pt-[50px]">
                         <Image src={"/assets/images/journeySection/jgreen.svg"} alt="jgreen image"  layout="constrained" width={470} height={350} />
                         </div>
 
@@ -75,18 +75,18 @@ export default component$(() => {
                         </div>
                         <div class="flex  pt-[18px] gap-5">
                             <div>
-                                <div class="font-Fixel500 text-[16px] text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded"><label>UX/UI</label></div>
+                                <div class="font-Fixel500 text-base text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded"><label>UX/UI</label></div>
                             </div>
                             <div>
-                                <div class="font-Fixel500 text-[16px] text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded"><label>Development</label></div>
+                                <div class="font-Fixel500 text-base text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded"><label>Development</label></div>
                             </div>
                             <div>
-                                <div class="font-Fixel500 text-[16px] text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded"><label>SEO</label></div>
+                                <div class="font-Fixel500 text-base text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded"><label>SEO</label></div>
                             </div>
                         </div>
                         <div class=" pt-[30px]">
                             <button  class="w-[220px] h-[32px]  rounded-lg bg-gradient-to-r from-purple-400 via-purple-500 to-indigo-600 ">
-                                <div class="text-white font-GeistMono600 text-[16px] flex justify-between mx-5">
+                                <div class="text-white font-GeistMono600 text-base flex justify-between mx-5">
                                     <label>Read Case Study</label>
                                     <span class="mt-1">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
@@ -105,7 +105,7 @@ export default component$(() => {
                                 </div>
                             </button>
                         </div>
-                        <div class="ml-[10px] pt-[50px]">
+                        <div class="pt-[50px] flex items-center justify-center">
                         <Image src={"/assets/images/journeySection/jpink.svg"} alt="jpink image"  layout="constrained" width={528} height={352} />
                         </div>
 

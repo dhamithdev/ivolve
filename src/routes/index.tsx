@@ -23,10 +23,10 @@ export default component$(() => {
       <ElevateSection/>
       <DigitalSection/>
       <YourIdeaSection/>
-      <JourneySection/> 
+      {/* <JourneySection/> 
       <TheirWordsSection/>
       <SheduleCall/>
-      <Footer/>
+      <Footer/> */}
 
     </main>
   );
