@@ -19,7 +19,7 @@ export default component$(() => {
     <main class="max-w-[1920px] mx-auto ">
       <Navbar/>
       <HeroSection/>
-      {/* <TruestSection/>
+      <TruestSection/>
       <DiscoverySection/>
       <ElevateSection/>
       <DigitalSection/>
@@ -27,8 +27,8 @@ export default component$(() => {
       <JourneySection/> 
       <TheirWordsSection/>
       <SheduleCall/>
-      <Footer/> */}
-      <Test/>
+      <Footer/>
+   
     </main>
   );
 });
