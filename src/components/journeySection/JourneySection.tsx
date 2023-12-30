@@ -38,8 +38,8 @@ export default component$(() => {
                         </div>
                         <div class=" pt-[30px]">
                             <button  class="w-[220px] h-[32px]  rounded-lg bg-gradient-to-r from-purple-400 via-purple-500 to-indigo-600 ">
-                                <div class="text-white font-GeistMono600 text-base flex justify-between mx-5">
-                                    Read Case Study
+                            <div class="text-white font-GeistMono600 text-base justify-between flex flex-row mx-2">
+                                    <span class="flex">Read Case Study</span>
                                     <span class="mt-1">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                                             <g clip-path="url(#clip0_28_3260)">
@@ -86,8 +86,8 @@ export default component$(() => {
                         </div>
                         <div class=" pt-[30px]">
                             <button  class="w-[220px] h-[32px]  rounded-lg bg-gradient-to-r from-purple-400 via-purple-500 to-indigo-600 ">
-                                <div class="text-white font-GeistMono600 text-base flex justify-between mx-5">
-                                    <label>Read Case Study</label>
+                                <div class="text-white font-GeistMono600 text-base justify-between flex flex-row mx-2">
+                                    <span class="flex">Read Case Study</span>
                                     <span class="mt-1">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                                             <g clip-path="url(#clip0_28_3260)">
