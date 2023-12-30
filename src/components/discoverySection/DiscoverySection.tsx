@@ -65,6 +65,7 @@ export default component$(() => {
 
             <div class="mt-16 flex flex-wrap justify-between mb-40">
                 {/* card 1 */}
+
                 <div class="w-[30%] h-auto rounded-3xl bg-[#FEFAFF] pb-8 border-[1px]">
                     <div class="mx-3">
                         <div class="flex justify-center">
@@ -78,7 +79,9 @@ export default component$(() => {
                         </div>
                     </div>
                 </div>
+
                 {/* card 2 */}
+
                 <div class="w-[30%] h-auto rounded-3xl bg-[#F2FFFA] pb-8 border-[1px]">
                     <div class="mx-3">
                     <div class="flex justify-center">
@@ -92,20 +95,25 @@ export default component$(() => {
                         </div>
                     </div>
                 </div>
+
                 {/* card 3 */}
+
                 <div class="w-[30%] h-auto rounded-3xl bg-[#FFFAF7] pb-8 border-[1px]">
                     <div class="mx-3">
                     <div class="flex justify-center">
                             <Image layout="constrained" src={"/assets/images/discoverySection/cards/card3.svg"} alt="card 3 image" width={364} height={335} class="mt-5" />
                         </div>
                         <div>
+                        <div>
                             <p class="text-[#1B123B] font-GeistMono600 text-[24px] my-2">Seal the Promise / Craft</p>
                         </div>
                         <div class="mt-4">
                             <p class="text-[#1B123B] font-Fixel400 text-[16px] w-auto">Watch as your vision unfolds. From meticulous execution to real-time progress updates, we ensure every step is a testament to the transformative results we craft together.</p>
                         </div>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>)

@@ -27,13 +27,13 @@ export default component$(() => {
                         </div>
                         <div class="flex  pt-[18px] gap-5">
                             <div>
-                                <div class="font-Fixel500 text-[16px] text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded">UX/UI</div>
+                                <div class="font-Fixel500 text-[16px] text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded"><label>UX/UI</label></div>
                             </div>
                             <div>
-                                <div class="font-Fixel500 text-[16px] text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded">Development</div>
+                                <div class="font-Fixel500 text-[16px] text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded"><label>Development</label></div>
                             </div>
                             <div>
-                                <div class="font-Fixel500 text-[16px] text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded">SEO</div>
+                                <div class="font-Fixel500 text-[16px] text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded"><label>SEO</label></div>
                             </div>
                         </div>
                         <div class=" pt-[30px]">
@@ -75,13 +75,13 @@ export default component$(() => {
                         </div>
                         <div class="flex  pt-[18px] gap-5">
                             <div>
-                                <div class="font-Fixel500 text-[16px] text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded">UX/UI</div>
+                                <div class="font-Fixel500 text-[16px] text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded"><label>UX/UI</label></div>
                             </div>
                             <div>
-                                <div class="font-Fixel500 text-[16px] text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded">Development</div>
+                                <div class="font-Fixel500 text-[16px] text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded"><label>Development</label></div>
                             </div>
                             <div>
-                                <div class="font-Fixel500 text-[16px] text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded">SEO</div>
+                                <div class="font-Fixel500 text-[16px] text-black bg-[#ECD9FF] w-auto px-2 py-1 rounded"><label>SEO</label></div>
                             </div>
                         </div>
                         <div class=" pt-[30px]">
