@@ -1,8 +1,10 @@
 import { component$ } from '@builder.io/qwik';
 import { Image } from '@unpic/qwik';
-import moment from 'moment';
+import moment from 'moment-timezone';
 
 export default component$(() => {
+
+    moment.tz.setDefault('Asia/Colombo');
 
     const options = [
         { label: "UI/UX Design", isChecked: false },
