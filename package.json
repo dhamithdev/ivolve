@@ -48,6 +48,7 @@
   },
   "dependencies": {
     "@unpic/qwik": "^0.0.38",
-    "geist": "^1.2.0"
+    "geist": "^1.2.0",
+    "moment": "^2.30.1"
   }
 }

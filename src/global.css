@@ -280,6 +280,10 @@ background: linear-gradient(248deg, #FFF 34.56%, #FFF 62.32%, #E8D1FF 85.42%);
  
 }
 
+.custom-box-shadow {
+	box-shadow: 26px 36px 22px 1px rgba(78, 74, 98, 0.08), 1px 1px 2px 0px rgba(112, 107, 135, 0.19);
+}
+
 /*card a border*/
 
 /* body {
@@ -287,8 +291,8 @@ background: linear-gradient(248deg, #FFF 34.56%, #FFF 62.32%, #E8D1FF 85.42%);
 	color: #fff;
 	font-family: "Inter", sans-serif;
 	position: relative;
-}
- */
+} */
+
 
 
 
