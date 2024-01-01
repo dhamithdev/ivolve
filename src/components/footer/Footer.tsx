@@ -9,7 +9,7 @@ export default component$(() => {
                 <div class="flex justify-between">
                     <div>
                     
-                        <div class=" w-auto">
+                        <div class=" w-auto flex gap-4">
                             <Link href="/" class="flex gap-4" aria-label="go to home page">
                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="37" viewBox="0 0 40 37" fill="none">
                                 <mask id="mask0_203_6429" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="40" height="37">
@@ -43,7 +43,7 @@ export default component$(() => {
                             </svg>
                             </Link>
                             <Link href="/" aria-label="go to ivolve Global page">
-                            <p class="text-white text-[24px] font-GeistMono600">ivolve Global</p>
+                            <span class="text-white text-[24px] font-GeistMono600">ivolve Global</span>
                             </Link>
                         </div>
                         

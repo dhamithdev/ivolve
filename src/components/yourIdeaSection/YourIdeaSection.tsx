@@ -145,7 +145,7 @@ export default component$(() => {
                             </div>
                             <div class="mx-[28px] mt-1">
                                 <div>
-                                    <p class="text-[#1B123B] font-GeistMono600 text-[20px] w-auto">Tailored Solutions for Your Vision</p>
+                                    <span class="text-[#1B123B] font-GeistMono600 text-[20px] w-auto">Tailored Solutions for Your Vision</span>
                                 </div>
                                 <div class="mt-[8px] mb-7">
                                     <p class="font-Fixel400 text-base text-[#1B123B] w-auto">
@@ -191,9 +191,9 @@ export default component$(() => {
                         <div class="flex items-center justify-center relative py-9">
                             <Image width={262} height={172} alt="card 2 image" src={"/assets/images/yourIdeaSection/card2/card002.svg"} layout="constrained" />
                         </div>
-                        <div class="mx-7 mt-1">
+                        <div class="mx-7 mt-4">
                             <div>
-                                <p class="text-[#1B123B] font-GeistMono600 text-[18px] w-auto">Expand Resources at Your Fingertips</p>
+                                <span class="text-[#1B123B] font-GeistMono600 text-[18px] w-auto">Expand Resources at Your Fingertips</span>
                             </div>
                             <div class="mt-[8px] mb-7">
                                 <p class="font-Fixel400 text-base text-[#1B123B] w-auto">
@@ -237,7 +237,7 @@ export default component$(() => {
                         </div>
                         <div class="mx-7 mt-[-14px]">
                             <div>
-                                <p class="text-[#1B123B] font-GeistMono600 text-[20px] w-auto">Precision Craftsmanship</p>
+                                <span class="text-[#1B123B] font-GeistMono600 text-[20px] w-auto">Precision Craftsmanship</span>
                             </div>
                             <div class="mt-[8px] mb-7">
                                 <p class="font-Fixel400 text-base text-[#1B123B] w-auto">
@@ -288,9 +288,9 @@ export default component$(() => {
                         </div>
                         </div>
 
-                        <div class="mx-[22px] bottom-0  flex  flex-col my-5">
+                        <div class="mx-[22px] bottom-0  flex  flex-col my-7">
                             <div>
-                                <p class="text-[#1B123B] font-GeistMono600 text-[20px] w-auto">Unleash Your Product's Potential on a Global Scale</p>
+                                <span class="text-[#1B123B] font-GeistMono600 text-[20px] w-auto">Unleash Your Product's Potential on a Global Scale</span>
                             </div>
                             <div class="mt-[8px]">
                                 <p class="font-Fixel400 text-base text-[#1B123B]  w-auto">
@@ -338,7 +338,7 @@ export default component$(() => {
 
                         <div class="mx-[22px] bottom-0 flex  flex-col my-5">
                             <div>
-                                <p class="text-[#1B123B] font-GeistMono600 text-[20px] w-auto">Long-Term Success Driven by Continuous Improvement</p>
+                                <span class="text-[#1B123B] font-GeistMono600 text-[20px] w-auto">Long-Term Success Driven by Continuous Improvement</span>
                             </div>
                             <div class="mt-[8px]">
                                 <p class="font-Fixel400 text-base text-[#1B123B] w-auto">

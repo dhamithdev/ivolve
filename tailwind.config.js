@@ -22,6 +22,9 @@ module.exports = {
         lg: '1024px',
         xl: '1300px',
       },
+      opacity: {
+        '60': '.60',
+      }
 
     },
   },

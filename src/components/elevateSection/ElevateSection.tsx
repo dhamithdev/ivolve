@@ -202,15 +202,15 @@ export default component$(() => {
                         <Image src={"/assets/images/elevateSection/rightside/alpaSEo.svg"} width={214} height={233} alt="alpaSEo image" />
                     </div>
                     <div class="absolute ml-[30px] mt-[440px] z-1">
-                        <div class="flex gap-36 rounded-[20px] w-fit h-auto border px-5 custom-box-shadow">
+                        <div class="flex gap-40 rounded-[20px] w-fit h-auto py-2 px-7 custom-box-shadow bg-[#FBFDFF]">
                             <div class="my-auto">
                                 <div>
-                                    <span class="font-Fixel400 text-[14px]">Colombo, Sri Lanka</span>
+                                    <span class="font-Fixel400 text-[14px] text-[#22215B]/60">Colombo, Sri Lanka</span>
                                 </div>
                                 <div>
                                     <span class="font-Fixel600 text-[30px] text-[#2C3774]">{moment().format('LT')}</span>
                                 </div>
-                                <div class="-mt-2">
+                                <div class="-mt-2 text-[#22215B]/60">
                                     <span class="font-Fixel400 text-[14px] ">{moment().format('MMMM')} {moment().format('DD')}.{moment().format('YYYY')} | {moment().format('dddd')}</span>
                                 </div>
                             </div>
@@ -237,12 +237,12 @@ export default component$(() => {
                                     </svg></span>
                                 </div>
                                 <div >
-                                    <span class="font-GeistMono600 text-[24px]">18° C</span>
+                                    <span class="font-GeistMono600 text-[24px] text-[#2C3774]">18° C</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="xl:ml-[100px] xl:mt-[540px] lg:ml-[100px] lg:mt-[570px] absolute z-50">
+                    <div class="xl:ml-[100px] xl:mt-[550px] lg:ml-[100px] lg:mt-[560px] absolute z-50 ">
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" viewBox="0 0 30 31" fill="none">
                                 <path d="M3.75 3.948L12.5875 25.1605L15.725 15.923L24.9625 12.7855L3.75 3.948Z" fill="url(#paint0_linear_198_471)" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
