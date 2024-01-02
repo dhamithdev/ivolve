@@ -8,6 +8,7 @@ import HeroSection from "~/components/heroSection/HeroSection";
 import JourneySection from "~/components/journeySection/JourneySection";
 import Navbar from "~/components/navbar/Navbar";
 import SheduleCall from "~/components/sheduleCallSection/SheduleCall";
+import Test from "~/components/test/Test";
 
 
 
@@ -29,7 +30,8 @@ export default component$(() => {
       <TheirWordsSection/>
       <SheduleCall/>
       <Footer/>
-
+      {/* <Test/> */}
+            
     </main>
   );
 });
