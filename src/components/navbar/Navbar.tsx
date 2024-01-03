@@ -68,7 +68,7 @@ export default component$(() => {
                             return;
                         }
 
-                        const x = getOffsetLeft(button);
+                        const x = getOffsetLeft(button as HTMLElement);
                         const direction = index > oldIndex ? "after" : "before";
                         const spacing = Math.abs(x - getOffsetLeft(active));
 
