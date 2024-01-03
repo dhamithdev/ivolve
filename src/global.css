@@ -286,12 +286,12 @@ background: linear-gradient(248deg, #FFF 34.56%, #FFF 62.32%, #E8D1FF 85.42%);
 
 /*card a border*/
 
-body {
+/* body {
 	background: #000;
 	color: #fff;
 	font-family: "Inter", sans-serif;
 	position: relative;
-}
+} */
 
 
 
@@ -1015,8 +1015,11 @@ nav {
 		display: block;
 		overflow: visible;
 		height: 5px;
-		filter: blur(0.5px) drop-shadow(2px 0px 8px rgba(255, 105, 180, 0.8)) drop-shadow(1px 0px 2px rgba(255, 102, 204, 0.8)) drop-shadow(0px 0px 3px rgba(153, 204, 255, 0.4)) drop-shadow(2px 0px 8px rgba(137, 196, 255, 0.45)) drop-shadow(8px 0px 16px rgba(153, 204, 255, 0.5));
+		filter: blur(0.5px) drop-shadow(2px 0px 8px rgba(255, 105, 180, 0.8)) drop-shadow(1px 0px 2px rgba(255, 102, 204, 0.8)) drop-shadow(0px 0px 3px rgba(255, 105, 180, 0.4)) drop-shadow(2px 0px 8px rgba(245, 80, 156, 0.5)) drop-shadow(8px 0px 16px rgba(230, 60, 128, 0.6));
 	  }
+
+
+
   
 	  .strike {
 		padding: 24px 0;
