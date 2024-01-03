@@ -29,13 +29,15 @@ export default component$(() => {
             const activeButton = navElement.querySelector("ul li.active button");
 
             document.fonts.ready.then(() => {
-                gsap.set(activeElement, {
-                    x: getOffsetLeft(activeButton),
-                });
-                gsap.to(activeElement, {
-                    "--active-element-show": "1",
-                    duration: 0.2,
-                });
+                if (activeButton && activeElement) {
+                    gsap.set(activeElement, {
+                        x: getOffsetLeft(activeButton as HTMLElement),
+                    });
+                    gsap.to(activeElement, {
+                        "--active-element-show": "1",
+                        duration: 0.2,
+                    });
+                }
             });
 
 
