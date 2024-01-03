@@ -27,8 +27,6 @@ export default component$(() => {
       <TheirWordsSection/>
       <SheduleCall/>
       <Footer/>
-      {/* <Test/> */}
-            
     </main>
   );
 });

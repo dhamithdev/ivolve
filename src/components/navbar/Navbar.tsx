@@ -1,7 +1,6 @@
 import { component$, useVisibleTask$ } from '@builder.io/qwik';
 import { Link } from '@builder.io/qwik-city';
 import { gsap } from 'gsap';
-import Test from '../test/Test';
 
 export default component$(() => {
 
