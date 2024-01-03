@@ -119,7 +119,7 @@ export default component$(() => {
                                         navElement.classList.remove("before", "after");
                                         activeElement.removeAttribute("style");
                                         gsap.set(activeElement, {
-                                            x: getOffsetLeft(button),
+                                            x: getOffsetLeft(button as HTMLElement),
                                             "--active-element-show": "1",
                                         });
                                     },
