@@ -7,7 +7,7 @@ export default component$(() => {
 
     // eslint-disable-next-line qwik/no-use-visible-task
     useVisibleTask$(() => {
-        const navElement = document.querySelector("nav") as HTMLElement | null;
+        const navElement =  document.querySelector("nav") as HTMLElement;
 
         if (navElement) {
             const activeElement = document.createElement("div");
