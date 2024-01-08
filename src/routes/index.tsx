@@ -16,17 +16,17 @@ import YourIdeaSection from "~/components/yourIdeaSection/YourIdeaSection";
 export default component$(() => {
   return (
     <main class="max-w-[1920px] mx-auto ">
-      <Navbar/>
+      {/* <Navbar/> */}
       <HeroSection/>
       <TruestSection/>
       <DiscoverySection/>
-      <ElevateSection/>
+      {/* <ElevateSection/>
       <DigitalSection/>
       <YourIdeaSection/>
       <JourneySection/> 
       <TheirWordsSection/>
       <SheduleCall/>
-      <Footer/>
+      <Footer/> */}
     </main>
   );
 });

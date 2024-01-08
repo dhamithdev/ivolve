@@ -214,14 +214,14 @@ export default component$(() => {
 
             <div class="flex flex-col items-center justify-center relative ">
                 <div>
-
-                    <h1 class="text-[80px] font-semibold text-[#1B123B] xl:w-[1100px] text-center leading-tight xl:mt-[80px] font-GeistMono600">Seamlessly blending design and technology to <span class="main-text-gradient">sculpt</span> your success story.</h1>
+                    <h1 class="xl:text-[80px] lg:text-[60px] sm:text-[40px] text-[44px] font-semibold text-[#1B123B] xl:w-[1100px] 
+                    lg:w-[850px] md:w-[600px] sm:w-[450px] w-[280px] text-center leading-tight md:mt-[80px] mt-[40px] md:font-GeistMono600 font-GeistMono500 ">Seamlessly blending design and technology to <span class="main-text-gradient">sculpt</span> your success story.</h1>
                 </div>
                 <div>
-                    <p class="text-[24px] font-normal font-Fixel400 xl:w-[950px] text-center mt-10">From pixel to code, we craft visually intuitive digital experiences, elevating your brand with a compelling digital presence where creativity meets functionality.</p>
+                    <p class="xl:text-[24px] md:text-[20px] text-[18px] font-normal font-Fixel400 xl:w-[950px] lg:w-[800px] md:w-[450px] sm:w-[400px] text-center mt-10 text-[#494162] lg:leading-8 leading-6">From pixel to code, we craft visually intuitive digital experiences, elevating your brand with a compelling digital presence where creativity meets functionality.</p>
                 </div>
 
-                <div class="glowing-wrapper glowing-wrapper-active mt-16 cursor-pointer">
+                <div class="glowing-wrapper glowing-wrapper-active lg:mt-16 mt-8 cursor-pointer">
                     <div class="glowing-wrapper-animations">
                         <div class="glowing-wrapper-glow"></div>
                         <div class="glowing-wrapper-mask-wrapper">
@@ -237,7 +237,7 @@ export default component$(() => {
                         <div>
                             <div class="">
                                 <button class=" py-3 px-4 rounded-3xl bg-gradient-to-r to-[#792FFF] from-[#AE5CFF]  flex" >
-                                    <Link class="text-base  text-[#FFF]  " href="#">
+                                    <Link class="text-base lg:leading-6 leading-4 text-[#FFF]  " href="#">
                                         Schedule a call
                                     </Link>
                                     <span class="ml-2 my-auto">
